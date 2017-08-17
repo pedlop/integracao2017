@@ -1,37 +1,57 @@
-## Welcome to GitHub Pages
+## Welcome to integracao2017 Project
 
 You can use the [editor on GitHub](https://github.com/pedlop/integracao2017/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+Repositório vinculado a Projeto para a disciplina de Integração 1 - INF/UFG - 2017/2.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Visão do Projeto
 
-```markdown
-Syntax highlighted code block
+Fornecer e elucidar uma visão coesa e integrada da Engenharia de Software de tal forma que o estudante desenvolva uma sólida percepção de como fazer uso do conhecimento desta área em toda a sua extensão.
 
-# Header 1
-## Header 2
-### Header 3
+Índice
+--- 
+- [Tecnologias Utilizadas](#quais-as-tecnologias-utilizadas)
+- [Rodando Projeto](#como-faço-para-rodar-o-projeto)
 
-- Bulleted
-- List
+## **Quais as Tecnologias utilizadas?** ##
 
-1. Numbered
-2. List
+Para o desenvolvimento do projeto serão utilizadas ferramentas para auxiliar na Gerência do Projeto e na construção do software. As seguintes tecnologias serão utilizadas:
 
-**Bold** and _Italic_ and `Code` text
+**Linguagem de Programação & Frameworks:**
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**Gerenciador de Dependências:**
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pedlop/integracao2017/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**Banco de Dados:**
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**IDE(s):**
+- [IntelliJ](https://www.jetbrains.com/idea/) - _Ambiente de desenvolvimento integrado Java (IDE) para o desenvolvimento de software de computador._
+- [Eclipse](https://eclipse.org/) - _IDE para desenvolvimento Java, porém suporta várias outras linguagens a partir de plugins como C/C++, PHP, ColdFusion, Python, Scala e plataforma Android._
+- [Visual Studio Code](https://code.visualstudio.com/) - _Editor de código fonte leve mas poderoso que funciona em seu desktop e está disponível para Windows, macOS e Linux._
+- [Atom](https://atom.io/) - _Editor de texto que é moderno, acessível, mas hackable para o núcleo - uma ferramenta que você pode personalizar para fazer qualquer coisa, mas também usar de forma produtiva sem nunca tocar em um arquivo de configuração._
+
+**Gerência de Projeto/Configuração e Comunicação da Equipe:**
+- [Trello](https://trello.com/) - _Controle de atividades (Pendentes, em execução e realizadas)._
+- [Github](https://github.com/) - _Controle de versão do código fonte do projeto._
+- [GitKraken](https://www.gitkraken.com/) - _A GUI(Interface Gráfica do Usuário) mais popular do Git para Windows, Mac e Linux_.
+- [Whatsapp](https://web.whatsapp.com/) - _Comunicação a qualquer momento do dia, em grupo da equipe._
+
+## **Como faço para rodar o projeto?** ##
+
+**Caso você não tenha o ambiente... :**
+>* Descreva o procedimento aqui...
+
+**Dependências:**
+>* `comando aqui...`
+
+**Caso o ambiente já esteja configurado:**
+>* Descreva o procedimento aqui...
+
+#### **Clonando Projeto pela Linha de Comando:**
+>* Caso não tenha o GitKraken:
+>* Vá na linha de comando e digite:
+> `https://github.com/pedlop/integracao2017.git`

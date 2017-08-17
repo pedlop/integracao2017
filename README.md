@@ -6,9 +6,15 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Repositório vinculado a Projeto para a disciplina de Integração 1 - INF/UFG - 2017/2.
 
-### Visão do Projeto
+## **Visão do Projeto** ##
 
 Fornecer e elucidar uma visão coesa e integrada da Engenharia de Software de tal forma que o estudante desenvolva uma sólida percepção de como fazer uso do conhecimento desta área em toda a sua extensão.
+
+### **Links para informações sobre o Projeto** ###
+
+- [Proposta](https://docs.google.com/document/d/1ujvTIM47dr3d30GfUcfyDTLJgYhaZqjHo4nO7AIKjMs/edit)
+- [Plano da Disciplina](https://docs.google.com/document/d/14AdWF9sBbCWWimYUTnYmrzoMrAKUrWdrY7eK1tNx54Y/edit)
+
 
 Índice
 --- 

@@ -2,6 +2,15 @@
 
 Repositório vinculado a Projeto para a disciplina de Integração 1 - INF/UFG - 2017/2.
 
+## **Integrantes do Projeto** ##
+
+* Marcos Vinicius Ribeiro Silva
+* Igor Queiroz Silva
+* João Henrique Camargo
+* Lucas Vinicios Ferreira Silva
+* Pedro Victor de Almeida Lopes
+* Guilherme Alves Rosa e Silva
+
 ## **Visão do Projeto** ##
 
 Fornecer e elucidar uma visão coesa e integrada da Engenharia de Software de tal forma que o estudante desenvolva uma sólida percepção de como fazer uso do conhecimento desta área em toda a sua extensão.

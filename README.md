@@ -2,6 +2,15 @@
 
 Repositório vinculado a Projeto para a disciplina de Integração 1 - INF/UFG - 2017/2.
 
+Índice
+--- 
+- [Equipe](#integrantes-do-projeto)
+- [Visão](#visão-do-projeto)
+- [Mais Informações](#links-para-informações-sobre-o-projeto)
+- [Estratégia de solução do trabalho](#estrategia-de-solução-do-trabalho)
+- [Tecnologias Utilizadas](#quais-as-tecnologias-utilizadas)
+- [Rodando Projeto](#como-faço-para-rodar-o-projeto)
+
 ## **Integrantes do Projeto** ##
 
 * Marcos Vinicius Ribeiro Silva
@@ -20,13 +29,6 @@ Fornecer e elucidar uma visão coesa e integrada da Engenharia de Software de ta
 - [Proposta](https://docs.google.com/document/d/1ujvTIM47dr3d30GfUcfyDTLJgYhaZqjHo4nO7AIKjMs/edit)
 - [Plano da Disciplina](https://docs.google.com/document/d/14AdWF9sBbCWWimYUTnYmrzoMrAKUrWdrY7eK1tNx54Y/edit)
 
-
-Índice
---- 
-- [Estratégia de solução do trabalho](#estrategia-de-solução-do-trabalho)
-- [Tecnologias Utilizadas](#quais-as-tecnologias-utilizadas)
-- [Rodando Projeto](#como-faço-para-rodar-o-projeto)
-
 ## **Estratégia de solução do trabalho** ##
 
 ## **Quais as Tecnologias utilizadas?** ##
@@ -34,25 +36,35 @@ Fornecer e elucidar uma visão coesa e integrada da Engenharia de Software de ta
 Para o desenvolvimento do projeto serão utilizadas ferramentas para auxiliar na Gerência do Projeto e na construção do software. As seguintes tecnologias serão utilizadas:
 
 **Linguagem de Programação & Frameworks:**
+- [Angular 4](https://angular.io/) - _Framework JavaScript open-source, mantido pelo Google, que auxilia na execução de single-page applications._
 
 **IDE(s):**
+- [Visual Studio Code](https://code.visualstudio.com/) - _Editor de código fonte leve mas poderoso que funciona em seu desktop e está disponível para Windows, macOS e Linux._
+- [Atom](https://atom.io/) - _Editor de texto que é moderno, acessível, mas hackable para o núcleo - uma ferramenta que você pode personalizar para fazer qualquer coisa, mas também usar de forma produtiva sem nunca tocar em um arquivo de configuração._
 
 **Gerência de Projeto/Configuração e Comunicação da Equipe:**
-- [Trello](https://trello.com/) - _Controle de atividades (Pendentes, em execução e realizadas)._
 - [Github](https://github.com/) - _Controle de versão do código fonte do projeto._
 - [GitKraken](https://www.gitkraken.com/) - _A GUI(Interface Gráfica do Usuário) mais popular do Git para Windows, Mac e Linux_.
 - [Whatsapp](https://web.whatsapp.com/) - _Comunicação a qualquer momento do dia, em grupo da equipe._
 
 ## **Como faço para rodar o projeto?** ##
 
-**Caso você não tenha o ambiente... :**
->* Descreva o procedimento aqui...
+**Caso você não tenha o ambiente Anglular CLI configurado:**
+>* Faça o download e a instalação do [Node.js](https://nodejs.org/en/);
+>* Na linha de comando:
+>* `npm install`
+>* `npm install -g @angular/cli`
 
 **Dependências:**
->* `comando aqui...`
+>* Any dependence...
 
 **Caso o ambiente já esteja configurado:**
->* Descreva o procedimento aqui...
+>* Clone o projeto através do GitKraken, copie e cole o link HTTPS;
+>* Ou [Clonando pela linha de comando](#clonando-projeto-pela-linha-de-comando);
+>* Vá no diretório `cd integracao2017` e `cd portal-es` em que o projeto foi clonado pela linha de comando;
+>* Digite: `ng serve`
+>* Acesse no seu browser o `localhost:4200`
+>* Projeto configurado e rodando.
 
 #### **Clonando Projeto pela Linha de Comando:**
 >* Caso não tenha o GitKraken:

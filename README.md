@@ -62,6 +62,11 @@ Para o desenvolvimento do projeto serão utilizadas ferramentas para auxiliar na
 - [Angular 4](https://angular.io/) - _Framework JavaScript open-source, mantido pelo Google, que auxilia na execução de single-page applications._
 - [Bootstrap 4](http://getbootstrap.com/) - _O Bootstrap é um conjunto de ferramentas de código aberto para desenvolvimento com HTML, CSS e JS._
 
+**Bibliotecas:**
+- [ngx-bootstrap](https://valor-software.com/ngx-bootstrap/index-bs4.html#/) - _O ngx-bootstrap contém todos os componentes Bootstrap do núcleo (e não apenas), alimentados por Angular. Portanto, você não precisa incluir componentes JS originais, mas usam marcação e css fornecidos pelo Bootstrap._
+- [PrimeNg](https://www.primefaces.org/primeng/#/) - _O primeNG é uma coleção de componentes UI ricos para Angular. Todos os widgets são de código aberto e gratuitos para usar sob a licença MIT. O PrimeNG é desenvolvido pela PrimeTek Informatics, um fornecedor com experiência em desenvolvimento de soluções de UI de código aberto._
+- [Clarity Design](https://vmware.github.io/clarity/) - _O Project Clarity é um sistema de design de código aberto que reúne as diretrizes UX, um framework HTML / CSS e componentes angulares. A claridade é para designers e desenvolvedores._
+
 **IDE(s):**
 - [Visual Studio Code](https://code.visualstudio.com/) - _Editor de código fonte leve mas poderoso que funciona em seu desktop e está disponível para Windows, macOS e Linux._
 - [Atom](https://atom.io/) - _Editor de texto que é moderno, acessível, mas hackable para o núcleo - uma ferramenta que você pode personalizar para fazer qualquer coisa, mas também usar de forma produtiva sem nunca tocar em um arquivo de configuração._

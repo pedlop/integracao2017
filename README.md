@@ -7,7 +7,6 @@ Repositório vinculado a Projeto para a disciplina de Integração 1 - INF/UFG -
 - [Equipe](#integrantes-do-projeto)
 - [Visão](#visão-do-projeto)
 - [Mais Informações](#links-para-informações-sobre-o-projeto)
-- [Estratégia de solução do trabalho](#estrategia-de-solução-do-trabalho)
 - [Tecnologias Utilizadas](#quais-as-tecnologias-utilizadas)
 - [Rodando Projeto](#como-faço-para-rodar-o-projeto)
 
@@ -28,8 +27,6 @@ Fornecer e elucidar uma visão coesa e integrada da Engenharia de Software de ta
 
 - [Proposta](https://docs.google.com/document/d/1ujvTIM47dr3d30GfUcfyDTLJgYhaZqjHo4nO7AIKjMs/edit)
 - [Plano da Disciplina](https://docs.google.com/document/d/14AdWF9sBbCWWimYUTnYmrzoMrAKUrWdrY7eK1tNx54Y/edit)
-
-## **Estratégia de solução do trabalho** ##
 
 ## **Quais as Tecnologias utilizadas?** ##
 

@@ -3,7 +3,7 @@
 Repositório vinculado a Projeto para a disciplina de Integração 1 - INF/UFG - 2017/2.
 
 
-- [Protótipo funcional da solução](index.html)
+- [Protótipo funcional da solução](https://pedlop.github.io/integracao2017/index.html)
 
 Índice
 --- 

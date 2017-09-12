@@ -53,3 +53,20 @@ Fornecer e elucidar uma visão coesa e integrada da Engenharia de Software de ta
 >* Caso não tenha o GitKraken:
 >* Vá na linha de comando e digite:
 > `git clone https://github.com/pedlop/integracao2017.git`
+
+## **Quais as Tecnologias e Ferramentas utilizadas?** ##
+
+Para o desenvolvimento do projeto serão utilizadas ferramentas para auxiliar na Gerência do Projeto e na construção do software. As seguintes tecnologias serão utilizadas:
+
+**Linguagem de Programação & Frameworks:**
+- [Angular 4](https://angular.io/) - _Framework JavaScript open-source, mantido pelo Google, que auxilia na execução de single-page applications._
+- [Bootstrap 4](http://getbootstrap.com/) - _O Bootstrap é um conjunto de ferramentas de código aberto para desenvolvimento com HTML, CSS e JS._
+
+**IDE(s):**
+- [Visual Studio Code](https://code.visualstudio.com/) - _Editor de código fonte leve mas poderoso que funciona em seu desktop e está disponível para Windows, macOS e Linux._
+- [Atom](https://atom.io/) - _Editor de texto que é moderno, acessível, mas hackable para o núcleo - uma ferramenta que você pode personalizar para fazer qualquer coisa, mas também usar de forma produtiva sem nunca tocar em um arquivo de configuração._
+
+**Gerência de Projeto/Configuração e Comunicação da Equipe:**
+- [Github](https://github.com/) - _Controle de versão do código fonte do projeto._
+- [GitKraken](https://www.gitkraken.com/) - _A GUI(Interface Gráfica do Usuário) mais popular do Git para Windows, Mac e Linux_.
+- [Whatsapp](https://web.whatsapp.com/) - _Comunicação a qualquer momento do dia, em grupo da equipe._

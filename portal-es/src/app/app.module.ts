@@ -5,9 +5,9 @@ import { AppComponent } from './app.component';
 import { PaginaNaoEncontradaComponent } from './compartilhado/pagina-nao-encontrada/pagina-nao-encontrada.component';
 
 import { MenuModule } from './compartilhado/menu/menu.module';
-import { CamadaFinalModule } from './camada-final/camada-final.module';
-import { CamadaMedialModule } from './camada-medial/camada-medial.module';
-import { CamadaInicialModule } from './camada-inicial/camada-inicial.module';
+import { CamadaFinalModule } from './camadas/camada-final/camada-final.module';
+import { CamadaMedialModule } from './camadas/camada-medial/camada-medial.module';
+import { CamadaInicialModule } from './camadas/camada-inicial/camada-inicial.module';
 import { RodapeModule } from './compartilhado/rodape/rodape.module';
 import { AppRoutingModule } from './app-routing.module';
 

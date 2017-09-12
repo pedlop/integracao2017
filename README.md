@@ -10,14 +10,16 @@ Repositório vinculado a Projeto para a disciplina de Integração 1 - INF/UFG -
 - [Tecnologias Utilizadas](#quais-as-tecnologias-utilizadas)
 - [Rodando Projeto](#como-faço-para-rodar-o-projeto)
 
-## **Integrantes do Projeto** ##
+## **Integrantes e Papéis do Projeto** ##
 
-* Marcos Vinicius Ribeiro Silva
-* Igor Queiroz Silva
-* João Henrique Camargo
-* Lucas Vinicios Ferreira Silva
-* Pedro Victor de Almeida Lopes
-* Guilherme Alves Rosa e Silva
+|Integrante                    |Papel              |
+|------------------------------|-------------------|
+|Guilherme Alves Rosa e Silva  |                   |
+|Igor Queiroz Silva            |                   |
+|João Henrique Camargo         |                   |
+|Lucas Vinicios Ferreira Silva |                   |
+|Marcos Vinicius Ribeiro Silva |                   |
+|Pedro Victor de Almeida Lopes |                   |  
 
 ## **Visão do Projeto** ##
 
@@ -34,6 +36,7 @@ Para o desenvolvimento do projeto serão utilizadas ferramentas para auxiliar na
 
 **Linguagem de Programação & Frameworks:**
 - [Angular 4](https://angular.io/) - _Framework JavaScript open-source, mantido pelo Google, que auxilia na execução de single-page applications._
+- [Bootstrap 4](http://getbootstrap.com/) - _O Bootstrap é um conjunto de ferramentas de código aberto para desenvolvimento com HTML, CSS e JS._
 
 **IDE(s):**
 - [Visual Studio Code](https://code.visualstudio.com/) - _Editor de código fonte leve mas poderoso que funciona em seu desktop e está disponível para Windows, macOS e Linux._

@@ -39,7 +39,11 @@ Fornecer e elucidar uma visão coesa e integrada da Engenharia de Software de ta
 >* `npm install -g @angular/cli`
 
 **Dependências:**
->* Any dependence...
+>* npm install primeng --save
+>* npm install ngx-bootstrap --save
+>* npm install clarity-icons --save
+>* npm install clarity-ui --save
+>* npm install clarity-angular --save
 
 **Caso o ambiente já esteja configurado:**
 >* Clone o projeto através do GitKraken, copie e cole o link HTTPS;

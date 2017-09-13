@@ -3,3 +3,8 @@
 </p>
 <p><a routerLink="/es/disciplinas" routerLinkActive="active">Voltar para a segunda camada.</a></p>
 <p><a routerLink="/" routerLinkActive="active">Voltar para a primeira camada.</a></p>
+<div *ngFor="let test of collection" >
+  <h1>{{test?.id}}</h1>
+  <button (click)="onClick(test)">{{text}}</button>
+  <p>{{onClickGetText(test)}}</p>
+</div>

@@ -2,280 +2,559 @@
   "ppc": [
     {
       "id": 1,
+      "chave_primaria": "string - titulo da seção",
+      "texto": "string - texto da seção",
+      "chave_secundaria": [
+        {
+          "id": 1,
+          "nome": "string - subtitulo da seção",
+          "texto": {
+            "primeira_parte": "string - subtexto da seção"
+          },
+          "imagem": {
+            "primeira": "string - url"
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
       "chave_primaria": "Estrutura Curricular",
+      "texto":"",
       "chave_secundaria": [
         {
           "id": 1,
           "nome": "Matriz curricular",
-          "texto": "texto1.1"
+          "texto": {
+            "primeira_parte": "A matriz curricular do curso perfaz 44 disciplinas descritas nas Tabelas l, 2 e 3. A Tabela 1 apresenta a lista das 17 disciplinas de formação básica em computação. Em particular, são 4 disciplinas oferecidas pelo Instituto de Matemática e Estatística (IME) e as outras 13 oferecidas pelo INF. Todas elas são obrigatórias e pertencem ao Núcleo Comum (NC).",
+            "segunda_parte": "As disciplinas da Tabela l fornecem uma sólida formação em Computação, o que inclui o recomendado para a formação em Matemática. Além dessas, outras seis de Computação são oferecidas como optativas na Tabela 3 (p. 37). As disciplinas da Tabela 2, por outro lado, são específicas da Engenharia de Software. Todas elas são obrigatórias, fazem parte do Núcleo Específico (NE)",
+            "terceira_parte": "São nove as disciplinas optativas. O estudante terá que escolher três delas, conforme as opções oferecidas na Tabela 3 abaixo."
+          },
+          "imagem": {
+            "primeira": "",
+            "segunda": "",
+            "terceira": ""
+          }
         },
         {
           "id": 2,
-          "nome": "Nucleo livre",
-          "texto": "texto1.2"
+          "nome": "Núcleo livre",
+          "texto": {
+            "primeira_parte": "O Núcleo Livre (NL) é o conjunto de conteúdos voltado para promover a interdisciplinaridade e a transdisciplinaridade, dentre outros objetivos. A carga horária definida pelo BES para o NL e de 128 horas, que é o mínimo estabelecido pelo Regimento Geral dos Cursos de Graduação (RGCG) da UFG [RGCG]. Tais 128 horas perfazem 4% da carga horária do curso, conforme a Tabela 4 (p. 38)."
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 3,
           "nome": "Atividades complementares",
-          "texto": "texto1.3"
+          "texto": {
+            "primeira_parte": "O estudante do BES deve cumprir o mínimo de 192 horas em atividades complementares para a integralização curricular. Essas horas correspondem a 6% da carga horária do curso, conforme a distribuição da carga horária do curso na Tabela 4 (p. 38). As atividades complementares contemplam ações de monitoria, produção científica, extensão, produção técnica e de representação e qualificação, dentre outras. O cumprimento das atividades complementares é estabelecido formalmente pelo Regulamento de Atividades Complementares do Bacharelado em Engenharia de Software."
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 4,
-          "nome": "Distribuicao da carga horaria",
-          "texto": "texto1.4"
+          "nome": "Distribuição da carga horária",
+          "texto": {
+            "primeira_parte": "As Tabelas 1, 2 e 3, juntamente com a definição das horas do Núcleo Livre (NL) e das atividades complementares, seções acima, resultam nos valores compilados na Tabela 4."
+          },
+          "imagem": {
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/imagem-estrutura-carga-horaria.PNG?raw=true"
+          }
         },
         {
           "id": 5,
           "nome": "Fluxo sugerido",
-          "texto": "texto1.5"
+          "texto": {
+            "primeira_parte": "Conforme o diagrama abaixo, as disciplinas estão organizadas em nove períodos letivos. Os quatro primeiros períodos concentram as disciplinas de formação básica em Computação: disciplinas de Computação propriamente ditas e aquelas de Matemática. Os demais períodos incluem disciplinas com ênfase na formação específica em Engenharia de Software."
+          },
+          "imagem": {
+            "primeira": "http://inf.ufg.br/sites/default/files/uploads/es/matriz%202017%20ES.png"
+          }
         },
         {
           "id": 6,
-          "nome": "Pre-requisitos",
-          "texto": "texto1.6"
+          "nome": "Pré-requisitos",
+          "texto": {
+            "primeira_parte": "Existem pré-requisitos entre as disciplinas. Aqueles das disciplinas optativas são exibidos na Figura 3, enquanto aqueles das disciplinas obrigatórias na Figura 4 (p. 44-). Observe que as disciplinas optativas estão agrupadas na Figura 3 conforme as opções oferecidas aos estudantes. Por exemplo, a disciplina OPTATIVA l, sugerida para ser cursada no 3.' período, será escolhida pelo estudante dentre as seguintes opções: 'Sistemas Operacionais' (p. 53), 'Pesquisa Operacional' (p. 53) ou 'Linguagens Formais e Autômatos' (p. 53). Para a disciplina OPTATIVA 2, sugerida para ser cursada no 4.' período, as opções são: 'Redes de Computadores' (p. 54), 'Introdução à Língua Brasileira de Sinais' (p. 53) e 'Compiladores' (p. 54). Para a disciplina OPTATIVA 3, sugerida para ser cursada no 8.' período, as opções são: 'Sistemas Distribuídos' (p. 55), 'Mercado e Economia de Software' (p. 74) e 'Metodologia e Experimentação em Engenharia de Software' (p. 74). Ainda convém destacar que algumas disciplinas optativas dependem de outras obrigatórias. Por exemplo, conforme ilustrado abaixo, 'Pesquisa Operacional' tem como pré-requisito a disciplina obrigatória 'Álgebra Linear'.",
+            "segunda_parte": "Todos os pré-requisitos das disciplinas obrigatórias são exibidos na Figura 4-. As disciplinas seguem alinhadas, na horizontal, do primeiro até o último (nono) período do curso. Em particular, o caminho mais longo, não é o caminho crítico, encontra-se devidamente destacado dos demais."
+          },
+          "imagem": {
+            "primeira": ""
+          }
         }
       ]
     },
     {
-      "id": 2,
-      "chave_primaria": "Disciplinas de formacao basica (obrigatorias)",
+      "id": 15,
+      "chave_primaria": "Disciplinas de formação básica (obrigatórias)",
+      "texto":"texto da chave primaria",
       "chave_secundaria": [
         {
           "id": 1,
-          "nome": "Computacao e Sociedade",
-          "texto": "texto1.1"
+          "nome": "Computação e Sociedade",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 2,
-          "nome": "Introducao a Programacao",
-          "texto": "texto1.2"
+          "nome": "Introdução à Programação",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 3,
-          "nome": "Calculo 1A",
-          "texto": "texto1.3"
+          "nome": "Cálculo 1A",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 4,
-          "nome": "Fundamentos de Matematica para Computacao",
-          "texto": "texto1.4"
+          "nome": "Fundamentos de Matemática para Computacao",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 5,
           "nome": "Arquitetura de Computadores",
-          "texto": "texto1.5"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 6,
           "nome": "Algoritmos e Estruturas de Dados 1",
-          "texto": "texto1.6"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 7,
-          "nome": "Probabilidade e Estatistica A",
-          "texto": "texto2.7"
+          "nome": "Probabilidade e Estatística A",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 8,
-          "nome": "Algebra Linear",
-          "texto": "texto2.8"
+          "nome": "Álgebra Linear",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 9,
-          "nome": "Logica Matematica",
-          "texto": "texto2.9"
+          "nome": "Lógica Matemática",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 10,
-          "nome": "Programacao Orientada a Objetos",
-          "texto": "texto2.4"
+          "nome": "Programação Orientada a Objetos",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 11,
           "nome": "Algoritmos e Estruturas de Dados",
-          "texto": "texto1.5"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 12,
-          "nome": "Linguagens e Paradigmas de Programacao",
-          "texto": "texto1.6"
+          "nome": "Linguagens e Paradigmas de Programação",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 13,
           "nome": "Engenharia de Software",
-          "texto": "texto2.4"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 14,
-          "nome": "Analise e Projeto de Algoritmos",
-          "texto": "texto1.5"
+          "nome": "Análise e Projeto de Algoritmos",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 15,
-          "nome": "Interacao Humano-Computador",
-          "texto": "texto1.6"
+          "nome": "Interação Humano-Computador",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 16,
           "nome": "Banco de Dados",
-          "texto": "texto1.6"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 17,
           "nome": "Projeto de Software",
-          "texto": "texto1.6"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         }
       ]
     },
     {
-      "id": 3,
+      "id": 16,
       "chave_primaria": "Disciplinas optativas",
+      "texto":"texto da chave primaria",
       "chave_secundaria": [
         {
           "id": 1,
           "nome": "Sistemas Operacionais",
-          "texto": "texto3.1"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 2,
           "nome": "Pesquisa Operacional",
-          "texto": "texto3.2"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 3,
           "nome": "Linguagens Formais e Automatos",
-          "texto": "texto3.3"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 4,
           "nome": "Redes de computadores",
-          "texto": "texto3.4"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 5,
-          "nome": "Introducao a Lingua Brasileira de Sinais",
-          "texto": "texto3.5"
+          "nome": "Introdução à Língua Brasileira de Sinais",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 6,
           "nome": "Compiladores",
-          "texto": "texto3.6"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 7,
-          "nome": "Sistemas Distribuidos",
-          "texto": "texto3.6"
+          "nome": "Sistemas Distribuídos",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         }
       ]
     },
     {
-      "id": 4,
-      "chave_primaria": "Disciplinas especificas de Engenharia de Software",
+      "id": 17,
+      "chave_primaria": "Disciplinas específicas de Engenharia de Software",
+      "texto":"texto da chave primaria",
       "chave_secundaria": [
         {
           "id": 1,
-          "nome": "Condicoes minimas",
-          "texto": "texto1.1"
+          "nome": "Condições mínimas",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 2,
-          "nome": "Construcao de Software",
-          "texto": "texto1.2"
+          "nome": "Construção de Software",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 3,
           "nome": "Modelagem de Software",
-          "texto": "texto1.3"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 4,
           "nome": "Processos de Software",
-          "texto": "texto1.4"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 5,
           "nome": "Engenharia de Sistemas",
-          "texto": "texto1.5"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 6,
           "nome": "Design de Software",
-          "texto": "texto1.6"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 7,
-          "nome": "Dominios de Software",
-          "texto": "texto2.7"
+          "nome": "Domínios de Software",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 8,
           "nome": "Processos de Qualidade de Software",
-          "texto": "texto2.8"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 9,
-          "nome": "Gerencia de Projeto de Software",
-          "texto": "texto2.9"
+          "nome": "Gerência de Projeto de Software",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 10,
-          "nome": "Software Concorrente e Distribuido",
-          "texto": "texto2.4"
+          "nome": "Software Concorrente e Distribuído",
+          "texto": "texto2.4",
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 11,
-          "nome": "Experiencia do Usuario de Software",
-          "texto": "texto1.5"
+          "nome": "Experiência do Usuário de Software",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 12,
           "nome": "Arquitetura de Software",
-          "texto": "texto1.6"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 13,
           "nome": "Requisitos de Software",
-          "texto": "texto2.4"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 14,
-          "nome": "Governanca e Gestao de Servicos de Software",
-          "texto": "texto1.5"
+          "nome": "Governança e Gestão de Serviços de Software",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 15,
-          "nome": "Software para Sistemas Ubiquos",
-          "texto": "texto1.6"
+          "nome": "Software para Sistemas Ubíquos",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 16,
-          "nome": "Software para Persistencia de Dados",
-          "texto": "texto1.6"
+          "nome": "Software para Persistência de Dados",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 17,
-          "nome": "Padroes de Arquitetura de Software",
-          "texto": "texto1.6"
+          "nome": "Padrões de Arquitetura de Software",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 18,
           "nome": "Teste de Software",
-          "texto": "texto1.5"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 19,
-          "nome": "Metodologia e Experimentacao em Engenharia de Software",
-          "texto": "texto1.6"
+          "nome": "Metodologia e Experimentação em Engenharia de Software",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 20,
           "nome": "Mercado e Economia de Software",
-          "texto": "texto1.6"
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         },
         {
           "id": 21,
-          "nome": "Pratica em Engenharia de Software",
-          "texto": "texto1.6"
+          "nome": "Prática em Engenharia de Software",
+          "texto": {
+            "primeira_parte": "bla bla bla"
+          },
+          "imagem": {
+            "primeira": ""
+          }
         }
       ]
     }

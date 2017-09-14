@@ -1,3 +1,17 @@
-<p>
-  menu works!
-</p>
+<input (keyup)="termoPesquisa$.next($event.target.value)">
+<ul *ngIf="resultados">
+  <li *ngFor="let resultado of resultados | slice:0:9">
+  <a href="{{ resultado.latest }}" target="_blank">
+    {{ resultado.chave_primaria }}
+  </a>
+  </li>
+</ul>
+
+
+<div>
+  <h2>Testando a Pesquisa</h2>
+  <input type="text" (input)="term$.next($event.target.value)">
+  <ul>
+    <li *ngFor="let item of items"> {{item}} </li>
+  </ul>
+</div>

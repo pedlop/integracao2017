@@ -1,0 +1,283 @@
+{
+  "ppc": [
+    {
+      "id": 1,
+      "chave_primaria": "Estrutura Curricular",
+      "chave_secundaria": [
+        {
+          "id": 1,
+          "nome": "Matriz curricular",
+          "texto": "texto1.1"
+        },
+        {
+          "id": 2,
+          "nome": "Nucleo livre",
+          "texto": "texto1.2"
+        },
+        {
+          "id": 3,
+          "nome": "Atividades complementares",
+          "texto": "texto1.3"
+        },
+        {
+          "id": 4,
+          "nome": "Distribuicao da carga horaria",
+          "texto": "texto1.4"
+        },
+        {
+          "id": 5,
+          "nome": "Fluxo sugerido",
+          "texto": "texto1.5"
+        },
+        {
+          "id": 6,
+          "nome": "Pre-requisitos",
+          "texto": "texto1.6"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "chave_primaria": "Disciplinas de formacao basica (obrigatorias)",
+      "chave_secundaria": [
+        {
+          "id": 1,
+          "nome": "Computacao e Sociedade",
+          "texto": "texto1.1"
+        },
+        {
+          "id": 2,
+          "nome": "Introducao a Programacao",
+          "texto": "texto1.2"
+        },
+        {
+          "id": 3,
+          "nome": "Calculo 1A",
+          "texto": "texto1.3"
+        },
+        {
+          "id": 4,
+          "nome": "Fundamentos de Matematica para Computacao",
+          "texto": "texto1.4"
+        },
+        {
+          "id": 5,
+          "nome": "Arquitetura de Computadores",
+          "texto": "texto1.5"
+        },
+        {
+          "id": 6,
+          "nome": "Algoritmos e Estruturas de Dados 1",
+          "texto": "texto1.6"
+        },
+        {
+          "id": 7,
+          "nome": "Probabilidade e Estatistica A",
+          "texto": "texto2.7"
+        },
+        {
+          "id": 8,
+          "nome": "Algebra Linear",
+          "texto": "texto2.8"
+        },
+        {
+          "id": 9,
+          "nome": "Logica Matematica",
+          "texto": "texto2.9"
+        },
+        {
+          "id": 10,
+          "nome": "Programacao Orientada a Objetos",
+          "texto": "texto2.4"
+        },
+        {
+          "id": 11,
+          "nome": "Algoritmos e Estruturas de Dados",
+          "texto": "texto1.5"
+        },
+        {
+          "id": 12,
+          "nome": "Linguagens e Paradigmas de Programacao",
+          "texto": "texto1.6"
+        },
+        {
+          "id": 13,
+          "nome": "Engenharia de Software",
+          "texto": "texto2.4"
+        },
+        {
+          "id": 14,
+          "nome": "Analise e Projeto de Algoritmos",
+          "texto": "texto1.5"
+        },
+        {
+          "id": 15,
+          "nome": "Interacao Humano-Computador",
+          "texto": "texto1.6"
+        },
+        {
+          "id": 16,
+          "nome": "Banco de Dados",
+          "texto": "texto1.6"
+        },
+        {
+          "id": 17,
+          "nome": "Projeto de Software",
+          "texto": "texto1.6"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "chave_primaria": "Disciplinas optativas",
+      "chave_secundaria": [
+        {
+          "id": 1,
+          "nome": "Sistemas Operacionais",
+          "texto": "texto3.1"
+        },
+        {
+          "id": 2,
+          "nome": "Pesquisa Operacional",
+          "texto": "texto3.2"
+        },
+        {
+          "id": 3,
+          "nome": "Linguagens Formais e Automatos",
+          "texto": "texto3.3"
+        },
+        {
+          "id": 4,
+          "nome": "Redes de computadores",
+          "texto": "texto3.4"
+        },
+        {
+          "id": 5,
+          "nome": "Introducao a Lingua Brasileira de Sinais",
+          "texto": "texto3.5"
+        },
+        {
+          "id": 6,
+          "nome": "Compiladores",
+          "texto": "texto3.6"
+        },
+        {
+          "id": 7,
+          "nome": "Sistemas Distribuidos",
+          "texto": "texto3.6"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "chave_primaria": "Disciplinas especificas de Engenharia de Software",
+      "chave_secundaria": [
+        {
+          "id": 1,
+          "nome": "Condicoes minimas",
+          "texto": "texto1.1"
+        },
+        {
+          "id": 2,
+          "nome": "Construcao de Software",
+          "texto": "texto1.2"
+        },
+        {
+          "id": 3,
+          "nome": "Modelagem de Software",
+          "texto": "texto1.3"
+        },
+        {
+          "id": 4,
+          "nome": "Processos de Software",
+          "texto": "texto1.4"
+        },
+        {
+          "id": 5,
+          "nome": "Engenharia de Sistemas",
+          "texto": "texto1.5"
+        },
+        {
+          "id": 6,
+          "nome": "Design de Software",
+          "texto": "texto1.6"
+        },
+        {
+          "id": 7,
+          "nome": "Dominios de Software",
+          "texto": "texto2.7"
+        },
+        {
+          "id": 8,
+          "nome": "Processos de Qualidade de Software",
+          "texto": "texto2.8"
+        },
+        {
+          "id": 9,
+          "nome": "Gerencia de Projeto de Software",
+          "texto": "texto2.9"
+        },
+        {
+          "id": 10,
+          "nome": "Software Concorrente e Distribuido",
+          "texto": "texto2.4"
+        },
+        {
+          "id": 11,
+          "nome": "Experiencia do Usuario de Software",
+          "texto": "texto1.5"
+        },
+        {
+          "id": 12,
+          "nome": "Arquitetura de Software",
+          "texto": "texto1.6"
+        },
+        {
+          "id": 13,
+          "nome": "Requisitos de Software",
+          "texto": "texto2.4"
+        },
+        {
+          "id": 14,
+          "nome": "Governanca e Gestao de Servicos de Software",
+          "texto": "texto1.5"
+        },
+        {
+          "id": 15,
+          "nome": "Software para Sistemas Ubiquos",
+          "texto": "texto1.6"
+        },
+        {
+          "id": 16,
+          "nome": "Software para Persistencia de Dados",
+          "texto": "texto1.6"
+        },
+        {
+          "id": 17,
+          "nome": "Padroes de Arquitetura de Software",
+          "texto": "texto1.6"
+        },
+        {
+          "id": 18,
+          "nome": "Teste de Software",
+          "texto": "texto1.5"
+        },
+        {
+          "id": 19,
+          "nome": "Metodologia e Experimentacao em Engenharia de Software",
+          "texto": "texto1.6"
+        },
+        {
+          "id": 20,
+          "nome": "Mercado e Economia de Software",
+          "texto": "texto1.6"
+        },
+        {
+          "id": 21,
+          "nome": "Pratica em Engenharia de Software",
+          "texto": "texto1.6"
+        }
+      ]
+    }
+  ]
+}

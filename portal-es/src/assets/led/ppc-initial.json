@@ -31,9 +31,9 @@
             "terceira_parte": "São nove as disciplinas optativas. O estudante terá que escolher três delas, conforme as opções oferecidas na Tabela 3 abaixo."
           },
           "imagem": {
-            "primeira": "",
-            "segunda": "",
-            "terceira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Estrutura_Curricular/tabela_1.PNG?raw=true",
+            "segunda": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Estrutura_Curricular/tabela_2.PNG?raw=true",
+            "terceira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Estrutura_Curricular/tabela_3.PNG?raw=true"
           }
         },
         {
@@ -63,7 +63,7 @@
             "primeira_parte": "As Tabelas 1, 2 e 3, juntamente com a definição das horas do Núcleo Livre (NL) e das atividades complementares, seções acima, resultam nos valores compilados na Tabela 4."
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/imagem-estrutura-carga-horaria.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Estrutura_Curricular/tabela_4.PNG?raw=true"
           }
         },
         {
@@ -84,7 +84,8 @@
             "segunda_parte": "Todos os pré-requisitos das disciplinas obrigatórias são exibidos na Figura 4-. As disciplinas seguem alinhadas, na horizontal, do primeiro até o último (nono) período do curso. Em particular, o caminho mais longo, não é o caminho crítico, encontra-se devidamente destacado dos demais."
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Estrutura_Curricular/figura_3.PNG?raw=true",
+            "segunda": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Estrutura_Curricular/figura_4.PNG?raw=true"
           }
         }
       ]

@@ -18,3 +18,10 @@ Para verificar se o arquivo JSON está em conformidade ou converter arquivos htt
   * http://rawgit.com/user/repo/branch/file.js
 * Use esta URL em produção (master):
   * http://cdn.rawgit.com/user/repo/tag/file.js
+
+### Arquivos criados:
+* ppc.initial.json
+  * raw:
+    * https://raw.githubusercontent.com/pedlop/integracao2017/dev/portal-es/src/assets/led/ppc-initial.json
+  * dev:
+    * http://rawgit.com/pedlop/integracao2017/dev/portal-es/src/assets/led/ppc-initial.json

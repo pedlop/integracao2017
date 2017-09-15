@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./camada-final.component.scss']
 })
 export class CamadaFinalComponent implements OnInit {
+  listaPPC: any;
 
   collection: Array<any>;
   text: string;
@@ -14,22 +15,15 @@ export class CamadaFinalComponent implements OnInit {
   constructor(private finalService: CamadaFinalService) { }
 
   ngOnInit() {
+    this.getPPC();
+  }
 
-    this.finalService.getInfo().subscribe(
+  getPPC() {
+    this.finalService.getPPC().subscribe(
       data => {
-        this.collection = data.ppc;
+        this.listaPPC = data.ppc;
         console.log(data);
-        
-      }
-    );
-  }
-
-  onClickGetText(test) {
-    return test.texto;
-  }
-
-  onClick(test) {
-    this.text = test.texto;
+    });
   }
 
 }

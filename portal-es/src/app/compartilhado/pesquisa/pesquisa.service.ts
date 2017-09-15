@@ -31,6 +31,7 @@ export class PesquisaService {
     search.set('callback', 'JSONP_CALLBACK');
     search.set('action', 'openSearch');
     search.set('search', term);
+    search.set('dataType', 'jsonp');
     search.set('format', 'json');
 
     return this.jsonp.get(this.devUrl, {search})

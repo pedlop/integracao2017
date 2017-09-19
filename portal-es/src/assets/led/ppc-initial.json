@@ -35,6 +35,153 @@
       ]
     },
     {
+      "id": 2,
+      "chave_primaria": "Identificação",
+      "texto": "",
+      "chave_secundaria": [
+        {
+          "id": 1,
+          "nome": "Nome do curso",
+          "texto": {
+            "primeira_parte": "Engenharia de Software"
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 2,
+          "nome": "Grau acadêmico",
+          "texto": {
+            "primeira_parte": "Bacharelado"
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 3,
+          "nome": "Título do egresso",
+          "texto": {
+            "primeira_parte": "Bacharel(a) em Engenharia de Software"
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 4,
+          "nome": "Área de conhecimento (CNPq)",
+          "texto": {
+            "primeira_parte": "Ciências Exatas e da Terra (1.00.00.00-3) Ciência da Computação (l.O3.00.00-7) Metodologia e Técnicas da Computação (1.03.03.00-6) Engenharia de Software (l.O3.03.02-2)"
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 5,
+          "nome": "Modalidade",
+          "texto": {
+            "primeira_parte": "Presencial"
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 6,
+          "nome": "Local de oferta",
+          "texto": {
+            "primeira_parte": "Instituto de Informática (UFG) Alameda Palmeiras, Quadra D, Câmpus Samambaia Goiânia (GO), CEP 74690-900"
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 7,
+          "nome": "Reconhecimento",
+          "texto": {
+            "primeira_parte": "Portaria N” 819 de 29 de outubro de 2015. Número de registro no e-MEC: 201307356."
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 8,
+          "nome": "Responsável",
+          "texto": {
+            "primeira_parte": "Instituto de Informática (INF)"
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 9,
+          "nome": "Unidades executoras",
+          "texto": {
+            "primeira_parte": "Instituto de Informática (INF) Instituto de Matemática e Estatística (IME) Faculdade de Letras (Letras)"
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 10,
+          "nome": "Número de vagas",
+          "texto": {
+            "primeira_parte": "40 vagas anuais"
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 11,
+          "nome": "Carga horária",
+          "texto": {
+            "primeira_parte": "3200"
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 12,
+          "nome": "Duração do curso em semestres",
+          "texto": {
+            "primeira_parte": "9 semestres"
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 13,
+          "nome": "Turno de funcionamento",
+          "texto": {
+            "primeira_parte": "Noturno"
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 14,
+          "nome": "Forma de ingresso",
+          "texto": {
+            "primeira_parte": "Sistema de Seleção Unificada (SiSU). Em caso de existência de vagas é possível o ingresso através: (a) de transferência de outras instituições de ensino superior; (b) portadores de diploma ou (c) reingresso. Essas opções dependem de processo seletivo CSPCCÍñCO na UFG."
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        }
+      ]
+    },
+    {
       "id": 3,
       "chave_primaria": "Contexto",
       "texto": "O Bacharelado em Engenharia de Software (BES) existe e se mantém em um contexto no qual se destaca a aptidão do Instituto de Informática, a carência de mão de obra apta a desenvolver softwares de qualidade e a importância local do curso, detalhados nas seções seguintes.",

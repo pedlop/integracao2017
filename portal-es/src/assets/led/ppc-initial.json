@@ -236,6 +236,33 @@
       ]
     },
     {
+      "id": 5,
+      "chave_primaria": "Objetivos",
+      "texto": "",
+      "chave_secundaria": [
+        {
+          "id": 1,
+          "nome": "Objetivo geral",
+          "texto": {
+            "primeira_parte": "O BES tem como objetivo: 'Formar profissionais aptos a contribuir efetivamente com a produção de softwares de qualidade seguindo princípios éticos e postura profissional.'"
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 2,
+          "nome": "Objetivos específicos",
+          "texto": {
+            "primeira_parte": "- Reconhecer e Valorizar o respeito à diversidade. Conforme se lê na Constituição Federal em seu Art. 3.°, inciso IV: “promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação”. - Promover relações étnico-raciais respeítosas, assim como a socialização da história da formação dos brasileiros. - Ampliar a compreensão acerca de questões ambientais e, ao mesmo tempo,  valorizar projetos sustentáveis. - Contribuir com a demanda da sociedade por softwares de qualidade. - Conceber e desenvolver produtos inovadores. - Promover a engenharia de software na indústria de software regional. - Viabilizar atividade econômica de alto valor (produção de software). - Criar alternativa económica para o Estado de Goiás. - Fortalecer a indústria de software goiana."
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        }
+      ]
+    },
+    {
       "id": 14,
       "chave_primaria": "Estrutura Curricular",
       "texto":"",

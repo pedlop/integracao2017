@@ -19,11 +19,11 @@ export class CamadaFinalComponent implements OnInit {
   }
 
   getPPC() {
-    this.finalService.getPPC().subscribe(
-      data => {
-        this.listaPPC = data.ppc;
-        console.log(data);
-    });
+    // this.finalService.getPPC().subscribe(
+    //   data => {
+    //     this.listaPPC = data.ppc;
+    //     console.log(data);
+    // });
   }
 
 }

@@ -1,0 +1,12 @@
+<p>
+    lado-esquerdo works!
+</p>
+<div>
+  <ul>
+    <li *ngFor="let item of menuPrimario">
+      <a [routerLink]="['topico', item.id]" routerLinkActive="active">
+        {{item.chave_primaria}}
+      </a>
+    </li>
+  </ul>
+</div>

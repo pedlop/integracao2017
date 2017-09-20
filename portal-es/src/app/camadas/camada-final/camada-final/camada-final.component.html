@@ -3,8 +3,15 @@
 </p>
 <p><a routerLink="/es/disciplinas" routerLinkActive="active">Voltar para a segunda camada.</a></p>
 <p><a routerLink="/" routerLinkActive="active">Voltar para a primeira camada.</a></p>
+<p><a [routerLink]="['topico', idTopico.value]" routerLinkActive="active">TOPICO COM ID</a></p>
+
+
 <div>
-  <ul>
-    <li *ngFor="let item of listaPPC"><a href="">{{item.chave_primaria}}</a></li>
-  </ul>
+  <p>Entre com o ID:</p>
+    <input #idTopico>
+</div>
+<div class="row">
+  <ufg-es-lado-esquerdo class="col-3"></ufg-es-lado-esquerdo>
+  <router-outlet></router-outlet>
+  <ufg-es-lado-direito class="col-3"></ufg-es-lado-direito>
 </div>

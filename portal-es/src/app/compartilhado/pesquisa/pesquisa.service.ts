@@ -1,16 +1,17 @@
 import { Injectable } from '@angular/core';
-import { Http, Jsonp } from "@angular/http";
-import { Observable } from "rxjs/Observable";
+import { Http, Jsonp } from '@angular/http';
+import { Observable } from 'rxjs/Observable';
+
 import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/distinctUntilChanged';
 import 'rxjs/add/operator/switchMap';
 
 @Injectable()
 export class PesquisaService {
-  devUrl: string = 'http://rawgit.com/pedlop/integracao2017/dev/portal-es/src/assets/led/ppc-initial.json';
-  queryUrl: string = '?callback=JSONP-CALLBACK';
+  devUrl = 'http://rawgit.com/pedlop/integracao2017/dev/portal-es/src/assets/led/ppc-initial.json';
+  queryUrl = '?callback=JSONP-CALLBACK';
 
-  wikipediaUrl: string  = 'http://en.wikipedia.org/w/api.php?callback=JSONP_CALLBACK';
+  wikipediaUrl  = 'http://en.wikipedia.org/w/api.php?callback=JSONP_CALLBACK';
 
   constructor(private http: Http, private jsonp: Jsonp) { }
 
@@ -27,7 +28,7 @@ export class PesquisaService {
   }
 
   search(term: string) {
-    let search = new URLSearchParams();
+    const search = new URLSearchParams();
     search.set('callback', 'JSONP_CALLBACK');
     search.set('action', 'openSearch');
     search.set('search', term);

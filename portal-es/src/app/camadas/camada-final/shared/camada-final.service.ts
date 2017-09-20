@@ -13,6 +13,8 @@ export class CamadaFinalService {
   constructor(private http: Http) {
     this.ppcEstado = new ReplaySubject(1);
     this.estadoDoPpc = this.ppcEstado.asObservable();
+
+    this.getPPC().subscribe();
   }
 
   getInfo() {
@@ -22,9 +24,18 @@ export class CamadaFinalService {
 
   getPPC() {
     return this.http.get('http://rawgit.com/pedlop/integracao2017/dev/portal-es/src/assets/led/ppc-initial.json')
-    .map((response: Response) => 
-      response.json()
-      
+    .map((response: Response) => {
+      // const res = response.json();
+      this.ppcEstado.next(response.json());
+      return response.json();
+    }
    );
+  }
+
+  getById(id: number) {
+    return this.http.get('http://rawgit.com/pedlop/integracao2017/dev/portal-es/src/assets/led/ppc-initial.json/' + id)
+    .map((response: Response) => {
+
+    });
   }
 }

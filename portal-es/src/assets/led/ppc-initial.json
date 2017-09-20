@@ -2,6 +2,10 @@
   "ppc": [
     {
       "id": 0,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
       "chave_primaria": "string - titulo da seção",
       "texto": "string - texto da seção",
       "chave_secundaria": [

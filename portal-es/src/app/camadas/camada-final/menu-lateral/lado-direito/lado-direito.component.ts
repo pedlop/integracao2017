@@ -19,13 +19,15 @@ export class LadoDireitoComponent implements OnInit {
 
   constructor(private finalService: CamadaFinalService, private route: ActivatedRoute) {
     // this.getChavesSecundarias();
+    // console.log(this.route);
+    
   }
 
   ngOnInit() {
     this.route.children[0].params.subscribe(
       (params: any) => {
         this.id = params['id'];
-        // console.log(this.route);
+        console.log(this.route);
 
         this.getChavesSecundarias();
       }
@@ -47,7 +49,7 @@ export class LadoDireitoComponent implements OnInit {
 
         );
 
-        console.log(myArray);
+        // console.log(myArray);
         this.menuSecundario = myArray[0].chave_secundaria;
 
         console.log(this.menuSecundario);

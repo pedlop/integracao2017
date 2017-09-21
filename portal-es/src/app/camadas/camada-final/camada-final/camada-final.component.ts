@@ -15,7 +15,7 @@ export class CamadaFinalComponent implements OnInit {
   constructor(private finalService: CamadaFinalService) { }
 
   ngOnInit() {
-    this.getPPC();
+    // this.getPPC();
   }
 
   getPPC() {

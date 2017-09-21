@@ -17,7 +17,7 @@ export class LadoEsquerdoComponent implements OnInit {
     this.camadaFinalService.estadoDoPpc.subscribe(
       data => {
         this.menuPrimario = data.ppc;
-        console.log(data);
+        // console.log(data);
       }
     );
   }

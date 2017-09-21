@@ -7,13 +7,15 @@ import { CamadaFinalService } from './shared/camada-final.service';
 import { TopicoComponent } from './topico/topico.component';
 import { LadoEsquerdoComponent } from './menu-lateral/lado-esquerdo/lado-esquerdo.component';
 import { LadoDireitoComponent } from './menu-lateral/lado-direito/lado-direito.component';
+import { SubtopicoComponent } from './subtopico/subtopico.component';
 
 @NgModule({
   declarations: [
     CamadaFinalComponent,
     TopicoComponent,
     LadoEsquerdoComponent,
-    LadoDireitoComponent
+    LadoDireitoComponent,
+    SubtopicoComponent
   ],
   imports: [
     CommonModule,

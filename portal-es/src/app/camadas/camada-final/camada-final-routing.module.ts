@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { CamadaFinalComponent } from './camada-final/camada-final.component';
 import { TopicoComponent } from './topico/topico.component';
+import { SubtopicoComponent } from './subtopico/subtopico.component';
 
 const routes: Routes = [
   {
@@ -11,7 +12,13 @@ const routes: Routes = [
     children: [
       {
         path: 'topico/:id',
-        component: TopicoComponent
+        component: TopicoComponent,
+        children: [
+          {
+            path: 'subtopico/:id',
+            component: SubtopicoComponent
+          }
+        ]
       }
     ]
   }

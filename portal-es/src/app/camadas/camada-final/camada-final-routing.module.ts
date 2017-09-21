@@ -15,7 +15,7 @@ const routes: Routes = [
         component: TopicoComponent,
         children: [
           {
-            path: 'subtopico/:id',
+            path: 'subtopico/:i',
             component: SubtopicoComponent
           }
         ]

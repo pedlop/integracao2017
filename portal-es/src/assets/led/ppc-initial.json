@@ -40,6 +40,10 @@
     },
     {
       "id": 2,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
       "chave_primaria": "Identificação",
       "texto": "",
       "chave_secundaria": [
@@ -187,6 +191,10 @@
     },
     {
       "id": 3,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
       "chave_primaria": "Contexto",
       "texto": "O Bacharelado em Engenharia de Software (BES) existe e se mantém em um contexto no qual se destaca a aptidão do Instituto de Informática, a carência de mão de obra apta a desenvolver softwares de qualidade e a importância local do curso, detalhados nas seções seguintes.",
       "chave_secundaria": [
@@ -241,6 +249,10 @@
     },
     {
       "id": 5,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
       "chave_primaria": "Objetivos",
       "texto": "",
       "chave_secundaria": [
@@ -345,6 +357,10 @@
     },
     {
       "id": 14,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
       "chave_primaria": "Estrutura Curricular",
       "texto":"",
       "chave_secundaria": [
@@ -418,6 +434,10 @@
     },
     {
       "id": 15,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
       "chave_primaria": "Disciplinas de formação básica (obrigatórias)",
       "texto":"texto da chave primaria",
       "chave_secundaria": [
@@ -595,6 +615,10 @@
     },
     {
       "id": 16,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
       "chave_primaria": "Disciplinas optativas",
       "texto":"texto da chave primaria",
       "chave_secundaria": [
@@ -672,6 +696,10 @@
     },
     {
       "id": 17,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
       "chave_primaria": "Disciplinas específicas de Engenharia de Software",
       "texto":"texto da chave primaria",
       "chave_secundaria": [

@@ -20,8 +20,8 @@ Para verificar se o arquivo JSON está em conformidade ou converter arquivos htt
   * http://cdn.rawgit.com/user/repo/tag/file.js
 
 ### Arquivos criados:
-* ppc.initial.json
+* ppc-es.json
   * raw:
-    * https://raw.githubusercontent.com/pedlop/integracao2017/dev/portal-es/src/assets/led/ppc-initial.json
+    * https://raw.githubusercontent.com/pedlop/integracao2017/master/portal-es/src/assets/led/ppc-es.json
   * dev:
-    * http://rawgit.com/pedlop/integracao2017/dev/portal-es/src/assets/led/ppc-initial.json
+    * http://rawgit.com/pedlop/integracao2017/master/portal-es/src/assets/led/ppc-es.json

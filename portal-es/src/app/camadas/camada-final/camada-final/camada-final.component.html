@@ -3,3 +3,17 @@
 </p>
 <p><a routerLink="/es/disciplinas" routerLinkActive="active">Voltar para a segunda camada.</a></p>
 <p><a routerLink="/" routerLinkActive="active">Voltar para a primeira camada.</a></p>
+<p><a [routerLink]="['topico', idTopico.value]" routerLinkActive="active">TOPICO COM ID</a></p>
+
+<div class="final">
+    <div class="topo">
+        <p>Entre com o ID:</p>
+          <input #idTopico>
+      </div>
+      <div class="conteudo">
+        <ufg-es-lado-esquerdo></ufg-es-lado-esquerdo>
+        <router-outlet></router-outlet>
+        <ufg-es-lado-direito></ufg-es-lado-direito>
+      </div>
+</div>
+

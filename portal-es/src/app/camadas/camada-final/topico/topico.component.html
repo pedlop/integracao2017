@@ -1,0 +1,29 @@
+<!-- <div class="row"> -->
+  <!-- <div class="col-8"> -->
+      <p>
+          topico works!
+        </p>
+      
+        <p>{{id}}</p>
+        <br>
+        <!-- <h2>Texto</h2> -->
+        <div>
+          <h2>{{titulo}}</h2>
+          <p> {{meuTexto}} </p>          
+        </div>
+
+        <!-- <h2>Subtexto</h2> -->
+        <div *ngFor="let subtexto of chavesSecundarias">
+          <div id="{{subtexto.id}}">{{subtexto.id}}
+            <h4>{{subtexto.nome}}</h4>
+            <p>{{subtexto.texto.primeira_parte}}</p>
+            <img src="{{subtexto.imagem.primeira}}">
+            <p>{{subtexto.texto?.segunda_parte}}</p>
+            <img src="{{subtexto.imagem.segunda}}">
+            <p>{{subtexto.texto?.terceira_parte}}</p>
+            <img src="{{subtexto.imagem.terceira}}">      
+          </div> 
+        </div>
+  <!-- </div> -->
+  
+<!-- </div> -->

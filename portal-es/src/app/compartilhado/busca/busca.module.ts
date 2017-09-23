@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { BuscaComponent } from './busca.component';
+import { BuscaService } from './busca.service';
 
 @NgModule({
-  declarations: [BuscaComponent],  
   imports: [
     CommonModule
   ],
-  exports: [BuscaComponent]
+  providers: [BuscaService]
 })
 export class MenuModule { }

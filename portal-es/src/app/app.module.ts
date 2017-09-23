@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule, JsonpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { PaginaNaoEncontradaComponent } from './compartilhado/pagina-nao-encontrada/pagina-nao-encontrada.component';
@@ -9,6 +10,7 @@ import { CamadaFinalModule } from './camadas/camada-final/camada-final.module';
 import { CamadaMedialModule } from './camadas/camada-medial/camada-medial.module';
 import { CamadaInicialModule } from './camadas/camada-inicial/camada-inicial.module';
 import { RodapeModule } from './compartilhado/rodape/rodape.module';
+import { PesquisaModule } from './compartilhado/pesquisa/pesquisa.module';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -18,11 +20,14 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
+    JsonpModule,
     MenuModule,
     CamadaInicialModule,
     CamadaMedialModule,
     CamadaFinalModule,
     RodapeModule,
+    PesquisaModule,
     AppRoutingModule
   ],
   providers: [],

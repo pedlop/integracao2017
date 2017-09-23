@@ -23,7 +23,7 @@ export class CamadaFinalService {
   }
 
   getPPC() {
-    return this.http.get('http://rawgit.com/pedlop/integracao2017/dev/portal-es/src/assets/led/ppc-initial.json')
+    return this.http.get('http://rawgit.com/pedlop/integracao2017/master/portal-es/src/assets/led/ppc-es.json')
     .map((response: Response) => {
       // const res = response.json();
       this.ppcEstado.next(response.json());
@@ -33,7 +33,7 @@ export class CamadaFinalService {
   }
 
   getById(id: number) {
-    return this.http.get('http://rawgit.com/pedlop/integracao2017/dev/portal-es/src/assets/led/ppc-initial.json/' + id)
+    return this.http.get('http://rawgit.com/pedlop/integracao2017/master/portal-es/src/assets/led/ppc-es.json/' + id)
     .map((response: Response) => {
 
     });

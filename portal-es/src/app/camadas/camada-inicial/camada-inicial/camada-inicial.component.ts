@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CamadaInicialComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
+  }
+
+  accessibilityFont(operation){
+    if (operation == '+'){
+      document.body.style.zoom = "110%"
+    }
+    else if (operation == '=') {
+      document.body.style.zoom = "100%";
+    }
+    else {
+      document.body.style.zoom = "90%";
+    }
+  }
+
+  accessibilityContrast() {
+    
+  }
+
+  onClickSaibaMais() {
+    this.router.navigate(['/es/disciplinas']);
   }
 
 }

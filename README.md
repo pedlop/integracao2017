@@ -2,27 +2,28 @@
 
 Repositório vinculado a Projeto para a disciplina de Integração 1 - INF/UFG - 2017/2.
 
-
-- [Protótipo funcional da solução](https://pedlop.github.io/integracao2017/index.html)
-
 Índice
 --- 
-- [Equipe](#integrantes-do-projeto)
+- [Equipe](#integrantes-e-papéis-do-projeto)
 - [Visão](#visão-do-projeto)
 - [Mais Informações](#links-para-informações-sobre-o-projeto)
-- [Tecnologias Utilizadas](#quais-as-tecnologias-utilizadas)
+  - [Informações Adicionais](#links-para-informações-sobre-o-projeto)
+  - [Alocamento de Atividades](#alocamento-de-atividades)
+  - [Política de Commits](#política-de-commits)
 - [Rodando Projeto](#como-faço-para-rodar-o-projeto)
+- [Tecnologias Utilizadas](#quais-as-tecnologias-e-ferramentas-utilizadas)
+- [Protótipo funcional da solução](https://pedlop.github.io/integracao2017/index.html)
 
 ## **Integrantes e Papéis do Projeto** ##
 
 |Integrante                    |Papel              |
 |------------------------------|-------------------|
-|Guilherme Alves Rosa e Silva  |                   |
-|Igor Queiroz Silva            |                   |
-|João Henrique Camargo         |                   |
-|Lucas Vinicios Ferreira Silva |                   |
-|Marcos Vinicius Ribeiro Silva |                   |
-|Pedro Victor de Almeida Lopes |                   |  
+|Guilherme Alves Rosa e Silva  |Engenheiro de Requisitos|
+|Igor Queiroz Silva            |Verificação e Validação|
+|João Henrique Camargo         |Desenvolvedor|
+|Lucas Vinicios Ferreira Silva |Arquiteto de Software/Desenvolvedor|
+|Marcos Vinicius Ribeiro Silva |Designer/Desenvolvedor|
+|Pedro Victor de Almeida Lopes |Gerente de Projeto/Desenvolvedor|  
 
 ## **Visão do Projeto** ##
 
@@ -32,6 +33,24 @@ Fornecer e elucidar uma visão coesa e integrada da Engenharia de Software de ta
 
 - [Proposta](https://docs.google.com/document/d/1ujvTIM47dr3d30GfUcfyDTLJgYhaZqjHo4nO7AIKjMs/edit)
 - [Plano da Disciplina](https://docs.google.com/document/d/14AdWF9sBbCWWimYUTnYmrzoMrAKUrWdrY7eK1tNx54Y/edit)
+
+### **Alocamento de Atividades:** ###
+* Para cada atividade é criada uma [**_issue_**](https://github.com/pedlop/integracao2017/issues), em 'New issue';
+* Estas issues estão distribuídas no [**Projeto Kanban**](https://github.com/pedlop/integracao2017/projects/1) criado com tal função;
+* Cada issue tem um ou mais integrante(s) alocado(s) para realizar a mesma.
+  * Esta alocação é realizada pelo **Gerente de Projeto**.
+
+### **Política de Commits:** ###
+* Todos os Commits serão realizados na Branch **_dev_**.
+* Uma vez na semana, no sábado, o **Gerente de Projeto** irá fazer o merge da **_dev_** na **_master_**. Para tal tarefa ser realizada, é preciso:
+  * Validar o código:
+    * Verificar se há algum erro de compilação (aot - ahead-of-time);
+    * Verificar se o código está seguindo o padrão do Angular 4 de desenvolvimento (lint);
+    * Verificar se o código construído está seguindo o padrão da estrutura inicial definida;
+    * Verificar se o template não tem nenhuma falha ou bug visual (html - scss).
+  * Validar as atividades:
+    * Verificar se a atividade a ser desenvolvida foi totalmente finalizada;
+    * Verificar se com atividade finalizada, temos a funcionalidade cumprindo as expectativas.
 
 ## **Como faço para rodar o projeto?** ##
 

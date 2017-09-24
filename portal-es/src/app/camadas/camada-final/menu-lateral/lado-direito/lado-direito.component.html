@@ -4,7 +4,7 @@
 <div class="coluna-secundaria">
   <ul>
     <li *ngFor="let item of menuSecundario">
-      <a [routerLink]="['subtopico', item.id]" routerLinkActive="active">
+      <a href="es/detalhe/topico/{{id}}#{{item.id}}">
         {{item.nome}}
       </a>
     </li>

@@ -12,13 +12,7 @@ const routes: Routes = [
     children: [
       {
         path: 'topico/:id',
-        component: TopicoComponent,
-        children: [
-          {
-            path: 'subtopico/:i',
-            component: SubtopicoComponent
-          }
-        ]
+        component: TopicoComponent
       }
     ]
   }

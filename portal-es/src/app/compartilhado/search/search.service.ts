@@ -7,7 +7,7 @@ import 'rxjs/add/operator/distinctUntilChanged';
 import 'rxjs/add/operator/switchMap';
 
 @Injectable()
-export class PesquisaService {
+export class SearchService {
   devUrl = 'http://rawgit.com/pedlop/integracao2017/master/portal-es/src/assets/led/ppc-es.json';
   queryUrl = '?callback=JSONP-CALLBACK';
 

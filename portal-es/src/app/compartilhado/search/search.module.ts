@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { PesquisaService } from './pesquisa.service';
+import { SearchService } from './search.service';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  providers: [PesquisaService]
+  providers: [SearchService]
 })
-export class PesquisaModule { }
+export class SearchModule { }

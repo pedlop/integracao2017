@@ -1,6 +1,25 @@
-<p>
-  Essa é a camada media, nela teremos um tour macro pelas áreas do curso!
-</p>
-<p><a routerLink="/es/detalhe" routerLinkActive="active">Ir para a terceira camada.</a></p>
-<p><a routerLink="/" routerLinkActive="active">Voltar para a primeira camada.</a></p>
-
+ <div class="container">
+  <div class="col-md-6">
+      <p>
+        Essa é a camada media, nela teremos um tour macro pelas áreas do curso!
+      </p>
+      <p><a routerLink="/es/detalhe/topico/1" routerLinkActive="active">Ir para a terceira camada.</a></p>
+      <p><a routerLink="/" routerLinkActive="active">Voltar para a primeira camada.</a></p>
+  </div>
+    
+  <div class="col-md-6">
+    <ngx-charts-pie-chart
+      [view]="view"
+      [scheme]="colorScheme"
+      [results]="single"
+      [legend]="showLegend"
+      [explodeSlices]="explodeSlices"
+      [labels]="showLabels"
+      [doughnut]="doughnut"
+      [gradient]="gradient"
+      (select)="onSelect($event)">
+    </ngx-charts-pie-chart>
+  </div>
+  
+</div>  
+   

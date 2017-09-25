@@ -20,10 +20,14 @@
       "prefix": "ufg-es",
       "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/toastr/toastr.scss",
         "../node_modules/font-awesome/css/font-awesome.css",
         "styles.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/toastr/toastr.js"  
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

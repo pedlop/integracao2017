@@ -1,3 +1,4 @@
+import { ToastService } from 'portal-shared';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
@@ -19,7 +20,8 @@ export class TopicoComponent implements OnInit {
   ppc: any;
   meuTexto: any;
 
-  constructor(private route: ActivatedRoute, private finalService: CamadaFinalService) {
+  constructor(private route: ActivatedRoute, private finalService: CamadaFinalService,
+  private toast: ToastService) {
     // this.id = this.route.snapshot.params['id'];
     // console.log(this.route);
     // this.id = '0';
@@ -63,6 +65,7 @@ export class TopicoComponent implements OnInit {
   getTextoSecundario(myArray) {
     this.chavesSecundarias = myArray[0].chave_secundaria;
     // console.log(this.chavesSecundarias);
+    this.toast.sucesso('Deu CERTO', 'AEE');
   }
 
   getPrimeiroSubtexto() {

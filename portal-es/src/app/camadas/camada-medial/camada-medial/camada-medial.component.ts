@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { single, multi } from './../shared/camada-medial';
+import { single, multi } from './../shared/teste-paises';
+import { horas } from './../shared/curso-horas';
 
 @Component({
   selector: 'ufg-es-camada-medial',
@@ -14,10 +15,19 @@ export class CamadaMedialComponent implements OnInit {
   single: any[];
   multi: any[];
 
-  view: any[] = [700, 400];
+  horas: any[];
+
+  view: any[] = [500, 200];
+
+  showXAxis = true;
+  showYAxis = true;
+  showXAxisLabel = true;
+  xAxisLabel = 'Horas';
+  showYAxisLabel = true;
+  yAxisLabel = 'Atividades';
 
   // options
-  showLegend = true;
+  showLegend = false;
 
   colorScheme = {
     domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA']
@@ -31,6 +41,7 @@ export class CamadaMedialComponent implements OnInit {
   constructor() {
     window.scrollTo(0, 0);
     Object.assign(this, {single, multi});
+    this.horas = horas;
     this.data = [
       {
       'nome': 'Matemática',

@@ -368,6 +368,69 @@
       ]
     },
     {
+      "id": 9,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
+      "chave_primaria": "Política e gestão de estágio não obrigatório",
+      "texto": "O estágio do BES constitui-se em um mecanismo de complementação de conhecimento e aperfeiçoamento de habilidades, além de oportunidade de prática em Engenharia de Software. O convívio com profissionais, obrigações, hierarquias e processos onde o estágio se desenvolve, resulta em oportunidade valiosa para a formação profissional do egresso. O estágio do BES não é de caráter obrigatório, ficando a critério do estudante realizá-lo ou não, desde que o mesmo esteja regularmente matriculado no curso. Ou seja, caracteriza estágio curricular não obrigatório. Adicionalmente, esse estágio deve ser realizado a partir do terceiro período do curso, ou após a conclusão de pelo menos 640 horas da carga horária do curso. Convém observar que o estágio está restrito às empresas  devidamente conveniadas com a UFG ou que se utilizam de agentes de integração conveniados. Adicionalmente, dois outros papéis são obrigatórios no estágio: (a) supervisor (no local do estágio) e (b) orientador (professor do curso). Durante o estagio, que não pode ultrapassar 24 meses em mesmo local, o estudante deverá apresentar o Termo de Compromisso, o Plano de Estagio, além da frequência e dos relatórios semestrais. Os documentos citados acima, bem como outros detalhes do estágio, em conformidade com a Lei 11.788/2008, são definidos pelo Regulamento de Estágio de Curso do Bacharelado em Engenharia de Software.",
+      "chave_secundaria": [
+        {
+          "id": 0,
+          "nome": "",
+          "texto": {
+            "primeira_parte": ""
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
+      "chave_primaria": "Trabalho de Conclusão de Curso (TCC)",
+      "texto": "O Trabalho de Conclusão de Curso (TCC) no BES é um componente curricular obrigatório regulado pelas Normas e Procedimentos de Trabalho de Conclusão de Curso do Bacharelado em Engenharia de Software. O TCC é desenvolvido na última etapa da graduação, sob a orientação de um professor e compreende um relatório e uma apresentação. O relatório é individual e tem como objetivo a expressão do estudante na forma escrita, a capacidade de analisar, caracterizar, investigar, discutir, implantar, pesquisar, realizar, sintetizar e avaliar, entre outras. Neste sentido, orelatório descreve, de forma crítica, as atividades teórico-práticas e de formação profissional relacionadas ao desenvolvimento do estudante como profissional, em especial, durante a disciplina Prática em Engenharia de Software (p. 75). A apresentação do relatório, também individual, é realizada como última atividade do curso e tem corno objetivo a expressão do estudante, agora na forma oral, das atividades descritas no relatório, em seção pública e para uma banca formada por professores do INF. A banca de professores tem o direito a um período de arguição e e responsável pela avaliação tanto do relatório quanto da apresentação.",
+      "chave_secundaria": [
+        {
+          "id": 0,
+          "nome": "",
+          "texto": {
+            "primeira_parte": ""
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
+      "chave_primaria": "Integração ensino, pesquisa e extensão",
+      "texto": "A integração do ensino com a pesquisa e a extensão se verifica por meio de atividades complementares, do estágio não obrigatório, de disciplinas do curso e da postura didática dos docentes, conforme comentado abaixo. As atividades complementares são identificadas em resolução própria, perfazem pelo menos 192 horas e explicitamente incluem ações de extensão e de pesquisa. Por exemplo, divulgação de trabalhos em eventos científicos, participação em projetos de extensão e participação em projetos de pesquisa, dentre outras. O estagio não obrigatório é um instrumento de integração. As atividades a serem realizadas pelo estudante podem incluir ações de pesquisa. A disciplina Metodologia e Experimentação em Engenharia de Software oferece a visão exigida para a realização de pesquisas na área. Isso significa não apenas orientar o estudante acerca da elaboração de uma revisão sistemática, mas também da necessidade da expansão do conhecimento da área e dos mecanismos atualmente empregados para tal.Um contundente exemplo é a disciplina de 320 horas, Prática em Engenharia de Software. Essa disciplina envolve em sua concepção 0 ensino, a extensão e a pesquisa ao se concentrar em projetos reais executados no ambiente de uma Fábrica de Software. Qualquer que seja o projeto, esse envolverá extensão e/ ou pesquisa, naturalmente, ainda em um cenário de aprendizado (ensino). A integração, contudo, não ocorre apenas por meio dos elementos acima, que seriam pontos de integração localizados e em períodos específicos. A integração deve ocorrer, onde oportuno, em cada ação do curso. Por exemplo, uma postura didática recomendável exige a contextualização de cada aula acerca do que será visto, da repercussão ou relação dela com a indústria de software (sociedade) e do estado da arte corrente. De fato, essa postura não apenas recomendável, mas exigida por meio das “condições mínimas” definidas para cada disciplina. Ou seja, a integração do ensino com a pesquisa e a extensão ocorre por toda a extensão do curso",
+      "chave_secundaria": [
+        {
+          "id": 0,
+          "nome": "",
+          "texto": {
+            "primeira_parte": ""
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        }
+      ]
+    },
+    {
       "id": 14,
       "chave_especial": [
         "chave1",
@@ -490,7 +553,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 16,
       "chave_especial": [
         "chave1",
         "chave2"
@@ -567,7 +630,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 17,
       "chave_especial": [
         "chave1",
         "chave2"
@@ -748,7 +811,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 18,
       "chave_especial": [
         "chave1",
         "chave2"
@@ -829,7 +892,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": 19,
       "chave_especial": [
         "chave1",
         "chave2"

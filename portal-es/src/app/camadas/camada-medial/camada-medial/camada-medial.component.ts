@@ -1,3 +1,5 @@
+import { grupos } from './../shared/pesquisa-grupos';
+import { projetos } from './../shared/pesquisa-projetos';
 import { Component, OnInit } from '@angular/core';
 
 import { single, multi } from './../shared/teste-paises';
@@ -10,15 +12,16 @@ import { horas } from './../shared/curso-horas';
 })
 export class CamadaMedialComponent implements OnInit {
 
-  data: any;
-
   single: any[];
   multi: any[];
 
   horas: any[];
+  projetos: any [];
+  grupos: any[];
 
-  view: any[] = [500, 200];
+  view: any[] = [700, 400];
 
+  viewer:any[] = [1400, 800];
   showXAxis = true;
   showYAxis = true;
   showXAxisLabel = true;
@@ -26,8 +29,11 @@ export class CamadaMedialComponent implements OnInit {
   showYAxisLabel = true;
   yAxisLabel = 'Atividades';
 
+  XAxisLabel = 'Atividades';
+  YAxisLabel = 'Quantidade';
+
   // options
-  showLegend = false;
+  showLegend = true;
 
   colorScheme = {
     domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA']
@@ -42,34 +48,8 @@ export class CamadaMedialComponent implements OnInit {
     window.scrollTo(0, 0);
     Object.assign(this, {single, multi});
     this.horas = horas;
-    this.data = [
-      {
-      'nome': 'Matemática',
-      'info': [
-        {
-          'ano': '2010',
-          'valor': 799
-        },
-        {
-          'ano': '2011',
-          'valor': 788
-        }
-      ]
-    },
-    {
-      'nome': 'Computaçao',
-      'info': [
-        {
-          'ano': '2010',
-          'valor': 907
-        },
-        {
-          'ano': '2011',
-          'valor': 534
-        }
-      ]
-    }
-  ];
+    this.projetos = projetos;
+    this.grupos = grupos;
   }
 
   ngOnInit() {

@@ -1,3 +1,5 @@
+import { comparaHoras } from './../shared/pesquisa-compara-horas';
+import { comparaPublicacoes } from './../shared/pesquisa-compara-publicacoes';
 import { grupos } from './../shared/pesquisa-grupos';
 import { projetos } from './../shared/pesquisa-projetos';
 import { Component, OnInit } from '@angular/core';
@@ -18,19 +20,25 @@ export class CamadaMedialComponent implements OnInit {
   horas: any[];
   projetos: any [];
   grupos: any[];
+  comparaPublicacoes: any[];
+  comparaHoras: any[];
 
   view: any[] = [700, 400];
 
-  viewer:any[] = [1400, 800];
+  viewer: any[] = [1400, 800];
   showXAxis = true;
   showYAxis = true;
   showXAxisLabel = true;
-  xAxisLabel = 'Horas';
+  xAxisLabel = 'Anos';
   showYAxisLabel = true;
-  yAxisLabel = 'Atividades';
+  yAxisLabel = 'Horas Trabalhadas';
 
   XAxisLabel = 'Atividades';
   YAxisLabel = 'Quantidade';
+
+
+  xLabel: 'Anos';
+  yLabel: 'Publicações';
 
   // options
   showLegend = true;
@@ -50,6 +58,8 @@ export class CamadaMedialComponent implements OnInit {
     this.horas = horas;
     this.projetos = projetos;
     this.grupos = grupos;
+    this.comparaPublicacoes = comparaPublicacoes;
+    this.comparaHoras = comparaHoras;
   }
 
   ngOnInit() {

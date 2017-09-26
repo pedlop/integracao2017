@@ -4,6 +4,9 @@
 }
 ngx-charts-pie-chart,
 ngx-charts-bar-horizontal,
-ngx-charts-bar-vertical-2d {
+ngx-charts-bar-vertical-2d,
+ngx-charts-line-chart, 
+ngx-charts-area-chart {
     display: flex;
+    margin-bottom: 10%;
 }

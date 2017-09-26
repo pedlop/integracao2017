@@ -368,6 +368,48 @@
       ]
     },
     {
+      "id": 9,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
+      "chave_primaria": "Política e gestão de estágio não obrigatório",
+      "texto": "O estágio do BES constitui-se em um mecanismo de complementação de conhecimento e aperfeiçoamento de habilidades, além de oportunidade de prática em Engenharia de Software. O convívio com profissionais, obrigações, hierarquias e processos onde o estágio se desenvolve, resulta em oportunidade valiosa para a formação profissional do egresso. O estágio do BES não é de caráter obrigatório, ficando a critério do estudante realizá-lo ou não, desde que o mesmo esteja regularmente matriculado no curso. Ou seja, caracteriza estágio curricular não obrigatório. Adicionalmente, esse estágio deve ser realizado a partir do terceiro período do curso, ou após a conclusão de pelo menos 640 horas da carga horária do curso. Convém observar que o estágio está restrito às empresas  devidamente conveniadas com a UFG ou que se utilizam de agentes de integração conveniados. Adicionalmente, dois outros papéis são obrigatórios no estágio: (a) supervisor (no local do estágio) e (b) orientador (professor do curso). Durante o estagio, que não pode ultrapassar 24 meses em mesmo local, o estudante deverá apresentar o Termo de Compromisso, o Plano de Estagio, além da frequência e dos relatórios semestrais. Os documentos citados acima, bem como outros detalhes do estágio, em conformidade com a Lei 11.788/2008, são definidos pelo Regulamento de Estágio de Curso do Bacharelado em Engenharia de Software.",
+      "chave_secundaria": [
+        {
+          "id": 0,
+          "nome": "",
+          "texto": {
+            "primeira_parte": ""
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
+      "chave_primaria": "Trabalho de Conclusão de Curso (TCC)",
+      "texto": "O Trabalho de Conclusão de Curso (TCC) no BES é um componente curricular obrigatório regulado pelas Normas e Procedimentos de Trabalho de Conclusão de Curso do Bacharelado em Engenharia de Software. O TCC é desenvolvido na última etapa da graduação, sob a orientação de um professor e compreende um relatório e uma apresentação. O relatório é individual e tem corno objetivo a expressão do estudante na forma escrita, a capacidade de analisar, caracterizar, investigar, discutir, implantar, pesquisar, realizar, sintetizar e avaliar, entre outras. Neste sentido, orelatório descreve, de forma crítica, as atividades teórico-práticas e de formação profissional relacionadas ao desenvolvimento do estudante como profissional, em especial, durante a disciplina Prática em Engenharia de Software (p. 75). A apresentação do relatório, também individual, é realizada como última atividade do curso e tem corno objetivo a expressão do estudante, agora na forma oral, das atividades descritas no relatório, em seção pública e para uma banca formada por professores do INF. A banca de professores tem o direito a um período de arguição e e responsável pela avaliação tanto do relatório quanto da apresentação.",
+      "chave_secundaria": [
+        {
+          "id": 0,
+          "nome": "",
+          "texto": {
+            "primeira_parte": ""
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        }
+      ]
+    },
+    {
       "id": 14,
       "chave_especial": [
         "chave1",
@@ -389,7 +431,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 20,
       "chave_especial": [
         "chave1",
         "chave2"
@@ -466,7 +508,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 15,
       "chave_especial": [
         "chave1",
         "chave2"
@@ -647,7 +689,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 16,
       "chave_especial": [
         "chave1",
         "chave2"
@@ -728,7 +770,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 17,
       "chave_especial": [
         "chave1",
         "chave2"

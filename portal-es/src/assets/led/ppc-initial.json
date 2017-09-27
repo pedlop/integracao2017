@@ -817,76 +817,76 @@
         "chave2"
       ],
       "chave_primaria": "Disciplinas optativas",
-      "texto":"texto da chave primaria",
+      "texto":"Além das disciplinas definidas nessa seção, duas outras são optativas e específicas de Engenharia de Software: Mercado e Economia de Software (p.74) e Metodologia e Experimentação em Engenharia de Software (p. 74).",
       "chave_secundaria": [
         {
           "id": 1,
           "nome": "Sistemas Operacionais",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura1.PNG"
           }
         },
         {
           "id": 2,
           "nome": "Pesquisa Operacional",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura2.PNG"
           }
         },
         {
           "id": 3,
           "nome": "Linguagens Formais e Automatos",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura3.PNG"
           }
         },
         {
           "id": 4,
           "nome": "Redes de computadores",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura4.PNG"
           }
         },
         {
           "id": 5,
           "nome": "Introdução à Língua Brasileira de Sinais",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura5.PNG"
           }
         },
         {
           "id": 6,
           "nome": "Compiladores",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura6.PNG"
           }
         },
         {
           "id": 7,
           "nome": "Sistemas Distribuídos",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura7.PNG"
           }
         }
       ]

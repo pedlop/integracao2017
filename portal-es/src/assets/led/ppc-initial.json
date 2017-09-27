@@ -474,7 +474,7 @@
           "id": 2,
           "nome": "Politica de Educação Ambiental",
           "texto": {
-            "primeira_parte": ""
+            "primeira_parte": "A Lei 9.795, de 27 de abril de 1999, institui a Política Nacional de Educação Ambiental, que é regulamentada pelo Decreto 4.281, de 25 de junho de 2002. Conforme essa Lei, Seção II, Art. 10, 'a educação ambiental será desenvolvida como uma prática educativa integrada, contínua e permanente em todos os niveis e modalidades do ensino formal'. Adicionalmente, lê-se na Seção II, Art. 10, § 1°: 'a educação ambiental não deve ser implantada como disciplina específica no currículo de ensino'. O destaque (negrito) é do presente documento. O Bacharelado em Engenharia de Software trata a Educação Ambiental por duas linhas contínuas de atuação: uma delas baseada no planejamento das disciplinas e outra em programa institucional do Instituto de Informática, ambas comentadas abaixo."
           },
           "imagem": {
             "primeira": ""
@@ -484,7 +484,7 @@
           "id": 3,
           "nome": "Planejamento das Disciplinas",
           "texto": {
-            "primeira_parte": ""
+            "primeira_parte": "O planejamento de cada turma deve se inspirar em possíveis estratégias de inserção de questões ambientais. Por exemplo, adoção de material em formato digital em vez de formato impresso. A apresentação do conteúdo de cada disciplina também pode se beneficiar do volume significativo de dados sobre o meio ambiente. Por exemplo, área desmatada ao longo do tempo; áreas de preservação; consumo de energia; emissão de CO2; qualidade do ar; consumo de materiais poluentes e geração de lixo eletrônico. Tais dados podem ser empregados para ilustrar o funcionamento de algoritmos e visualização de informações, dentre outras possibilidades. Convém destacar que esses exemplos devem ser vistos como elementos de inspiração, a serem renovados continuamente."
           },
           "imagem": {
             "primeira": ""
@@ -494,17 +494,17 @@
           "id": 4,
           "nome": "Programa institucional",
           "texto": {
-            "primeira_parte": ""
+            "primeira_parte": "A UFG executa um Plano de Logística Sustentável (PLS), que estabelece práticas de sustentabilidade e racionalização de gastos e processos na administração pública [PLS]. Esse plano e internalizado no Instituto de Informática por um Programa Institucional de extensão. O PLS une o cotidiano da prática académica com atitudes 'sustentáveis' por meio de recomendações simples, como a impressão em ambos os lados de uma folha e a redução do uso de copos descartáveis, dentre muitas outras. O Programa Institucional reúne ações que contemplam as orientações do PLS. O objetivo é colocar em prática essas orientações. Por exemplo, enquanto o PLS sugere a coleta seletiva, esse programa cria um repositório para coleta de pilhas e baterias já utilizadas, além de assegurar que aquele material coletado será descartado de forma correta. O Programa Institucional possui objetivos e ações que incluem a educação ambiental. As opções de ações variam. Dentre elas uma é constante: avaliação dos resultados. Dentre as demais:"
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Requisitos_Legais_e_Normativos/Topicos_BES_PPC.PNG?raw=true"
           }
         },
         {
           "id": 5,
           "nome": "Resolução N° 1 de 17 dejunho de 2004",
           "texto": {
-            "primeira_parte": ""
+            "primeira_parte": "A Resolução N° l, de 17 de junho de 2004, trata das Diretrizes Curriculares Nacionais para a Educação das Relações Étnico-Raciais e para o Ensino de História e Cultura Afro-Brasileira e Africana. O objetivo é claro: 'combater o racismo e as discriminações que atingem particularmente os negros. Nessa perspectiva, propõe a divulgação e produção de conhecimentos, a formação de atitudes, posturas e valores que eduquem cidadãos orgulhosos de seu pertencimento étnico-racial, descendentes de africanos, povos indígenas, descendentes de europeus, de asiáticos. ' Tal objetivo pressupõe a 'adoção de políticas educacionais e de estrategias pedagógicas de valorização da diversidade', conforme consta na Resolução, assim como os princípios a serem observados para atende-la: (a) consciência política e histórica da diversidade; (b) fortalecimento de identidades e de direitos e (c) ações educativas de combate ao racismo e a discriminações. O Art. 7.' da Resolução ainda destaca: 'as instituições de ensino superior, respeitada a autonomia que lhe é devida, incluirão nos conteúdos de disciplinas e atividades curriculares dos diferentes cursos que ministram, a Educação das Relações Êtnico-Raciais, bem como o tratamento de questões e temáticas que dizem respeito aos afrodescendentes. 'Tendo em vista o requisito legal estabelecido pela Resolução, duas linhas de atuação são adotadas pelo Bacharelado em Engenharia de Software: inserção de conteúdo pertinente em duas disciplinas curriculares obrigatórias e o Programa Institucional de extensão do Instituto de Informática. Ambas comentadas abaixo."
           },
           "imagem": {
             "primeira": ""
@@ -514,7 +514,7 @@
           "id": 6,
           "nome": "Disciplinas de graduação obrigatórias",
           "texto": {
-            "primeira_parte": ""
+            "primeira_parte": "As disciplinas 'Computador e Sociedade' (p. 45) e 'Interação Humano-Computador' (p. 51) incluem, em seus ementários, tópicos pertinentes às exigências da Resolução. Em particular, remetem para o conhecimento de questões pertinentes ao continente africano e para o conhecimento e respeito à diversidade."
           },
           "imagem": {
             "primeira": ""
@@ -522,19 +522,19 @@
         },
         {
           "id": 7,
-          "nome": "Resolução N° 1 de 17 dejunho de 2004",
+          "nome": "Programa institucional",
           "texto": {
-            "primeira_parte": ""
+            "primeira_parte": "O Programa Institucional de extensão do Instituto de Informática será realizado por meio de ações, boa parte com ênfase na socialização de conhecimento sobre questões pertinentes à formação dos brasileiros, o que invariavelmente inclui os negros e indígenas. Esse conhecimento é indispensável para a promoção da diversidade, do respeito às diferenças e da igualdade independente das crenças, do sexo, da idade, da cor, da condição social. O Instituto de Informática, por meio desse programa de extensão, dedicado exclusivamente às relações étnico-raciais e ao meio ambiente, oferece atuação contínua sobre esses tópicos, durante toda a permanência dos seus estudantes nessa unidade, sejam de graduação ou pós-graduação. Especificamente sobre questões de cunho étnico-racial, sem a intenção de ser uma apresentação exaustiva, nem restritiva, são identiñcadas algumas ações possiveis:"
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Requisitos_Legais_e_Normativos/Topicos_BES_PPC_01.PNG?raw=true"
           }
         },
         {
           "id": 8,
-          "nome": "Programa institucional",
+          "nome": "Diretrizes nacionais para Educação em Direitos Humanos",
           "texto": {
-            "primeira_parte": ""
+            "primeira_parte": "A disciplina 'Computador e Sociedade' (p. 45) trata questões relevantes acerca de direitos humanos: aspectos profissionais; participação de mulheres na computação e evolução de aplicações com acessibilidade, dentre outras, nas quais os direitos humanos precisam de discussões mais aprofundadas na computação. Na disciplina 'Interação Humano-Computador' (p. 51) as características humanísticas, culturais, de direitos humanos e de aspectos políticos serão abordados em mais profundidade."
           },
           "imagem": {
             "primeira": ""
@@ -544,7 +544,7 @@
           "id": 9,
           "nome": "Proteção dos direitos da pessoa com Transtornos do Espectro Autista",
           "texto": {
-            "primeira_parte": ""
+            "primeira_parte": "A proteção dos direitos da pessoa com transtorno do espectro autista é fundamentada na Lei N.° 12.764 de 27 de dezembro de 2012, que institui a política nacional de proteção dos direitos da pessoa com transtorno do espectro autista, e altera o § 3.' do Art. 98 da Lei N.' 8.112, de 11 de dezembro de 1990. Esse requisito legal é atendido por meio da disciplina obrigatória 'Interação Humano-Computador', que inclui em seu ementário tópicos pertinentes ao tratamento de características humanísticas e biológicas na construção de interfaces de usuário, o que possibilita a socializar informações relevantes para que portadores do Transtorno do Espectro Autista possam ser adequadamente considerados por meio de suas necessidades especiais."
           },
           "imagem": {
             "primeira": ""
@@ -636,176 +636,176 @@
         "chave2"
       ],
       "chave_primaria": "Disciplinas de formação básica (obrigatórias)",
-      "texto":"texto da chave primaria",
+      "texto":"",
       "chave_secundaria": [
         {
           "id": 1,
           "nome": "Computação e Sociedade",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_1.PNG?raw=true"
           }
         },
         {
           "id": 2,
           "nome": "Introdução à Programação",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_2.PNG?raw=true"
           }
         },
         {
           "id": 3,
           "nome": "Cálculo 1A",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_3.PNG?raw=true"
           }
         },
         {
           "id": 4,
-          "nome": "Fundamentos de Matemática para Computacao",
+          "nome": "Fundamentos de Matemática para Computação",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_4.PNG?raw=true"
           }
         },
         {
           "id": 5,
           "nome": "Arquitetura de Computadores",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_5.PNG?raw=true"
           }
         },
         {
           "id": 6,
           "nome": "Algoritmos e Estruturas de Dados 1",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_6.PNG?raw=true"
           }
         },
         {
           "id": 7,
           "nome": "Probabilidade e Estatística A",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_7.PNG?raw=true"
           }
         },
         {
           "id": 8,
           "nome": "Álgebra Linear",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_8.PNG?raw=true"
           }
         },
         {
           "id": 9,
           "nome": "Lógica Matemática",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_9.PNG?raw=true"
           }
         },
         {
           "id": 10,
           "nome": "Programação Orientada a Objetos",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_10.PNG?raw=true"
           }
         },
         {
           "id": 11,
-          "nome": "Algoritmos e Estruturas de Dados",
+          "nome": "Algoritmos e Estruturas de Dados 2",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_11.PNG?raw=true"
           }
         },
         {
           "id": 12,
           "nome": "Linguagens e Paradigmas de Programação",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_12.PNG?raw=true"
           }
         },
         {
           "id": 13,
           "nome": "Engenharia de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_13.PNG?raw=true"
           }
         },
         {
           "id": 14,
           "nome": "Análise e Projeto de Algoritmos",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_14.PNG?raw=true"
           }
         },
         {
           "id": 15,
           "nome": "Interação Humano-Computador",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_15.PNG?raw=true"
           }
         },
         {
           "id": 16,
           "nome": "Banco de Dados",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_16.PNG?raw=true"
           }
         },
         {
           "id": 17,
           "nome": "Projeto de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_17.PNG?raw=true"
           }
         }
       ]

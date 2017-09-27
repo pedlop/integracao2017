@@ -636,176 +636,176 @@
         "chave2"
       ],
       "chave_primaria": "Disciplinas de formação básica (obrigatórias)",
-      "texto":"texto da chave primaria",
+      "texto":"",
       "chave_secundaria": [
         {
           "id": 1,
           "nome": "Computação e Sociedade",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_1.PNG?raw=true"
           }
         },
         {
           "id": 2,
           "nome": "Introdução à Programação",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_2.PNG?raw=true"
           }
         },
         {
           "id": 3,
           "nome": "Cálculo 1A",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_3.PNG?raw=true"
           }
         },
         {
           "id": 4,
-          "nome": "Fundamentos de Matemática para Computacao",
+          "nome": "Fundamentos de Matemática para Computação",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_4.PNG?raw=true"
           }
         },
         {
           "id": 5,
           "nome": "Arquitetura de Computadores",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_5.PNG?raw=true"
           }
         },
         {
           "id": 6,
           "nome": "Algoritmos e Estruturas de Dados 1",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_6.PNG?raw=true"
           }
         },
         {
           "id": 7,
           "nome": "Probabilidade e Estatística A",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_7.PNG?raw=true"
           }
         },
         {
           "id": 8,
           "nome": "Álgebra Linear",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_8.PNG?raw=true"
           }
         },
         {
           "id": 9,
           "nome": "Lógica Matemática",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_9.PNG?raw=true"
           }
         },
         {
           "id": 10,
           "nome": "Programação Orientada a Objetos",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_10.PNG?raw=true"
           }
         },
         {
           "id": 11,
-          "nome": "Algoritmos e Estruturas de Dados",
+          "nome": "Algoritmos e Estruturas de Dados 2",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_11.PNG?raw=true"
           }
         },
         {
           "id": 12,
           "nome": "Linguagens e Paradigmas de Programação",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_12.PNG?raw=true"
           }
         },
         {
           "id": 13,
           "nome": "Engenharia de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_13.PNG?raw=true"
           }
         },
         {
           "id": 14,
           "nome": "Análise e Projeto de Algoritmos",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_14.PNG?raw=true"
           }
         },
         {
           "id": 15,
           "nome": "Interação Humano-Computador",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_15.PNG?raw=true"
           }
         },
         {
           "id": 16,
           "nome": "Banco de Dados",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_16.PNG?raw=true"
           }
         },
         {
           "id": 17,
           "nome": "Projeto de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_17.PNG?raw=true"
           }
         }
       ]

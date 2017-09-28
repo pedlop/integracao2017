@@ -12,7 +12,7 @@ Repositório vinculado a Projeto para a disciplina de Integração 1 - INF/UFG -
   - [Política de Commits](#política-de-commits)
 - [Rodando Projeto](#como-faço-para-rodar-o-projeto)
 - [Tecnologias Utilizadas](#quais-as-tecnologias-e-ferramentas-utilizadas)
-- [Protótipo funcional da solução](https://pedlop.github.io/integracao2017/index.html)
+- [Protótipo funcional da solução](https://github.com/pedlop/integracao2017/tree/master/docs/Definicao_da_Solucao/Prototipos/Prototipo_Funcional)
 
 ## **Integrantes e Papéis do Projeto** ##
 

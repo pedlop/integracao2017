@@ -1,27 +1,13 @@
-<!--div>
-    <h2>Testando a Pesquisa 2</h2>
-    <div class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Pesquisa" [(ngModel)]="termo" (keydown)="keyDownFunction($event)">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" (click)="onSearchTerm()">Pesquisa</button>    
-    </div>
-    <ul>
-        <li *ngFor="let result of results"> 
-            <a [routerLink]="['/es/detalhe/topico', result.id]">
-                {{result.retorno}} id: {{result.id}}
-            </a>
-        </li>
-        <div *ngIf="results.length === 0">Nenhum resultado encontrado!</div>
-    </ul
-    <button type="button" (click)="onSearchTerm()">Pesquisar</button>
-    <button (click)="showChildModal()">Modal</button>
-</div-->
-
 <!-- Menu -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Início</a>
+        <img class="img-inf" src="../../../../assets/img/inf.png" alt="">
+        
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#page-top">Início</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#Sobre">Sobre</a>
                 </li>
@@ -38,12 +24,6 @@
                     <a class="nav-link js-scroll-trigger" href="#SaibaMais">Saiba Mais</a>
                 </li>
             </ul>
-            <!--button class="btn btn-sm align-middle btn-outline-secondary" type="button" (click)="accessibilityFont('+')">A+</button>
-            <button class="btn btn-sm align-middle btn-outline-secondary" type="button" (click)="accessibilityFont('=')">A</button>
-            <button class="btn btn-sm align-middle btn-outline-secondary" type="button" (click)="accessibilityFont('-')">A-</button>
-            <button class="btn btn-sm align-middle btn-outline-secondary" type="button" (click)="accessibilityContrast()">
-                <i class="fa fa-adjust" aria-hidden="true"></i>
-            </button-->
             <div>
                 <div class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="text" placeholder="Pesquisa" [(ngModel)]="termo" (keydown)="keyDownFunction($event)">
@@ -67,8 +47,8 @@
                 <ul>
                     <li *ngFor="let result of results">
                         <a [routerLink]="['/es/detalhe/topico', result.id]" (click)="hideChildModal()">
-                        {{result.retorno}} id: {{result.id}}
-                    </a>
+                            {{result.retorno}} id: {{result.id}} -  sub-id: {{result.subId}}
+                        </a>
                     </li>
                 </ul>
                 <div *ngIf="results.length === 0">Nenhum resultado encontrado!</div>

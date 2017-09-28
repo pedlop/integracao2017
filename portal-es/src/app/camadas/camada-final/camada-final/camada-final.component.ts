@@ -12,7 +12,9 @@ export class CamadaFinalComponent implements OnInit {
   collection: Array<any>;
   text: string;
 
-  constructor(private finalService: CamadaFinalService) { }
+  constructor(private finalService: CamadaFinalService) {
+    window.scrollTo(0, 0);
+  }
 
   ngOnInit() {
     // this.getPPC();

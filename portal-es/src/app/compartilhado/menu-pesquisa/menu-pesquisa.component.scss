@@ -6,7 +6,16 @@ bs-modal-backdrop {
     max-height: 32em;
     overflow-y: auto;
 }
+
+.form-inline.my-2.my-lg-0 {
+    margin-left: 1em;
+}
+
 /** MENU */
+.container {
+    display: -webkit-box;
+}
+
 #mainNav {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
@@ -81,3 +90,4 @@ bs-modal-backdrop {
         font-size: 1.5em; 
     } 
 }
+

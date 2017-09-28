@@ -368,7 +368,215 @@
       ]
     },
     {
+      "id": 8,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
+      "chave_primaria": "Núcleo Docente Estruturante (NDE)",
+      "texto": "Em vez de atribuir atividades ao N DE, o NDE adota os seguintes princípios:",
+      "chave_secundaria": [
+        {
+          "id": 1,
+          "nome": "",
+          "texto": {
+            "primeira_parte": "",
+            "segunda_parte": "Esses princípios definem que todo o conteúdo do presente PPC e a aplicação dele está no raio de atuação do NDE. O que inclui:"
+          },
+          "imagem": {
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/nde/Topicos_NDE_01.PNG",
+            "segunda": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/nde/Topicos_NDE_02.PNG"
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
+      "chave_primaria": "Política e gestão de estágio não obrigatório",
+      "texto": "O estágio do BES constitui-se em um mecanismo de complementação de conhecimento e aperfeiçoamento de habilidades, além de oportunidade de prática em Engenharia de Software. O convívio com profissionais, obrigações, hierarquias e processos onde o estágio se desenvolve, resulta em oportunidade valiosa para a formação profissional do egresso. O estágio do BES não é de caráter obrigatório, ficando a critério do estudante realizá-lo ou não, desde que o mesmo esteja regularmente matriculado no curso. Ou seja, caracteriza estágio curricular não obrigatório. Adicionalmente, esse estágio deve ser realizado a partir do terceiro período do curso, ou após a conclusão de pelo menos 640 horas da carga horária do curso. Convém observar que o estágio está restrito às empresas  devidamente conveniadas com a UFG ou que se utilizam de agentes de integração conveniados. Adicionalmente, dois outros papéis são obrigatórios no estágio: (a) supervisor (no local do estágio) e (b) orientador (professor do curso). Durante o estagio, que não pode ultrapassar 24 meses em mesmo local, o estudante deverá apresentar o Termo de Compromisso, o Plano de Estagio, além da frequência e dos relatórios semestrais. Os documentos citados acima, bem como outros detalhes do estágio, em conformidade com a Lei 11.788/2008, são definidos pelo Regulamento de Estágio de Curso do Bacharelado em Engenharia de Software.",
+      "chave_secundaria": [
+        {
+          "id": 0,
+          "nome": "",
+          "texto": {
+            "primeira_parte": ""
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
+      "chave_primaria": "Trabalho de Conclusão de Curso (TCC)",
+      "texto": "O Trabalho de Conclusão de Curso (TCC) no BES é um componente curricular obrigatório regulado pelas Normas e Procedimentos de Trabalho de Conclusão de Curso do Bacharelado em Engenharia de Software. O TCC é desenvolvido na última etapa da graduação, sob a orientação de um professor e compreende um relatório e uma apresentação. O relatório é individual e tem como objetivo a expressão do estudante na forma escrita, a capacidade de analisar, caracterizar, investigar, discutir, implantar, pesquisar, realizar, sintetizar e avaliar, entre outras. Neste sentido, orelatório descreve, de forma crítica, as atividades teórico-práticas e de formação profissional relacionadas ao desenvolvimento do estudante como profissional, em especial, durante a disciplina Prática em Engenharia de Software (p. 75). A apresentação do relatório, também individual, é realizada como última atividade do curso e tem corno objetivo a expressão do estudante, agora na forma oral, das atividades descritas no relatório, em seção pública e para uma banca formada por professores do INF. A banca de professores tem o direito a um período de arguição e e responsável pela avaliação tanto do relatório quanto da apresentação.",
+      "chave_secundaria": [
+        {
+          "id": 0,
+          "nome": "",
+          "texto": {
+            "primeira_parte": ""
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
+      "chave_primaria": "Integração ensino, pesquisa e extensão",
+      "texto": "A integração do ensino com a pesquisa e a extensão se verifica por meio de atividades complementares, do estágio não obrigatório, de disciplinas do curso e da postura didática dos docentes, conforme comentado abaixo. As atividades complementares são identificadas em resolução própria, perfazem pelo menos 192 horas e explicitamente incluem ações de extensão e de pesquisa. Por exemplo, divulgação de trabalhos em eventos científicos, participação em projetos de extensão e participação em projetos de pesquisa, dentre outras. O estagio não obrigatório é um instrumento de integração. As atividades a serem realizadas pelo estudante podem incluir ações de pesquisa. A disciplina Metodologia e Experimentação em Engenharia de Software oferece a visão exigida para a realização de pesquisas na área. Isso significa não apenas orientar o estudante acerca da elaboração de uma revisão sistemática, mas também da necessidade da expansão do conhecimento da área e dos mecanismos atualmente empregados para tal.Um contundente exemplo é a disciplina de 320 horas, Prática em Engenharia de Software. Essa disciplina envolve em sua concepção 0 ensino, a extensão e a pesquisa ao se concentrar em projetos reais executados no ambiente de uma Fábrica de Software. Qualquer que seja o projeto, esse envolverá extensão e/ ou pesquisa, naturalmente, ainda em um cenário de aprendizado (ensino). A integração, contudo, não ocorre apenas por meio dos elementos acima, que seriam pontos de integração localizados e em períodos específicos. A integração deve ocorrer, onde oportuno, em cada ação do curso. Por exemplo, uma postura didática recomendável exige a contextualização de cada aula acerca do que será visto, da repercussão ou relação dela com a indústria de software (sociedade) e do estado da arte corrente. De fato, essa postura não apenas recomendável, mas exigida por meio das “condições mínimas” definidas para cada disciplina. Ou seja, a integração do ensino com a pesquisa e a extensão ocorre por toda a extensão do curso",
+      "chave_secundaria": [
+        {
+          "id": 0,
+          "nome": "",
+          "texto": {
+            "primeira_parte": ""
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        }
+      ]
+    },
+    {
       "id": 14,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
+      "chave_primaria": "Política de qualificação",
+      "texto": "Desde a criação o Instituto de Informática implementa uma política vigorosa de capacitação do seu corpo docente, a qual inclui a meta de que todos os docentes tenham a titulação minima de doutor. De fato, a liberação de docentes para prosseguirem os seus estudos de pós-graduação é uma prática comum, em consequencia, nenhum pedido para afastamento com o propósito de realizar o doutorado foi negado até o momento. Essa política é acrescentada de regras institucionalizadas para a concessão de afastamento para o pós-doutorado e de licença para capacitação. A qualificação de docentes do INF também pode ser obtida pela sua participação em congressos, simpósios, dentre outros eventos, quer seja nos papéis de autor de artigo, organizador de evento, membro de comitê de programa ou avaliador de artigo. O Instituto de Informatica ainda financia ou co-financia viagens e inscrições de seus docentes em congressos e simpósios importantes, principalmente quando há publicação de artigo. Em harmonia com a política de capacitação docente, o INF é favorável ao aprimoramento e à capacitação de seu corpo Técnico-Administrativo em Educação (TAE). Normalmente, um TAE faz solicitação ao diretor, encarregado de registrar as intenções de afastamento no plano anual de capacitação e conduzir a apreciação das intenções pelo Conselho Diretor do INF, haja vista que é do interesse da unidade fomentar a especialização e capacitação dos seus profissionais. E frequente a liberação das atividades de TAE para que possam participar de treinamentos, tanto em cursos esporádicos quanto em programas de pós-graduação. Em tempo, as ações de extensão do INF reservam vagas exclusivas para participação de TAEs, sem necessidade de pagamento (quando é o caso). Do ponto de vista legal, o INF se apoia na Resolução CEPEC 1286/2014 de 2014 [CEPEC 2014], que regulamenta o afastamento de docentes para cursar Mestrado, Doutorado e estágios Pós-Doutorais, e na Resolução CONSUNI 02/2014 [CONSUNI 2014], que regulamenta o Programa de Capacitação e o Plano Anual de Capacitação dos TAEs. Em consonância corn a Resolução CEPEC 1286/2014, o INF instrui o afastamento de docentes com a Resolução CD/INF n. O1 de 2014, que dá suporte ao planejamento administrativo e incentiva a participação de seus docentes, em cursos de doutorado, pós-doutorado e capacitação, no país e no exterior, de acordo com a sua política de pessoal para o ensino, a pesquisa, a extensão e a administração. Por fim, cabe ao NDE monitorar o PPC e, consequentemente, promover ações que promovam a qualidade dos serviços oferecidos tanto por docentes quanto por TAEs.",
+      "chave_secundaria": [
+        {
+          "id": 0,
+          "nome": "",
+          "texto": {
+            "primeira_parte": ""
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
+      "chave_primaria": "Requisitos legais e normativos",
+      "texto": "O curso de Bacharelado em Engenharia de Software contempla requisitos legais específicos, a saber, Libras, Política de Educação Ambiental, e Educação das Relações Etnico-raciais e para o Ensino da História e Cultura Afro-brasileira e Indígena, conforme detalhado nas seções seguintes. A atenção a tais requisitos se verifica por meio de disciplinas e de um Programa de Extensão, devidamente institucionalizado na unidade executora do curso. Está além do escopo do presente documento detalhar o Programa de Extensão. Abaixo, apenas aspectos relevantes para o PPC são destacados.",
+      "chave_secundaria": [
+        {
+          "id": 1,
+          "nome": "Libras",
+          "texto": {
+            "primeira_parte": "O Decreto 5.626/2005 regulamenta a Lei 10.436, de 24 de abril de 2002, e o artigo 18 da Lei 10.098, de 19 de dezembro de 2000. Segundo esse Decreto, a disciplina curricular Libras é obrigatória para vários cursos, dentre eles, as licenciaturas e os cursos de Fonoaudiologia. O Decreto também estabelece que, nos demais cursos, a disciplina curricular Libras seja Optativa, conforme o Capítulo II, § 2°: 'a Libras constituir-se-á em disciplina curricular Optativa nos demais cursos de educação superior'. Em atenção a tal requisito legal, o Bacharelado em Engenharia de Software inclui a disciplina Libras como Optativa, no oitavo período do curso."
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 2,
+          "nome": "Politica de Educação Ambiental",
+          "texto": {
+            "primeira_parte": "A Lei 9.795, de 27 de abril de 1999, institui a Política Nacional de Educação Ambiental, que é regulamentada pelo Decreto 4.281, de 25 de junho de 2002. Conforme essa Lei, Seção II, Art. 10, 'a educação ambiental será desenvolvida como uma prática educativa integrada, contínua e permanente em todos os niveis e modalidades do ensino formal'. Adicionalmente, lê-se na Seção II, Art. 10, § 1°: 'a educação ambiental não deve ser implantada como disciplina específica no currículo de ensino'. O destaque (negrito) é do presente documento. O Bacharelado em Engenharia de Software trata a Educação Ambiental por duas linhas contínuas de atuação: uma delas baseada no planejamento das disciplinas e outra em programa institucional do Instituto de Informática, ambas comentadas abaixo."
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 3,
+          "nome": "Planejamento das Disciplinas",
+          "texto": {
+            "primeira_parte": "O planejamento de cada turma deve se inspirar em possíveis estratégias de inserção de questões ambientais. Por exemplo, adoção de material em formato digital em vez de formato impresso. A apresentação do conteúdo de cada disciplina também pode se beneficiar do volume significativo de dados sobre o meio ambiente. Por exemplo, área desmatada ao longo do tempo; áreas de preservação; consumo de energia; emissão de CO2; qualidade do ar; consumo de materiais poluentes e geração de lixo eletrônico. Tais dados podem ser empregados para ilustrar o funcionamento de algoritmos e visualização de informações, dentre outras possibilidades. Convém destacar que esses exemplos devem ser vistos como elementos de inspiração, a serem renovados continuamente."
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 4,
+          "nome": "Programa institucional",
+          "texto": {
+            "primeira_parte": "A UFG executa um Plano de Logística Sustentável (PLS), que estabelece práticas de sustentabilidade e racionalização de gastos e processos na administração pública [PLS]. Esse plano e internalizado no Instituto de Informática por um Programa Institucional de extensão. O PLS une o cotidiano da prática académica com atitudes 'sustentáveis' por meio de recomendações simples, como a impressão em ambos os lados de uma folha e a redução do uso de copos descartáveis, dentre muitas outras. O Programa Institucional reúne ações que contemplam as orientações do PLS. O objetivo é colocar em prática essas orientações. Por exemplo, enquanto o PLS sugere a coleta seletiva, esse programa cria um repositório para coleta de pilhas e baterias já utilizadas, além de assegurar que aquele material coletado será descartado de forma correta. O Programa Institucional possui objetivos e ações que incluem a educação ambiental. As opções de ações variam. Dentre elas uma é constante: avaliação dos resultados. Dentre as demais:"
+          },
+          "imagem": {
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Requisitos_Legais_e_Normativos/Topicos_BES_PPC.PNG?raw=true"
+          }
+        },
+        {
+          "id": 5,
+          "nome": "Resolução N° 1 de 17 dejunho de 2004",
+          "texto": {
+            "primeira_parte": "A Resolução N° l, de 17 de junho de 2004, trata das Diretrizes Curriculares Nacionais para a Educação das Relações Étnico-Raciais e para o Ensino de História e Cultura Afro-Brasileira e Africana. O objetivo é claro: 'combater o racismo e as discriminações que atingem particularmente os negros. Nessa perspectiva, propõe a divulgação e produção de conhecimentos, a formação de atitudes, posturas e valores que eduquem cidadãos orgulhosos de seu pertencimento étnico-racial, descendentes de africanos, povos indígenas, descendentes de europeus, de asiáticos. ' Tal objetivo pressupõe a 'adoção de políticas educacionais e de estrategias pedagógicas de valorização da diversidade', conforme consta na Resolução, assim como os princípios a serem observados para atende-la: (a) consciência política e histórica da diversidade; (b) fortalecimento de identidades e de direitos e (c) ações educativas de combate ao racismo e a discriminações. O Art. 7.' da Resolução ainda destaca: 'as instituições de ensino superior, respeitada a autonomia que lhe é devida, incluirão nos conteúdos de disciplinas e atividades curriculares dos diferentes cursos que ministram, a Educação das Relações Êtnico-Raciais, bem como o tratamento de questões e temáticas que dizem respeito aos afrodescendentes. 'Tendo em vista o requisito legal estabelecido pela Resolução, duas linhas de atuação são adotadas pelo Bacharelado em Engenharia de Software: inserção de conteúdo pertinente em duas disciplinas curriculares obrigatórias e o Programa Institucional de extensão do Instituto de Informática. Ambas comentadas abaixo."
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 6,
+          "nome": "Disciplinas de graduação obrigatórias",
+          "texto": {
+            "primeira_parte": "As disciplinas 'Computador e Sociedade' (p. 45) e 'Interação Humano-Computador' (p. 51) incluem, em seus ementários, tópicos pertinentes às exigências da Resolução. Em particular, remetem para o conhecimento de questões pertinentes ao continente africano e para o conhecimento e respeito à diversidade."
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 7,
+          "nome": "Programa institucional",
+          "texto": {
+            "primeira_parte": "O Programa Institucional de extensão do Instituto de Informática será realizado por meio de ações, boa parte com ênfase na socialização de conhecimento sobre questões pertinentes à formação dos brasileiros, o que invariavelmente inclui os negros e indígenas. Esse conhecimento é indispensável para a promoção da diversidade, do respeito às diferenças e da igualdade independente das crenças, do sexo, da idade, da cor, da condição social. O Instituto de Informática, por meio desse programa de extensão, dedicado exclusivamente às relações étnico-raciais e ao meio ambiente, oferece atuação contínua sobre esses tópicos, durante toda a permanência dos seus estudantes nessa unidade, sejam de graduação ou pós-graduação. Especificamente sobre questões de cunho étnico-racial, sem a intenção de ser uma apresentação exaustiva, nem restritiva, são identiñcadas algumas ações possiveis:"
+          },
+          "imagem": {
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Requisitos_Legais_e_Normativos/Topicos_BES_PPC_01.PNG?raw=true"
+          }
+        },
+        {
+          "id": 8,
+          "nome": "Diretrizes nacionais para Educação em Direitos Humanos",
+          "texto": {
+            "primeira_parte": "A disciplina 'Computador e Sociedade' (p. 45) trata questões relevantes acerca de direitos humanos: aspectos profissionais; participação de mulheres na computação e evolução de aplicações com acessibilidade, dentre outras, nas quais os direitos humanos precisam de discussões mais aprofundadas na computação. Na disciplina 'Interação Humano-Computador' (p. 51) as características humanísticas, culturais, de direitos humanos e de aspectos políticos serão abordados em mais profundidade."
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 9,
+          "nome": "Proteção dos direitos da pessoa com Transtornos do Espectro Autista",
+          "texto": {
+            "primeira_parte": "A proteção dos direitos da pessoa com transtorno do espectro autista é fundamentada na Lei N.° 12.764 de 27 de dezembro de 2012, que institui a política nacional de proteção dos direitos da pessoa com transtorno do espectro autista, e altera o § 3.' do Art. 98 da Lei N.' 8.112, de 11 de dezembro de 1990. Esse requisito legal é atendido por meio da disciplina obrigatória 'Interação Humano-Computador', que inclui em seu ementário tópicos pertinentes ao tratamento de características humanísticas e biológicas na construção de interfaces de usuário, o que possibilita a socializar informações relevantes para que portadores do Transtorno do Espectro Autista possam ser adequadamente considerados por meio de suas necessidades especiais."
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 16,
       "chave_especial": [
         "chave1",
         "chave2"
@@ -445,269 +653,269 @@
       ]
     },
     {
-      "id": 15,
+      "id": 17,
       "chave_especial": [
         "chave1",
         "chave2"
       ],
       "chave_primaria": "Disciplinas de formação básica (obrigatórias)",
-      "texto":"texto da chave primaria",
+      "texto":"",
       "chave_secundaria": [
         {
           "id": 1,
           "nome": "Computação e Sociedade",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_1.PNG?raw=true"
           }
         },
         {
           "id": 2,
           "nome": "Introdução à Programação",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_2.PNG?raw=true"
           }
         },
         {
           "id": 3,
           "nome": "Cálculo 1A",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_3.PNG?raw=true"
           }
         },
         {
           "id": 4,
-          "nome": "Fundamentos de Matemática para Computacao",
+          "nome": "Fundamentos de Matemática para Computação",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_4.PNG?raw=true"
           }
         },
         {
           "id": 5,
           "nome": "Arquitetura de Computadores",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_5.PNG?raw=true"
           }
         },
         {
           "id": 6,
           "nome": "Algoritmos e Estruturas de Dados 1",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_6.PNG?raw=true"
           }
         },
         {
           "id": 7,
           "nome": "Probabilidade e Estatística A",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_7.PNG?raw=true"
           }
         },
         {
           "id": 8,
           "nome": "Álgebra Linear",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_8.PNG?raw=true"
           }
         },
         {
           "id": 9,
           "nome": "Lógica Matemática",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_9.PNG?raw=true"
           }
         },
         {
           "id": 10,
           "nome": "Programação Orientada a Objetos",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_10.PNG?raw=true"
           }
         },
         {
           "id": 11,
-          "nome": "Algoritmos e Estruturas de Dados",
+          "nome": "Algoritmos e Estruturas de Dados 2",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_11.PNG?raw=true"
           }
         },
         {
           "id": 12,
           "nome": "Linguagens e Paradigmas de Programação",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_12.PNG?raw=true"
           }
         },
         {
           "id": 13,
           "nome": "Engenharia de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_13.PNG?raw=true"
           }
         },
         {
           "id": 14,
           "nome": "Análise e Projeto de Algoritmos",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_14.PNG?raw=true"
           }
         },
         {
           "id": 15,
           "nome": "Interação Humano-Computador",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_15.PNG?raw=true"
           }
         },
         {
           "id": 16,
           "nome": "Banco de Dados",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_16.PNG?raw=true"
           }
         },
         {
           "id": 17,
           "nome": "Projeto de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_17.PNG?raw=true"
           }
         }
       ]
     },
     {
-      "id": 16,
+      "id": 18,
       "chave_especial": [
         "chave1",
         "chave2"
       ],
       "chave_primaria": "Disciplinas optativas",
-      "texto":"texto da chave primaria",
+      "texto":"Além das disciplinas definidas nessa seção, duas outras são optativas e específicas de Engenharia de Software: Mercado e Economia de Software (p.74) e Metodologia e Experimentação em Engenharia de Software (p. 74).",
       "chave_secundaria": [
         {
           "id": 1,
           "nome": "Sistemas Operacionais",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura1.PNG"
           }
         },
         {
           "id": 2,
           "nome": "Pesquisa Operacional",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura2.PNG"
           }
         },
         {
           "id": 3,
           "nome": "Linguagens Formais e Automatos",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura3.PNG"
           }
         },
         {
           "id": 4,
           "nome": "Redes de computadores",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura4.PNG"
           }
         },
         {
           "id": 5,
           "nome": "Introdução à Língua Brasileira de Sinais",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura5.PNG"
           }
         },
         {
           "id": 6,
           "nome": "Compiladores",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura6.PNG"
           }
         },
         {
           "id": 7,
           "nome": "Sistemas Distribuídos",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura7.PNG"
           }
         }
       ]
     },
     {
-      "id": 17,
+      "id": 19,
       "chave_especial": [
         "chave1",
         "chave2"

@@ -60,17 +60,11 @@ Fornecer e elucidar uma visão coesa e integrada da Engenharia de Software de ta
 >* `npm install`
 >* `npm install -g @angular/cli`
 
-**Dependências:**
->* npm install primeng --save
->* npm install ngx-bootstrap --save
->* npm install clarity-icons --save
->* npm install clarity-ui --save
->* npm install clarity-angular --save
-
 **Caso o ambiente já esteja configurado:**
 >* Clone o projeto através do GitKraken, copie e cole o link HTTPS;
 >* Ou [Clonando pela linha de comando](#clonando-projeto-pela-linha-de-comando);
 >* Vá no diretório `cd integracao2017` e `cd portal-es` em que o projeto foi clonado pela linha de comando;
+>* Digite: `npm install`
 >* Digite: `ng serve`
 >* Acesse no seu browser o `localhost:4200`
 >* Projeto configurado e rodando.

@@ -1,13 +1,14 @@
 <!-- Menu -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-        <img class="img-inf" src="../../../../assets/img/inf.png" alt="">
-        
+        <a class="nav-link js-scroll-trigger" href="#page-top">
+            <img class="img-inf" src="https://github.com/pedlop/integracao2017/blob/master/portal-es/src/assets/img/inf.png?raw=true" alt="">     
+        </a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#page-top">Início</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#Sobre">Sobre</a>
                 </li>
@@ -24,11 +25,12 @@
                     <a class="nav-link js-scroll-trigger" href="#SaibaMais">Saiba Mais</a>
                 </li>
             </ul>
-            <div>
-                <div class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Pesquisa" [(ngModel)]="termo" (keydown)="keyDownFunction($event)">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" (click)="onSearchTerm()">Pesquisa</button>
-                </div>
+            
+        </div>
+        <div class="input-pesquisa">
+            <div class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Pesquisa" [(ngModel)]="termo" (keydown)="keyDownFunction($event)">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" (click)="onSearchTerm()">Pesquisa</button>
             </div>
         </div>
     </div>

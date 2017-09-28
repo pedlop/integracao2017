@@ -45,7 +45,7 @@ export class MenuPesquisaComponent implements OnInit {
 
   keyDownFunction(event) {
     if (this.termo.length === 0) {
-      console.log('zerado');
+      // console.log('zerado');
     } else {
       event.keyCode === 13 ? this.onSearchTerm() : '';
     }
@@ -242,12 +242,12 @@ export class MenuPesquisaComponent implements OnInit {
 
     const totalPalavras = this.normalizadas.map(
       resposta => {
-        console.log(resposta);
+        // console.log(resposta);
         return resposta;
       }
     );
 
-    console.log(totalPalavras);
+    // console.log(totalPalavras);
     return totalPalavras;
    }
 }

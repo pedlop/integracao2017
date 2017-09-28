@@ -13,22 +13,6 @@ export class CamadaInicialComponent implements OnInit {
   ngOnInit() {
   }
 
-  accessibilityFont(operation){
-    if (operation == '+'){
-      document.body.style.zoom = "110%"
-    }
-    else if (operation == '=') {
-      document.body.style.zoom = "100%";
-    }
-    else {
-      document.body.style.zoom = "90%";
-    }
-  }
-
-  accessibilityContrast() {
-    
-  }
-
   onClickSaibaMais() {
     this.router.navigate(['/es/disciplinas']);
   }

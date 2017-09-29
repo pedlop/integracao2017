@@ -8,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CamadaInicialComponent implements OnInit {
 
+  carregamento: boolean;
+
   constructor(private router: Router) { }
 
   ngOnInit() {
+    this.carregamento = true;    
+    setTimeout(
+      time => {
+        this.carregamento = false;
+      }, 2000);
   }
 
   onClickSaibaMais() {

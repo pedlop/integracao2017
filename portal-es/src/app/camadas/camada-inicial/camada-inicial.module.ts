@@ -5,13 +5,15 @@ import { CamadaInicialComponent } from './camada-inicial/camada-inicial.componen
 import { CamadaInicialRoutingModule } from './camada-inicial-routing.module';
 import { CamadaInicialService } from './shared/camada-inicial.service';
 import { MenuPesquisaModule } from './../../compartilhado/menu-pesquisa/menu-pesquisa.module';
+import { CarregandoModule } from './../../compartilhado/carregando/carregando.module';
 
 @NgModule({
   declarations: [CamadaInicialComponent],
   imports: [
     CommonModule,
     CamadaInicialRoutingModule,
-    MenuPesquisaModule
+    MenuPesquisaModule,
+    CarregandoModule
   ],
   exports: [CamadaInicialComponent],
   providers: [CamadaInicialService]

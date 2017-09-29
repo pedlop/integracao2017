@@ -47,7 +47,7 @@ export class MenuPesquisaComponent implements OnInit {
     if (this.termo.length === 0) {
       // console.log('zerado');
     } else {
-      event.keyCode === 13 ? this.onSearchTerm() : '';
+      event.keyCode === 13 ? this.onSearchTerm() : this.vazio();
     }
   }
 
@@ -119,7 +119,7 @@ export class MenuPesquisaComponent implements OnInit {
 
         const listaPalavrasSecundarias = chave.chave_secundaria.filter(
           chaveSec => {
-            console.log(chaveSec);
+            // console.log(chaveSec);
 
             const chaveSecundariaModificada = this.alteraCaracteresEspeciais(chaveSec.nome);
             // const chaveSecundariaModificada = this.divideChaves(chave.chave_primaria);
@@ -250,4 +250,8 @@ export class MenuPesquisaComponent implements OnInit {
     // console.log(totalPalavras);
     return totalPalavras;
    }
+
+    private vazio() {
+        return '';
+    }
 }

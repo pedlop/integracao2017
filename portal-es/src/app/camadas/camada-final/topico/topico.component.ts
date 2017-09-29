@@ -69,7 +69,7 @@ export class TopicoComponent implements OnInit {
   }
 
   getPrimeiroSubtexto() {
-    console.log(this.chavesSecundarias);    
+    // console.log(this.chavesSecundarias);
   }
-  
+
 }

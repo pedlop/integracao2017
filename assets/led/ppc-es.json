@@ -384,8 +384,8 @@
             "segunda_parte": "Esses princípios definem que todo o conteúdo do presente PPC e a aplicação dele está no raio de atuação do NDE. O que inclui:"
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/nde/Topicos_NDE_01.PNG",
-            "segunda": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/nde/Topicos_NDE_02.PNG"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/nde/Topicos_NDE_01.PNG",
+            "segunda": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/nde/Topicos_NDE_02.PNG"
           }
         }
       ]
@@ -520,7 +520,7 @@
             "primeira_parte": "A UFG executa um Plano de Logística Sustentável (PLS), que estabelece práticas de sustentabilidade e racionalização de gastos e processos na administração pública [PLS]. Esse plano e internalizado no Instituto de Informática por um Programa Institucional de extensão. O PLS une o cotidiano da prática académica com atitudes 'sustentáveis' por meio de recomendações simples, como a impressão em ambos os lados de uma folha e a redução do uso de copos descartáveis, dentre muitas outras. O Programa Institucional reúne ações que contemplam as orientações do PLS. O objetivo é colocar em prática essas orientações. Por exemplo, enquanto o PLS sugere a coleta seletiva, esse programa cria um repositório para coleta de pilhas e baterias já utilizadas, além de assegurar que aquele material coletado será descartado de forma correta. O Programa Institucional possui objetivos e ações que incluem a educação ambiental. As opções de ações variam. Dentre elas uma é constante: avaliação dos resultados. Dentre as demais:"
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Requisitos_Legais_e_Normativos/Topicos_BES_PPC.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Requisitos_Legais_e_Normativos/Topicos_BES_PPC.PNG?raw=true"
           }
         },
         {
@@ -550,7 +550,7 @@
             "primeira_parte": "O Programa Institucional de extensão do Instituto de Informática será realizado por meio de ações, boa parte com ênfase na socialização de conhecimento sobre questões pertinentes à formação dos brasileiros, o que invariavelmente inclui os negros e indígenas. Esse conhecimento é indispensável para a promoção da diversidade, do respeito às diferenças e da igualdade independente das crenças, do sexo, da idade, da cor, da condição social. O Instituto de Informática, por meio desse programa de extensão, dedicado exclusivamente às relações étnico-raciais e ao meio ambiente, oferece atuação contínua sobre esses tópicos, durante toda a permanência dos seus estudantes nessa unidade, sejam de graduação ou pós-graduação. Especificamente sobre questões de cunho étnico-racial, sem a intenção de ser uma apresentação exaustiva, nem restritiva, são identiñcadas algumas ações possiveis:"
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Requisitos_Legais_e_Normativos/Topicos_BES_PPC_01.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Requisitos_Legais_e_Normativos/Topicos_BES_PPC_01.PNG?raw=true"
           }
         },
         {
@@ -593,9 +593,9 @@
             "terceira_parte": "São nove as disciplinas optativas. O estudante terá que escolher três delas, conforme as opções oferecidas na Tabela 3 abaixo."
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Estrutura_Curricular/tabela_1.PNG?raw=true",
-            "segunda": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Estrutura_Curricular/tabela_2.PNG?raw=true",
-            "terceira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Estrutura_Curricular/tabela_3.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Estrutura_Curricular/tabela_1.PNG?raw=true",
+            "segunda": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Estrutura_Curricular/tabela_2.PNG?raw=true",
+            "terceira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Estrutura_Curricular/tabela_3.PNG?raw=true"
           }
         },
         {
@@ -625,7 +625,7 @@
             "primeira_parte": "As Tabelas 1, 2 e 3, juntamente com a definição das horas do Núcleo Livre (NL) e das atividades complementares, seções acima, resultam nos valores compilados na Tabela 4."
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Estrutura_Curricular/tabela_4.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Estrutura_Curricular/tabela_4.PNG?raw=true"
           }
         },
         {
@@ -635,7 +635,7 @@
             "primeira_parte": "Conforme o diagrama abaixo, as disciplinas estão organizadas em nove períodos letivos. Os quatro primeiros períodos concentram as disciplinas de formação básica em Computação: disciplinas de Computação propriamente ditas e aquelas de Matemática. Os demais períodos incluem disciplinas com ênfase na formação específica em Engenharia de Software."
           },
           "imagem": {
-            "primeira": "http://inf.ufg.br/sites/default/files/uploads/es/matriz%202017%20ES.png"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Estrutura_Curricular/figura_estrutura.PNG?raw=true"
           }
         },
         {
@@ -646,8 +646,8 @@
             "segunda_parte": "Todos os pré-requisitos das disciplinas obrigatórias são exibidos na Figura 4-. As disciplinas seguem alinhadas, na horizontal, do primeiro até o último (nono) período do curso. Em particular, o caminho mais longo, não é o caminho crítico, encontra-se devidamente destacado dos demais."
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Estrutura_Curricular/figura_3.PNG?raw=true",
-            "segunda": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Estrutura_Curricular/figura_4.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Estrutura_Curricular/figura_3.PNG?raw=true",
+            "segunda": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Estrutura_Curricular/figura_4.PNG?raw=true"
           }
         }
       ]
@@ -668,7 +668,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_1.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_1.PNG?raw=true"
           }
         },
         {
@@ -678,7 +678,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_2.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_2.PNG?raw=true"
           }
         },
         {
@@ -688,7 +688,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_3.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_3.PNG?raw=true"
           }
         },
         {
@@ -698,7 +698,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_4.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_4.PNG?raw=true"
           }
         },
         {
@@ -708,7 +708,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_5.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_5.PNG?raw=true"
           }
         },
         {
@@ -718,7 +718,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_6.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_6.PNG?raw=true"
           }
         },
         {
@@ -728,7 +728,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_7.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_7.PNG?raw=true"
           }
         },
         {
@@ -738,7 +738,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_8.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_8.PNG?raw=true"
           }
         },
         {
@@ -748,7 +748,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_9.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_9.PNG?raw=true"
           }
         },
         {
@@ -758,7 +758,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_10.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_10.PNG?raw=true"
           }
         },
         {
@@ -768,7 +768,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_11.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_11.PNG?raw=true"
           }
         },
         {
@@ -778,7 +778,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_12.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_12.PNG?raw=true"
           }
         },
         {
@@ -788,7 +788,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_13.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_13.PNG?raw=true"
           }
         },
         {
@@ -798,7 +798,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_14.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_14.PNG?raw=true"
           }
         },
         {
@@ -808,7 +808,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_15.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_15.PNG?raw=true"
           }
         },
         {
@@ -818,7 +818,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_16.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_16.PNG?raw=true"
           }
         },
         {
@@ -828,7 +828,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_17.PNG?raw=true"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_de_Forma%C3%A7%C3%A3o_B%C3%A1sica/figura_17.PNG?raw=true"
           }
         }
       ]
@@ -849,7 +849,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura1.PNG"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Optativas/figura1.PNG"
           }
         },
         {
@@ -859,7 +859,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura2.PNG"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Optativas/figura2.PNG"
           }
         },
         {
@@ -869,7 +869,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura3.PNG"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Optativas/figura3.PNG"
           }
         },
         {
@@ -879,7 +879,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura4.PNG"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Optativas/figura4.PNG"
           }
         },
         {
@@ -889,7 +889,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura5.PNG"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Optativas/figura5.PNG"
           }
         },
         {
@@ -899,7 +899,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura6.PNG"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Optativas/figura6.PNG"
           }
         },
         {
@@ -909,7 +909,7 @@
             "primeira_parte": ""
           },
           "imagem": {
-            "primeira": "https://github.com/pedlop/integracao2017/blob/dev/docs/Imagens_PPC/Disciplinas_Optativas/figura7.PNG"
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Optativas/figura7.PNG"
           }
         }
       ]
@@ -1135,3 +1135,4 @@
     }
   ]
 }
+  

@@ -8,7 +8,7 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 import { MenuPesquisaComponent } from './menu-pesquisa.component';
 
 @NgModule({
-  declarations: [MenuPesquisaComponent],  
+  declarations: [MenuPesquisaComponent],
   imports: [
     CommonModule,
     FormsModule,

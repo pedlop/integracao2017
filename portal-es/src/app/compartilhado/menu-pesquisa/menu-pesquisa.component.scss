@@ -6,7 +6,39 @@ bs-modal-backdrop {
     max-height: 32em;
     overflow-y: auto;
 }
+
+.img-inf {
+    max-width: 4em;
+}
+
+.input-pesquisa {
+    margin-right: 25%;
+}
+
+.form-inline.my-2.my-lg-0 {
+    margin-left: 1em;
+}
+
+@media (max-width: 455px) {
+    .form-inline.my-2.my-lg-0[_ngcontent-c1] {
+        display: -webkit-inline-box;
+    }
+}
+
+@media (max-width: 340px) {
+    nav#mainNav {
+        height: 6em;
+    }
+    .img-inf {
+        width: 3em;
+    }
+}
+
 /** MENU */
+.container {
+    display: -webkit-box;
+}
+
 #mainNav {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
@@ -81,3 +113,4 @@ bs-modal-backdrop {
         font-size: 1.5em; 
     } 
 }
+

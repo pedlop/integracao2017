@@ -8,25 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CamadaInicialComponent implements OnInit {
 
+  carregamento: boolean;
+
   constructor(private router: Router) { }
 
   ngOnInit() {
-  }
-
-  accessibilityFont(operation){
-    if (operation == '+'){
-      document.body.style.zoom = "110%"
-    }
-    else if (operation == '=') {
-      document.body.style.zoom = "100%";
-    }
-    else {
-      document.body.style.zoom = "90%";
-    }
-  }
-
-  accessibilityContrast() {
-    
+    this.carregamento = true;    
+    setTimeout(
+      time => {
+        this.carregamento = false;
+      }, 2000);
   }
 
   onClickSaibaMais() {

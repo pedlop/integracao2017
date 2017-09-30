@@ -6,18 +6,14 @@
   }
 }
 
-button {
-  cursor: pointer;
-}
-
-.btn.btn-sm.align-middle.btn-outline-secondary {
-  margin-right: 5px;
-}
-
-
-.list-inline {
-  margin-left: 15px;
-  text-align: initial;
+#Curso .imagem {
+  text-align: center;
+  img:nth-child(1) {
+    border-radius: 17px;
+  }
+  .img-fluid {
+    border-radius: 12px;
+  }
 }
 
 #Curso .imagem {

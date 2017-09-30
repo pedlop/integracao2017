@@ -1,25 +1,25 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SubtopicoComponent } from './subtopico.component';
+import { CarregandoComponent } from './carregando.component';
 
-describe('SubtopicoComponent', () => {
-  let component: SubtopicoComponent;
-  let fixture: ComponentFixture<SubtopicoComponent>;
+describe('CarregandoComponent', () => {
+  let component: CarregandoComponent;
+  let fixture: ComponentFixture<CarregandoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SubtopicoComponent ]
+      declarations: [ CarregandoComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SubtopicoComponent);
+    fixture = TestBed.createComponent(CarregandoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should be created', () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

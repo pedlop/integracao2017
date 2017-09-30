@@ -27,7 +27,7 @@ export class LadoDireitoComponent implements OnInit {
     this.route.children[0].params.subscribe(
       (params: any) => {
         this.id = params['id'];
-        console.log(this.route);
+        // console.log(this.route);
 
         this.getChavesSecundarias();
       }
@@ -52,7 +52,7 @@ export class LadoDireitoComponent implements OnInit {
         // console.log(myArray);
         this.menuSecundario = myArray[0].chave_secundaria;
 
-        console.log(this.menuSecundario);
+        // console.log(this.menuSecundario);
 
       }
     );

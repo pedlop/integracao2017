@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { CamadaFinalComponent } from './camada-final/camada-final.component';
 import { TopicoComponent } from './topico/topico.component';
-import { SubtopicoComponent } from './subtopico/subtopico.component';
 
 const routes: Routes = [
   {

@@ -8,10 +8,10 @@ import { base } from './../shared/logo-base64';
 })
 export class CarregandoComponent implements OnInit {
 
-  base64: string;
+  base: any;
 
   constructor() {
-    this.base64 = base;
+    this.base = base;
   }
 
   ngOnInit() {

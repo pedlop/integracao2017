@@ -38,7 +38,7 @@ export class TopicoComponent implements OnInit {
         setTimeout(
           time => {
             this.carregamento = false;
-        }, 2000);
+          }, 2000);
     });
   }
 

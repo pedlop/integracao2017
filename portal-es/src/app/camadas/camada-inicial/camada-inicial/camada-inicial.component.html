@@ -1,9 +1,11 @@
-<ufg-es-menu-pesquisa></ufg-es-menu-pesquisa>
+<!--ufg-es-menu-pesquisa></ufg-es-menu-pesquisa-->
 
 <!-- Cabeçalho -->
 <header class="masthead" id="page-top">
   <div class="container">
-    <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/master/portal-es/src/assets/img/profile.png?raw=true" alt="">
+    <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/master/portal-es/src/assets/img/profile.png?raw=true"
+      alt="" (load)="pararCarregamento()"
+      (error)="erroCarregamento()">
     <div class="intro-text">
       <span class="name">Engenharia de Software</span>
       <hr class="star-light">
@@ -113,8 +115,6 @@
     </div>
   </div>
 </div>
-
-
   
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
 <div class="scroll-top d-lg-none">

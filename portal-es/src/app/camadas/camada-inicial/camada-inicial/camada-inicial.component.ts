@@ -29,7 +29,7 @@ export class CamadaInicialComponent implements OnInit {
       }, 1000);
   }
 
-  erroCarregamento(event) {
+  erroCarregamento() {
     this.carregamento = false;
     this.router.navigate(['/sem-conexao']);
   }

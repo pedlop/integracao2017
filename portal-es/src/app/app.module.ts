@@ -5,6 +5,7 @@ import { ToastModule } from 'portal-shared';
 
 import { AppComponent } from './app.component';
 import { PaginaNaoEncontradaComponent } from './compartilhado/pagina-nao-encontrada/pagina-nao-encontrada.component';
+import { SemConexaoComponent } from './compartilhado/sem-conexao/sem-conexao.component';
 
 import { MenuPesquisaModule } from './compartilhado/menu-pesquisa/menu-pesquisa.module';
 import { CamadaFinalModule } from './camadas/camada-final/camada-final.module';
@@ -17,7 +18,8 @@ import { AppRoutingModule } from './app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
-    PaginaNaoEncontradaComponent
+    PaginaNaoEncontradaComponent,
+    SemConexaoComponent
   ],
   imports: [
     BrowserModule,

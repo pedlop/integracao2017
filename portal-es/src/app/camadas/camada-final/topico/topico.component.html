@@ -21,7 +21,9 @@
                   <p>{{subtexto.texto.primeira_parte}}</p>
                 </div>
                 <div >
-                  <img src="{{subtexto.imagem.primeira}}">            
+                  <img src="{{subtexto.imagem.primeira}}"
+                    (load)="pararCarregamento()"
+                    (erro)="erroCarregamento()">            
                 </div>
                 <div>
                   <p>{{subtexto.texto?.segunda_parte}}</p>

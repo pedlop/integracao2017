@@ -956,218 +956,189 @@
         "chave2"
       ],
       "chave_primaria": "Disciplinas específicas de Engenharia de Software",
-      "texto":"texto da chave primaria",
+      "texto":"",
       "chave_secundaria": [
         {
           "id": 1,
-          "nome": "Condições mínimas",
+          "nome": "Engenharia de Sistemas",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina01.jpg"
           }
         },
         {
           "id": 2,
           "nome": "Construção de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina02.jpg"
           }
         },
         {
           "id": 3,
           "nome": "Modelagem de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina03.jpg"
           }
         },
         {
           "id": 4,
           "nome": "Processos de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina04.jpg"
           }
         },
         {
           "id": 5,
-          "nome": "Engenharia de Sistemas",
+          "nome": "Domínios de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina05.jpg"
           }
         },
         {
           "id": 6,
-          "nome": "Design de Software",
+          "nome": "Processos de Qualidade de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina06.jpg"
           }
         },
         {
           "id": 7,
-          "nome": "Domínios de Software",
+          "nome": "Gerência de Projeto de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina07.jpg"
           }
         },
         {
           "id": 8,
-          "nome": "Processos de Qualidade de Software",
+          "nome": "Designe de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina08.jpg"
           }
         },
         {
           "id": 9,
-          "nome": "Gerência de Projeto de Software",
+          "nome": "Governança e Gestão de Serviços de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina09.jpg"
           }
         },
         {
           "id": 10,
-          "nome": "Software Concorrente e Distribuído",
-          "texto": "texto2.4",
+          "nome": "Arquitetura de Software",
+          "texto": {
+            "primeira_parte": ""
+          },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina10.jpg"
           }
         },
         {
           "id": 11,
-          "nome": "Experiência do Usuário de Software",
+          "nome": "Requisitos de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina11.jpg"
           }
         },
         {
           "id": 12,
-          "nome": "Arquitetura de Software",
+          "nome": "Experiência do Usuário de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina12.jpg"
           }
         },
         {
           "id": 13,
-          "nome": "Requisitos de Software",
+          "nome": "Software Concorrente e Distribuído",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina13.jpg"
           }
         },
         {
           "id": 14,
-          "nome": "Governança e Gestão de Serviços de Software",
+          "nome": "Padrões de Arquitetura de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina14.jpg"
           }
         },
         {
           "id": 15,
-          "nome": "Software para Sistemas Ubíquos",
+          "nome": "Teste de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina15.jpg"
           }
         },
         {
           "id": 16,
-          "nome": "Software para Persistência de Dados",
+          "nome": "Software para Sistemas Ubíquos",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina16.jpg"
           }
         },
         {
           "id": 17,
-          "nome": "Padrões de Arquitetura de Software",
+          "nome": "Software para Persistência de Dados",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina17.jpg"
           }
-        },
+        },                
         {
           "id": 18,
-          "nome": "Teste de Software",
-          "texto": {
-            "primeira_parte": "bla bla bla"
-          },
-          "imagem": {
-            "primeira": ""
-          }
-        },
-        {
-          "id": 19,
-          "nome": "Metodologia e Experimentação em Engenharia de Software",
-          "texto": {
-            "primeira_parte": "bla bla bla"
-          },
-          "imagem": {
-            "primeira": ""
-          }
-        },
-        {
-          "id": 20,
-          "nome": "Mercado e Economia de Software",
-          "texto": {
-            "primeira_parte": "bla bla bla"
-          },
-          "imagem": {
-            "primeira": ""
-          }
-        },
-        {
-          "id": 21,
           "nome": "Prática em Engenharia de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina18.jpg"
           }
         }
       ]
     }
   ]
 }
-  

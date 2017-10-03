@@ -2,10 +2,7 @@
   "name": "portal-es",
   "version": "0.0.0",
   "license": "MIT",
-  "author": {
-    "name": "Pedro Victor de A. Lopes",
-    "email": "pedro_victor28@hotmail.com"
-  },
+  "author": "Pedro Victor de A. Lopes <pedro_victor28@hotmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/pedlop/integracao2017.git"
@@ -14,9 +11,9 @@
     "integracao2017",
     "ufg",
     "inf",
-    "Software",
+    "Engenharia de Software",
     "Integração",
-    "Fabio"    
+    "Professor Fabio"    
   ],
   "bugs": {
     "url": "https://github.com/pedlop/integracao2017/issues"

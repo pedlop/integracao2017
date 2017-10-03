@@ -314,9 +314,7 @@
           },
           "imagem": {
             "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Expectativa_Formacao_Profissional/Imagem01.jpg",
-            "segunda": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Expectativa_Formacao_Profissional/Imagem02.jpg",
-            "terceira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Expectativa_Formacao_Profissional/Imagem03.jpg",
-            "quarta": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Expectativa_Formacao_Profissional/Imagem04.jpg"
+            "segunda": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Expectativa_Formacao_Profissional/Imagem02.jpg"
           }
         }
       ]

@@ -287,6 +287,41 @@
       ]
     },
     {
+      "id": 6,
+      "chave_especial": [
+        "chave1",
+        "chave2"
+      ],
+      "chave_primaria": "Expectativa da formação do profissional",
+      "texto": "",
+      "chave_secundaria": [
+        {
+          "id": 1,
+          "nome": "Perfil do egresso",
+          "texto": {
+            "primeira_parte": "O egresso do BES é um profissional com capacitação sólida em engenharia de software. Essa capacitação advém de formação básica consistente em computação e de abrangente e aprofundada em engenharia de software. O mercado de atuação do egresso é abrangente, e decorre da dependencia da sociedade por software. Adicionalmente, tal dependência tem se expandido com novos produtos, serviços e processos. A bacharela ou o bacharel em Engenharia de Software é capaz de efetivamente contribuir com equipes na produção de modelos abstratos de software e realiza-los por meio de código de qualidade. Essa contribuição é pautada por postura profissional e conduta ética. As habilidades do egresso incluem o que é necessário para lidar com requisitos de software, propor uma solução (software design), construí-la, testa-la e mantê-la, usando processos adequados."
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 2,
+          "nome": "Habilidades do egresso",
+          "texto": {
+            "primeira_parte": "Da perspectiva de relações pessoais, o egresso deve ser capaz de:",
+            "segunda_parte": "Da perspectiva técnica, o egresso deve ser capaz de:"
+          },
+          "imagem": {
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Expectativa_Formacao_Profissional/Imagem01.jpg",
+            "segunda": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Expectativa_Formacao_Profissional/Imagem02.jpg",
+            "terceira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Expectativa_Formacao_Profissional/Imagem03.jpg",
+            "quarta": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Expectativa_Formacao_Profissional/Imagem04.jpg"
+          }
+        }
+      ]
+    },
+    {
       "id": 7,
       "chave_especial": [
         "chave1",

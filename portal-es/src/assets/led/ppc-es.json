@@ -242,7 +242,6 @@
       "chave_especial": [
         "motivos",
         "história",
-        "necessidade",
         "criação"
       ],
       "chave_primaria": "Exposição de motivos",
@@ -263,8 +262,8 @@
     {
       "id": 5,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "necessidade",
+        "profissional"
       ],
       "chave_primaria": "Objetivos",
       "texto": "",
@@ -294,8 +293,8 @@
     {
       "id": 6,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "perfil",
+        "habilidades"
       ],
       "chave_primaria": "Expectativa da formação do profissional",
       "texto": "",

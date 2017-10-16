@@ -7,6 +7,7 @@ import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { CamadaMedialComponent } from './camada-medial/camada-medial.component';
 import { CamadaMedialRoutingModule } from './camada-medial-routing.module';
 import { CamadaMedialService } from './shared/camada-medial.service';
+import { CarregandoModule } from './../../compartilhado/carregando/carregando.module';
 
 @NgModule({
   declarations: [CamadaMedialComponent],
@@ -14,7 +15,8 @@ import { CamadaMedialService } from './shared/camada-medial.service';
     CommonModule,
     BrowserAnimationsModule,
     NgxChartsModule,
-    CamadaMedialRoutingModule
+    CamadaMedialRoutingModule,
+    CarregandoModule
   ],
   exports: [CamadaMedialComponent],
   providers: [CamadaMedialService]

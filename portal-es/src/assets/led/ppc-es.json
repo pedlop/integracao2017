@@ -326,8 +326,8 @@
     {
       "id": 7,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "princípios",
+        "base"
       ],
       "chave_primaria": "Princípios norteadores",
       "texto": "O BES baseia-se em princípios que fornecem a sustentação necessaria para atingir os objetivos do curso (p. 14) e o perfil do egresso (p. 15). Esses princípios são fornecidos abaixo.",
@@ -407,8 +407,8 @@
     {
       "id": 8,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "acompanhamento",
+        "NDE"
       ],
       "chave_primaria": "Núcleo Docente Estruturante (NDE)",
       "texto": "Em vez de atribuir atividades ao N DE, o NDE adota os seguintes princípios:",

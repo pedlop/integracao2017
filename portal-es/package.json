@@ -13,7 +13,7 @@
     "inf",
     "Engenharia de Software",
     "Integração",
-    "Professor Fabio"    
+    "Professor Fabio"
   ],
   "bugs": {
     "url": "https://github.com/pedlop/integracao2017/issues"
@@ -22,7 +22,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod --base-href 'https://pedlop.github.io/integracao2017/'",
-    "deploy": "angular-cli-ghpages",   
+    "deploy": "angular-cli-ghpages",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

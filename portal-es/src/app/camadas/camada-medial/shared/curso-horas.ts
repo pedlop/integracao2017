@@ -1,21 +1,15 @@
 export let horas = [
     {
         'name': 'Núcleo Comum',
-        'value': 1152
+        'value': 1088
     },
     {
-        'name': 'Núcleo Específico',
-        'value': 1728
-        // 'series': [
-        //     {
-        //         'name': 'Obrigatório',
-        //         'value': 1536
-        //     },
-        //     {
-        //         'name': 'Optativo',
-        //         'value': 192
-        //     }
-        // ]
+        'name': 'Núcleo Específico Obrigatório',
+        'value': 1600
+    },
+    {
+        'name': 'Núcleo Específico Optativo',
+        'value': 192
     },
     {
         'name': 'Núcleo Livre',
@@ -26,4 +20,3 @@ export let horas = [
         'value': 192
     }
 ];
-

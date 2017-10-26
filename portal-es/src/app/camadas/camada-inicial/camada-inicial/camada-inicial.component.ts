@@ -10,18 +10,27 @@ export class CamadaInicialComponent implements OnInit {
 
   carregamento: boolean;
 
-  constructor(private router: Router) { }
+  constructor(private router: Router) {
+    this.carregamento = true;           
+  }
 
   ngOnInit() {
-    this.carregamento = true;    
-    setTimeout(
-      time => {
-        this.carregamento = false;
-      }, 2000);
+
   }
 
   onClickSaibaMais() {
     this.router.navigate(['/es/disciplinas']);
   }
 
+  pararCarregamento() {
+    setTimeout(
+      time => {
+        this.carregamento = false;
+      }, 1000);
+  }
+
+  erroCarregamento() {
+    this.carregamento = false;
+    this.router.navigate(['/sem-conexao']);
+  }
 }

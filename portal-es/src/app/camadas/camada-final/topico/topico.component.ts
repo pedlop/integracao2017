@@ -1,6 +1,6 @@
 import { ToastService } from 'portal-shared';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 
 import { CamadaFinalService } from './../shared/camada-final.service';
@@ -22,7 +22,7 @@ export class TopicoComponent implements OnInit {
   meuTexto: any;
 
   constructor(private route: ActivatedRoute, private finalService: CamadaFinalService,
-  private toast: ToastService) {
+              private toast: ToastService, private router: Router) {
     // this.id = this.route.snapshot.params['id'];
     // console.log(this.route);
     // this.id = '0';
@@ -38,7 +38,7 @@ export class TopicoComponent implements OnInit {
         setTimeout(
           time => {
             this.carregamento = false;
-        }, 2000);
+          }, 2000);
     });
   }
 
@@ -78,6 +78,18 @@ export class TopicoComponent implements OnInit {
 
   getPrimeiroSubtexto() {
     // console.log(this.chavesSecundarias);
+  }
+
+  pararCarregamento() {
+    setTimeout(
+      time => {
+        this.carregamento = false;
+      }, 1000);
+  }
+
+  erroCarregamento() {
+    this.carregamento = false;
+    this.router.navigate(['/sem-conexao']);
   }
 
 }

@@ -1,0 +1,116 @@
+/** PESQUISA */
+bs-modal-backdrop {
+    position: relative;
+}
+.modal-body {
+    max-height: 32em;
+    overflow-y: auto;
+}
+
+.img-inf {
+    max-width: 4em;
+}
+
+.input-pesquisa {
+    margin-right: 25%;
+}
+
+.form-inline.my-2.my-lg-0 {
+    margin-left: 1em;
+}
+
+@media (max-width: 455px) {
+    .form-inline.my-2.my-lg-0[_ngcontent-c1] {
+        display: -webkit-inline-box;
+    }
+}
+
+@media (max-width: 340px) {
+    nav#mainNav {
+        height: 6em;
+    }
+    .img-inf {
+        width: 3em;
+    }
+}
+
+/** MENU */
+.container {
+    display: -webkit-box;
+}
+
+#mainNav {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    background: #2C3E50; 
+}
+#mainNav a:focus {
+    outline: none; 
+}
+#mainNav .navbar-brand {
+    font-size: 1.1rem;
+    color: white; 
+}
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: white; 
+}
+#mainNav .navbar-nav {
+    letter-spacing: 1px; 
+}
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    color: white; 
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #18BC9C;
+    outline: none; 
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+    color: white;
+}
+#mainNav .navbar-toggler {
+    font-size: 14px;
+    padding: 11px;
+    text-transform: uppercase;
+    color: white;
+    border-color: white; 
+}
+#mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
+    color: white;
+    border-color: #18BC9C;
+    background-color: #18BC9C; 
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s; 
+    }
+    #mainNav .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s; 
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+        color: white;
+        border-radius: 3px;
+        background: #18BC9C; 
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+        color: white;
+        background: #18BC9C; 
+    }
+    #mainNav.navbar-shrink {
+        padding-top: 10px;
+        padding-bottom: 10px; 
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.5em; 
+    } 
+}
+

@@ -3,7 +3,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { Subject } from 'rxjs/Subject';
 import { ModalDirective } from 'ngx-bootstrap/modal';
 
-import { CamadaFinalService } from './../../camadas/camada-final/shared/camada-final.service';
+import { CamadaFinalService } from './../../camada-final/shared/camada-final.service';
 
 @Component({
   selector: 'ufg-es-menu-pesquisa',

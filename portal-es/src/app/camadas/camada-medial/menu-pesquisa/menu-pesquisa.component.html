@@ -1,0 +1,66 @@
+<!-- Menu Camada Média-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+
+        <a class="nav-link js-scroll-trigger" href="#page-top">
+            <img class="img-inf" src="https://github.com/pedlop/integracao2017/blob/master/portal-es/src/assets/img/inf.png?raw=true" alt="Início">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="es/disciplinas/#engenharia-software">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="es/disciplinas/#disciplinasEstudadas">Áreas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="es/disciplinas/#detalhes">Detalhes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="es/disciplinas/#pessoas">Docentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="es/disciplinas/#principaisDisciplinas">Disciplinas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="es/disciplinas/#atuacao">Ferramentas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="es/disciplinas/#saiba-mais">Saiba Mais</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="input-pesquisa">
+            <div class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Pesquisa" [(ngModel)]="termo" (keydown)="keyDownFunction($event)">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" (click)="onSearchTerm()">Pesquisa</button>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+<div bsModal #childModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title pull-left">Resultados Encontrados:</h4>
+                <button type="button" class="close pull-right" aria-label="Close" (click)="hideChildModal()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li *ngFor="let result of results">
+                        <a [routerLink]="['/es/detalhe/topico', result.id]" (click)="hideChildModal()">
+                            {{result.retorno}} id: {{result.id}} -  sub-id: {{result.subId}}
+                        </a>
+                    </li>
+                </ul>
+                <div *ngIf="results.length === 0">Nenhum resultado encontrado!</div>
+            </div>
+        </div>
+    </div>
+</div>

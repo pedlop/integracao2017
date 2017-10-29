@@ -17,4 +17,4 @@ import { MenuPesquisaComponent } from './menu-pesquisa.component';
   ],
   exports: [MenuPesquisaComponent]
 })
-export class MenuPesquisaModule { }
+export class MenuPesquisaCamadaInicialModule { }

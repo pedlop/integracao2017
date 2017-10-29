@@ -8,23 +8,29 @@
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <!-- <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#page-top">Início</a>
-                </li> -->
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#sobre">Sobre</a>
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[0].key}}">{{itensMenu[0].text}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#curso">Curso</a>
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[1].key}}">{{itensMenu[1].text}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#remuneracao">Remuneracao</a>
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[2].key}}">{{itensMenu[2].text}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#atuacao">Atuação</a>
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[3].key}}">{{itensMenu[3].text}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#saiba-mais">Saiba Mais</a>
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[4].key}}">{{itensMenu[4].text}}</a>
+                </li>
+                <li class="nav-item" *ngIf="itensMenu[6]">
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[6].key}}">{{itensMenu[6].text}}</a>
+                </li>
+                <li class="nav-item" *ngIf="itensMenu[7]">
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[7].key}}">{{itensMenu[7].text}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[5].key}}">{{itensMenu[5].text}}</a>
                 </li>
             </ul>
         </div>

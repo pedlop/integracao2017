@@ -8,6 +8,7 @@ import { CamadaMedialComponent } from './camada-medial/camada-medial.component';
 import { CamadaMedialRoutingModule } from './camada-medial-routing.module';
 import { CamadaMedialService } from './shared/camada-medial.service';
 import { CarregandoModule } from './../../compartilhado/carregando/carregando.module';
+import { MenuPesquisaModule } from './../../compartilhado/menu-pesquisa/menu-pesquisa.module';
 
 @NgModule({
   declarations: [CamadaMedialComponent],
@@ -16,7 +17,8 @@ import { CarregandoModule } from './../../compartilhado/carregando/carregando.mo
     BrowserAnimationsModule,
     NgxChartsModule,
     CamadaMedialRoutingModule,
-    CarregandoModule
+    CarregandoModule,
+    MenuPesquisaModule
   ],
   exports: [CamadaMedialComponent],
   providers: [CamadaMedialService]

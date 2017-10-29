@@ -1,8 +1,13 @@
+<ufg-es-menu-pesquisa [itensMenu]="medialItens" [url]="'/es/disciplinas/'"></ufg-es-menu-pesquisa>
+
 <header class="masthead" id="page-top">
   <div class="container">
     <div class="row">
       <img class="img-fluid img-centered" (load)="pararCarregamento()"
       (error)="erroCarregamento()" src="https://github.com/pedlop/integracao2017/blob/master/portal-es/src/assets/img/index/EngenhariaDeSoftware.png?raw=true" alt="">
+    </div>
+    <div class="intro-text">
+      <span class="skills">Engenharia de Software do Instituto de Informática da Universidade Federal de Goiás</span>
     </div>
   </div>
 </header>
@@ -10,6 +15,7 @@
 <div class="success" id="engenharia-software">
   <div class="container secao">
     <h2 class="text-center">Vamos conhecer mais sobre o curso de Engenharia de Software do INF-UFG</h2>
+    <hr class="star-primary">
     <div class="row">
       <div class="col-lg-4 ml-auto">
         <p>Em resposta ao contexto local, formado pela indústria de software goiana e lições aprendidas ao longo de décadas de ensino, o Instituto de Informática da Universidade Federal de Goiás cria o Curso de Engenharia de Software (talvez o primeiro do país).</p>
@@ -24,13 +30,12 @@
   </div>
 </div>
 
-<div id="principaisDisciplinas">
+<div id="disciplinas-estudadas">
   <div class="container secao">
     <h2 class="text-center">O que estuda um Engenheiro de Software</h2>
     <hr class="star-primary">
     <div class="row">
       <ngx-charts-pie-chart
-        [view]="view"
         [scheme]="colorScheme"
         [results]="horas"
         [legend]="showLegend"
@@ -81,7 +86,7 @@
   </div>
 </div>
 
-<div id="principaisDisciplinas">
+<div id="principais-disciplinas">
   <div class="container secao">
     <h2 class="text-center">Principais Disciplinas</h2>
     <hr class="star-primary">
@@ -116,6 +121,7 @@
 <div class="success" id="atuacao">
   <div class="container secao">
     <h2 class="text-center">Algumas coisas que irá aprender</h2>
+    <hr class="star-primary">
     <div class="row">
       <div class="col-sm-12 portfolio-item">
         <p><b>Linguagens de Programação:</b></p>

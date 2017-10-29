@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { single, multi } from './../shared/teste-paises';
 import { horas } from './../shared/curso-horas';
+import { itensMenuMedial } from '../shared/camada-medial-itens-menu';
 
 @Component({
   selector: 'ufg-es-camada-medial',
@@ -14,31 +15,12 @@ import { horas } from './../shared/curso-horas';
 })
 export class CamadaMedialComponent implements OnInit {
 
+  medialItens: Array<any>;
+
   single: any[];
   multi: any[];
 
   horas: any[];
-  projetos: any [];
-  grupos: any[];
-  comparaPublicacoes: any[];
-  comparaHoras: any[];
-
-  view: any[] = [700, 400];
-
-  viewer: any[] = [1400, 800];
-  showXAxis = true;
-  showYAxis = true;
-  showXAxisLabel = true;
-  xAxisLabel = 'Anos';
-  showYAxisLabel = true;
-  yAxisLabel = 'Horas Trabalhadas';
-
-  XAxisLabel = 'Atividades';
-  YAxisLabel = 'Quantidade';
-
-
-  xLabel: 'Anos';
-  yLabel: 'Publicações';
 
   // options
   showLegend = true;
@@ -57,11 +39,8 @@ export class CamadaMedialComponent implements OnInit {
     window.scrollTo(0, 0);
     Object.assign(this, {single, multi});
     this.horas = horas;
-    this.projetos = projetos;
-    this.grupos = grupos;
-    this.comparaPublicacoes = comparaPublicacoes;
-    this.comparaHoras = comparaHoras;
     this.carregamento = true;
+    this.medialItens = itensMenuMedial;
   }
 
   ngOnInit() {

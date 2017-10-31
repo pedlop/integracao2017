@@ -2,10 +2,27 @@
   "name": "portal-es",
   "version": "0.0.0",
   "license": "MIT",
+  "author": "Pedro Victor de A. Lopes <pedro_victor28@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedlop/integracao2017.git"
+  },
+  "keywords": [
+    "integracao2017",
+    "ufg",
+    "inf",
+    "Engenharia de Software",
+    "Integração",
+    "Professor Fabio"
+  ],
+  "bugs": {
+    "url": "https://github.com/pedlop/integracao2017/issues"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod --base-href 'https://pedlop.github.io/integracao2017/'",
+    "deploy": "angular-cli-ghpages",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, Input } from '@angular/core';
 
 import { Subject } from 'rxjs/Subject';
 import { ModalDirective } from 'ngx-bootstrap/modal';
@@ -11,6 +11,9 @@ import { CamadaFinalService } from './../../camadas/camada-final/shared/camada-f
   styleUrls: ['./menu-pesquisa.component.scss']
 })
 export class MenuPesquisaComponent implements OnInit {
+  @Input() itensMenu: Array<any>;
+  @Input() url: string;
+
   @ViewChild('childModal') public childModal: ModalDirective;
 
   dadosPPC: any;
@@ -24,6 +27,8 @@ export class MenuPesquisaComponent implements OnInit {
     this.termo = '';
     this.results = [];
     this. normalizadas = [];
+    console.log(this.itensMenu);
+    console.log(this.url);
   }
 
   ngOnInit() {

@@ -1,4 +1,4 @@
-<p>
+<!-- <p>
   lado-direito works!
 </p>
 <div class="coluna-secundaria">
@@ -9,4 +9,6 @@
       </a>
     </li>
   </ul>
-</div>
+</div> -->
+
+<cuppa-slidemenu [menulist]="menuItemsArray" (open)="onMenuOpen()" (close)="onMenuClose()" (onItemSelect)="onItemSelect($event)"></cuppa-slidemenu>

@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs/Observable';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 import { CamadaFinalService } from './../../shared/camada-final.service';
 
@@ -12,15 +12,18 @@ import { CamadaFinalService } from './../../shared/camada-final.service';
 })
 export class LadoDireitoComponent implements OnInit {
 
+  menuItemsArray: any[];
+
   conteudoGeral: any;
   conteudo: any;
   menuSecundario: any;
   id: string;
 
-  constructor(private finalService: CamadaFinalService, private route: ActivatedRoute) {
+  constructor(private finalService: CamadaFinalService, private route: ActivatedRoute,
+              private router: Router) {
     // this.getChavesSecundarias();
     // console.log(this.route);
-    
+    this.menuItemsArray = menuChavesSecundarias;
   }
 
   ngOnInit() {
@@ -52,9 +55,42 @@ export class LadoDireitoComponent implements OnInit {
         // console.log(myArray);
         this.menuSecundario = myArray[0].chave_secundaria;
 
-        // console.log(this.menuSecundario);
+        // console.log(myArray);
+
+        myArray.map(
+          chaves => {
+            chaves.chave_secundaria.map(
+              sec => {
+                menuChavesSecundarias.push({
+                    title: sec.nome,
+                    id: sec.id,
+                    idPrimario: chaves.id
+                  });
+              }
+            );
+          }
+        );
+
+        // console.log(menuChavesSecundarias);
+
 
       }
     );
   }
+
+  onMenuClose() {
+    // console.log('menu closed');
+  }
+
+  onMenuOpen() {
+    // console.log('menu Opened');
+  }
+
+  onItemSelect(item: any) {
+    console.log(item);
+    // this.router.navigate([`/es/detalhe/topico/${item.idPrimario}/#${item.id}`]);
+    location.href = `/es/detalhe/topico/${item.idPrimario}#${item.id}`;
+  }
 }
+
+export let menuChavesSecundarias = [];

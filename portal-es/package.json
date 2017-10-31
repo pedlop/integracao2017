@@ -41,6 +41,7 @@
     "@swimlane/ngx-charts": "^6.0.2",
     "bootstrap": "^4.0.0-beta",
     "core-js": "^2.4.1",
+    "cuppa-ng2-slidemenu": "^1.0.2",
     "d3": "^4.10.2",
     "font-awesome": "^4.7.0",
     "ngx-bootstrap": "^1.9.3",

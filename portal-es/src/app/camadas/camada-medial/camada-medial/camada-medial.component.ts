@@ -5,7 +5,7 @@ import { projetos } from './../shared/pesquisa-projetos';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { single, multi } from './../shared/teste-paises';
-import { horas } from './../shared/curso-horas';
+import { disciplinas } from './../shared/curso-disciplinas';
 import { itensMenuMedial } from '../shared/camada-medial-itens-menu';
 
 @Component({
@@ -20,7 +20,9 @@ export class CamadaMedialComponent implements OnInit {
   single: any[];
   multi: any[];
 
-  horas: any[];
+  disciplinas: any[];
+
+  view: any[] = [1400, 800];
 
   // options
   showLegend = true;
@@ -38,7 +40,7 @@ export class CamadaMedialComponent implements OnInit {
   constructor(private router: Router) {
     window.scrollTo(0, 0);
     Object.assign(this, {single, multi});
-    this.horas = horas;
+    this.disciplinas = disciplinas;
     this.carregamento = true;
     this.medialItens = itensMenuMedial;
   }

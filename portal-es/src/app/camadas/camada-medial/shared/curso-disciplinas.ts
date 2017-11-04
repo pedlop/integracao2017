@@ -1,4 +1,4 @@
-export let horas = [
+export let disciplinas = [
     {
         'name': 'Núcleo Comum',
         'value': 1088

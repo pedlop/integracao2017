@@ -6,6 +6,7 @@ import { grupos } from './../shared/pesquisa-grupos';
 import { projetos } from './../shared/pesquisa-projetos';
 import { single, multi } from './../shared/teste-paises';
 import { disciplinas } from './../shared/curso-disciplinas';
+import { itensMenuMedial } from '../shared/camada-medial-itens-menu';
 
 @Component({
   selector: 'ufg-es-camada-medial',

@@ -1,9 +1,9 @@
+import { Router } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
 import { comparaHoras } from './../shared/pesquisa-compara-horas';
 import { comparaPublicacoes } from './../shared/pesquisa-compara-publicacoes';
 import { grupos } from './../shared/pesquisa-grupos';
 import { projetos } from './../shared/pesquisa-projetos';
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 import { single, multi } from './../shared/teste-paises';
 import { disciplinas } from './../shared/curso-disciplinas';
 import { itensMenuMedial } from '../shared/camada-medial-itens-menu';

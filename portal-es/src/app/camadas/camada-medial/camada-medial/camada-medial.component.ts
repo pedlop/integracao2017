@@ -23,6 +23,7 @@ export class CamadaMedialComponent implements OnInit {
   // properties
   single: any[];
   multi: any[];
+  labelFormatting: any[];
 
   // resolution
   view: any[] = [1400, 800];

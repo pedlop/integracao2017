@@ -17,25 +17,32 @@ export class CamadaMedialComponent implements OnInit {
 
   medialItens: Array<any>;
 
+  // database
+  disciplinas: any[];
+
+  // properties
   single: any[];
   multi: any[];
 
-  disciplinas: any[];
-
+  // resolution
   view: any[] = [1400, 800];
 
   // options
   showLegend = true;
 
+  //colors
   colorScheme = {
     domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA', '#0032FF']
   };
 
-  // pie
+  // legend
+  legendTitle =  "Áreas de Conhecimento";
+
+  // properties
   showLabels = true;
   explodeSlices = false;
   doughnut = false;
-  carregamento: boolean;
+  carregamento: boolean
 
   constructor(private router: Router) {
     window.scrollTo(0, 0);

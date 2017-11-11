@@ -47,7 +47,7 @@ export class CamadaMedialComponent implements OnInit {
   showLegend = true;
 
   colorScheme = {
-    domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA', '#0032FF']
+    domain: ['#5AA454', '#A10A28', '#C7B42C', '#01DFD7', '#0032FF', '#B40486']
   };
 
   // pie
@@ -60,6 +60,7 @@ export class CamadaMedialComponent implements OnInit {
     window.scrollTo(0, 0);
     Object.assign(this, {single, multi});
     this.disciplinas = disciplinas;
+    this.atividades = atividades;
     this.projetos = projetos;
     this.grupos = grupos;
     this.comparaPublicacoes = comparaPublicacoes;

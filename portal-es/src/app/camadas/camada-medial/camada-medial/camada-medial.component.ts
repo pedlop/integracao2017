@@ -1,3 +1,4 @@
+import { atividades } from './../shared/atividades-desenvolvimento';
 import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { comparaHoras } from './../shared/pesquisa-compara-horas';
@@ -20,6 +21,8 @@ export class CamadaMedialComponent implements OnInit {
   // database
   disciplinas: any[];
 
+  atividades: any[];
+
   // properties
   single: any[];
   multi: any[];
@@ -33,7 +36,7 @@ export class CamadaMedialComponent implements OnInit {
 
   //colors
   colorScheme = {
-    domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA', '#0032FF']
+    domain: ['#5AA454', '#A10A28', '#C7B42C', '#01DFD7', '#0032FF', '#B40486']
   };
 
   // legend
@@ -48,6 +51,7 @@ export class CamadaMedialComponent implements OnInit {
   constructor(private router: Router) {
     window.scrollTo(0, 0);
     Object.assign(this, {single, multi});
+    this.atividades = atividades;
     this.disciplinas = disciplinas;
     this.carregamento = true;
     this.medialItens = itensMenuMedial;

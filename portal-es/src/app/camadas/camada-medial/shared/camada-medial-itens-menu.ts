@@ -12,6 +12,10 @@ export const itensMenuMedial = [
         key: 'disciplinas-estudadas'
     },
     {
+        text: 'Atividades de Desenvolvimento',
+        key: 'atividades-de-desenvolvimento'
+    },
+    {
         text: 'Detalhes',
         key: 'detalhes'
     },

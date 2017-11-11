@@ -6,6 +6,7 @@ import { grupos } from './../shared/pesquisa-grupos';
 import { projetos } from './../shared/pesquisa-projetos';
 import { single, multi } from './../shared/teste-paises';
 import { disciplinas } from './../shared/curso-disciplinas';
+import { atividades } from './../shared/atividades-desenvolvimento';
 import { itensMenuMedial } from '../shared/camada-medial-itens-menu';
 
 @Component({
@@ -19,6 +20,7 @@ export class CamadaMedialComponent implements OnInit {
   multi: any[];
 
   disciplinas: any[];
+  atividades: any[];
   projetos: any [];
   grupos: any[];
   comparaPublicacoes: any[];

@@ -1,22 +1,25 @@
 <!-- <div class="row"> -->
   <!-- <div class="col-8"> -->
-      <p>
+        
+        <!-- <p>
           topico works!
-        </p>
+        </p> -->
       
-        <p>{{id}}</p>
-        <br>
+        <!-- <p>{{id}}</p>
+        <br> -->
         <!-- <h2>Texto</h2> -->
         <div class="container">
           <div>
             <h1>{{titulo}}</h1>
             <p> {{meuTexto}} </p>          
           </div>
-  
+          
+          
+          <ufg-es-lado-direito></ufg-es-lado-direito>
           <!-- <h2>Subtexto</h2> -->
           <div *ngFor="let subtexto of chavesSecundarias">
-            <div id="{{subtexto.id}}">{{subtexto.id}}
-              <div class="conteudo-sub" *ngIf="chavesSecundarias && chavesSecundarias.length > 1" >
+            <div id="{{subtexto.id}}">
+              <div id="{{subtexto.id}}" class="conteudo-sub" *ngIf="chavesSecundarias && chavesSecundarias.length > 1" >
                   <h4>{{subtexto.nome}}</h4>
                   <div>
                     <p>{{subtexto.texto.primeira_parte}}</p>

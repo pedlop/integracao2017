@@ -27,7 +27,7 @@ export class LadoDireitoComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.route.children[0].params.subscribe(
+    this.route.params.subscribe(
       (params: any) => {
         this.id = params['id'];
         // console.log(this.route);
@@ -54,7 +54,6 @@ export class LadoDireitoComponent implements OnInit {
 
         // console.log(myArray);
         this.menuSecundario = myArray[0].chave_secundaria;
-
         // console.log(myArray);
 
         myArray.map(

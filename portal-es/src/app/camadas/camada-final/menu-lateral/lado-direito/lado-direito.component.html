@@ -1,14 +1,19 @@
+
+<div class="card" *ngIf="menuSecundario.length > 1">
+    <div class="card-header">
+      Tópicos
+    </div>
+    <div class="card-block">
+      <ul>
+        <li *ngFor="let item of menuSecundario">
+          <a href="es/detalhe/topico/{{id}}#{{item.id}}">
+            {{item.nome}}
+          </a>
+        </li>
+      </ul>
+    </div>
+</div>
 <!-- <p>
   lado-direito works!
 </p>
-<div class="coluna-secundaria">
-  <ul>
-    <li *ngFor="let item of menuSecundario">
-      <a href="es/detalhe/topico/{{id}}#{{item.id}}">
-        {{item.nome}}
-      </a>
-    </li>
-  </ul>
-</div> -->
-
-<cuppa-slidemenu [menulist]="menuItemsArray" (open)="onMenuOpen()" (close)="onMenuClose()" (onItemSelect)="onItemSelect($event)"></cuppa-slidemenu>
+<cuppa-slidemenu [menulist]="menuItemsArray" (open)="onMenuOpen()" (close)="onMenuClose()" (onItemSelect)="onItemSelect($event)"></cuppa-slidemenu> -->

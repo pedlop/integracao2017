@@ -40,15 +40,15 @@ export class LadoEsquerdoComponent implements OnInit {
   }
 
   onMenuClose() {
-    console.log('menu closed');
+    // console.log('menu closed');
    }
-   
+
    onMenuOpen() {
-    console.log('menu Opened');
+    // console.log('menu Opened');
    }
-   
+
    onItemSelect(item: any) {
-    console.log(item);
+    // console.log(item);
     this.router.navigate(['/es/detalhe/topico', item.id]);
    }
 

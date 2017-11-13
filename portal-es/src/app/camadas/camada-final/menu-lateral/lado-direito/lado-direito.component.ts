@@ -12,18 +12,13 @@ import { CamadaFinalService } from './../../shared/camada-final.service';
 })
 export class LadoDireitoComponent implements OnInit {
 
-  menuItemsArray: any[];
-
   conteudoGeral: any;
   conteudo: any;
   menuSecundario: any;
   id: string;
 
-  constructor(private finalService: CamadaFinalService, private route: ActivatedRoute,
-              private router: Router) {
-    // this.getChavesSecundarias();
-    // console.log(this.route);
-    this.menuItemsArray = menuChavesSecundarias;
+  constructor(private finalService: CamadaFinalService, private route: ActivatedRoute) {
+
   }
 
   ngOnInit() {
@@ -31,7 +26,6 @@ export class LadoDireitoComponent implements OnInit {
       (params: any) => {
         this.id = params['id'];
         // console.log(this.route);
-
         this.getChavesSecundarias();
       }
     );
@@ -42,7 +36,6 @@ export class LadoDireitoComponent implements OnInit {
       data => {
         this.conteudoGeral = data.ppc; // array
         // console.log(this.conteudoGeral);
-
         const myArray = this.conteudoGeral.filter(
           chave => {
             // console.log(chave);
@@ -54,42 +47,9 @@ export class LadoDireitoComponent implements OnInit {
 
         // console.log(myArray);
         this.menuSecundario = myArray[0].chave_secundaria;
-        // console.log(myArray);
 
-        myArray.map(
-          chaves => {
-            chaves.chave_secundaria.map(
-              sec => {
-                menuChavesSecundarias.push({
-                    title: sec.nome,
-                    id: sec.id,
-                    idPrimario: chaves.id
-                  });
-              }
-            );
-          }
-        );
-
-        // console.log(menuChavesSecundarias);
-
-
+        // console.log(this.menuSecundario);
       }
     );
   }
-
-  onMenuClose() {
-    // console.log('menu closed');
-  }
-
-  onMenuOpen() {
-    // console.log('menu Opened');
-  }
-
-  onItemSelect(item: any) {
-    console.log(item);
-    // this.router.navigate([`/es/detalhe/topico/${item.idPrimario}/#${item.id}`]);
-    location.href = `/es/detalhe/topico/${item.idPrimario}#${item.id}`;
-  }
 }
-
-export let menuChavesSecundarias = [];

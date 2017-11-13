@@ -1,0 +1,26 @@
+cuppa-slidemenu {
+    a {
+        font-size: initial;
+        padding: 15px;
+    }
+    .menu-container.cuppa-menu.hide-menu {
+        width: -400px;
+    }
+    .menu-container.cuppa-menu.show-menu {
+        width: 400px;
+    }
+}
+
+@media (max-width: 630px) {
+    cuppa-slidemenu {
+        a {
+            font-size: small;
+        }
+        .menu-container.cuppa-menu.hide-menu {
+            width: -300px;
+        }
+        .menu-container.cuppa-menu.show-menu {
+            width: 300px;
+        }
+    }
+}

@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs/Observable';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 import { CamadaFinalService } from './../../shared/camada-final.service';
 
@@ -18,17 +18,14 @@ export class LadoDireitoComponent implements OnInit {
   id: string;
 
   constructor(private finalService: CamadaFinalService, private route: ActivatedRoute) {
-    // this.getChavesSecundarias();
-    // console.log(this.route);
-    
+
   }
 
   ngOnInit() {
-    this.route.children[0].params.subscribe(
+    this.route.params.subscribe(
       (params: any) => {
         this.id = params['id'];
         // console.log(this.route);
-
         this.getChavesSecundarias();
       }
     );
@@ -39,7 +36,6 @@ export class LadoDireitoComponent implements OnInit {
       data => {
         this.conteudoGeral = data.ppc; // array
         // console.log(this.conteudoGeral);
-
         const myArray = this.conteudoGeral.filter(
           chave => {
             // console.log(chave);
@@ -53,7 +49,6 @@ export class LadoDireitoComponent implements OnInit {
         this.menuSecundario = myArray[0].chave_secundaria;
 
         // console.log(this.menuSecundario);
-
       }
     );
   }

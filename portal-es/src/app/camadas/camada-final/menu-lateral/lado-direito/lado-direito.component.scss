@@ -1,4 +1,14 @@
-:host {
-    border: 1px;
-    border-style: solid;
-}
+// :host {
+    
+    cuppa-slidemenu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 15px;
+    }
+    .menu-container.cuppa-menu.show-menu {
+        position: fixed;
+        right: 0;
+        left: auto;
+    }
+// }

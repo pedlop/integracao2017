@@ -1,27 +1,6 @@
 {
   "ppc": [
     {
-      "id": 0,
-      "chave_especial": [
-        "chave1",
-        "chave2"
-      ],
-      "chave_primaria": "string - titulo da seção",
-      "texto": "string - texto da seção",
-      "chave_secundaria": [
-        {
-          "id": 0,
-          "nome": "string - subtitulo da seção",
-          "texto": {
-            "primeira_parte": "string - subtexto da seção"
-          },
-          "imagem": {
-            "primeira": "string - url"
-          }
-        }
-      ]
-    },
-    {
       "id": 1,
       "chave_especial": [
         "bacharelado",

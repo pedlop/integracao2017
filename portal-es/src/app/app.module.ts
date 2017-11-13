@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ErrorHandler } from '@angular/core';
-import { HttpModule, JsonpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 import { ToastModule } from 'portal-shared';
 
 import { AppComponent } from './app.component';
@@ -22,9 +22,8 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   imports: [
     BrowserModule,
-    HttpModule,
+    HttpClientModule,
     ToastModule.forRoot(),
-    JsonpModule,
     CamadaInicialModule,
     CamadaMedialModule,
     CamadaFinalModule,

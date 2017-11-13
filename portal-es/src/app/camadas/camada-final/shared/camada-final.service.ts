@@ -1,16 +1,20 @@
-import { Observable } from 'rxjs/Observable';
 import { Injectable } from '@angular/core';
-import { Http, Response } from '@angular/http';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import { ReplaySubject } from 'rxjs/ReplaySubject';
+
+import { environment } from './../../../../environments/environment';
 
 @Injectable()
 export class CamadaFinalService {
 
+  private readonly url = environment.api.url;
+
   private ppcEstado: ReplaySubject<any>;
   estadoDoPpc: Observable<any>;
 
-  constructor(private http: Http) {
+  constructor(private http: HttpClient) {
     this.ppcEstado = new ReplaySubject(1);
     this.estadoDoPpc = this.ppcEstado.asObservable();
 
@@ -18,24 +22,17 @@ export class CamadaFinalService {
   }
 
   getInfo() {
-    return this.http.get('https://raw.githubusercontent.com/pedlop/integracao2017/dev/portal-es/src/assets/led/test.json')
+    return this.http.get(this.url)
     .map((response: Response) => response.json());
   }
 
   getPPC() {
-    return this.http.get('https://rawgit.com/pedlop/integracao2017/master/portal-es/src/assets/led/ppc-es.json')
-    .map((response: Response) => {
-      // const res = response.json();
-      this.ppcEstado.next(response.json());
-      return response.json();
+    return this.http.get(this.url)
+    .map((response) => {
+      this.ppcEstado.next(response);
+      return response;
     }
    );
   }
 
-  getById(id: number) {
-    return this.http.get('https://rawgit.com/pedlop/integracao2017/master/portal-es/src/assets/led/ppc-es.json/' + id)
-    .map((response: Response) => {
-
-    });
-  }
 }

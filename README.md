@@ -18,8 +18,8 @@ Repositório vinculado a Projeto para a disciplina de Integração 1 - INF/UFG -
 
 |Integrante                    |Papel              |
 |------------------------------|-------------------|
-|Guilherme Alves Rosa e Silva  |Engenheiro de Requisitos|
-|Igor Queiroz Silva            |Verificação e Validação|
+|Guilherme Alves Rosa e Silva  |Verificação e Validação|
+|Igor Queiroz Silva            |Desenvolvedor|
 |João Henrique Camargo         |Desenvolvedor|
 |Lucas Vinicios Ferreira Silva |Arquiteto de Software/Desenvolvedor|
 |Marcos Vinicius Ribeiro Silva |Designer/Desenvolvedor|

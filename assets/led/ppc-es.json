@@ -1,31 +1,12 @@
 {
   "ppc": [
     {
-      "id": 0,
-      "chave_especial": [
-        "chave1",
-        "chave2"
-      ],
-      "chave_primaria": "string - titulo da seção",
-      "texto": "string - texto da seção",
-      "chave_secundaria": [
-        {
-          "id": 0,
-          "nome": "string - subtitulo da seção",
-          "texto": {
-            "primeira_parte": "string - subtexto da seção"
-          },
-          "imagem": {
-            "primeira": "string - url"
-          }
-        }
-      ]
-    },
-    {
       "id": 1,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "BACHARELADO",
+        "ENGENHARIA",
+        "CURSO",
+        "INTRODUÇÃO"
       ],
       "chave_primaria": "Apresentação",
       "texto": "O curso de Bacharelado em Engenharia de Software (BES) é oferecido pelo Instituto de Informática (INF) da Universidade Federal de Goiás (UFG). A primeira versão do Projeto Pedagógico do Curso (PPC) foi criada em 2008, a segunda versão, registrada nesse documento, é fruto de uma reflexão de dois anos do Núcleo Docente Estruturante (NDE), que reinventou o BES. A busca pela qualidade é a motivação (p. 13) dessa segunda versão, que só pode ser adequadamente compreendida com o detalhamento da história da criação do curso e do cenário no qual está inserido (p. 10), o que lembra Paulo Freire, segundo o qual 'toda leitura de texto pressupõe uma rigorosa leitura do contexto'. Não houve alteração relevante dos objetivos do curso (p. 14), nem tampouco do perfil do egresso (p. 15), contudo, ambos foram refinados. Os requisitos legais e normativos foram ampliados pelas diretrizes curriculares nacionais (que não existiam quando a primeira versão foi produzida). Em particular, a estratégia para atender a educação das relações étnico-raciais e para o ensino de história e cultura afro-brasileira e africana foi revista em sua totalidade. A estrutura curricular (p. 35) sofreu mudanças significativas. Em particular, o fluxo sugerido, nos quatro primeiros períodos, inclui apenas disciplinas de formação básica em computação. A disciplina 'Prática em Engenharia de Software' (p. 75) é o elemento integrador do curso, com carga horária de 320 horas. Em particular, as disciplinas específicas de Engenharia de Software são acompanhadas de uma seção adicional, “condições mínimas” (p. 56), que estabelece competências a serem demonstradas/ adquiridas pelo estudante em cada uma delas. A busca por um curso de Engenharia de Software melhor é uma atribuição contínua do NDE estabelecida nesse PPC por meio de princípios (p. 23). Esse compromisso é oportuno para estabelecer claramente a responsabilidade pela gestão do presente PPC pelo NDE, sem o qual esse texto resume-se a um registro de intenções.",
@@ -45,8 +26,9 @@
     {
       "id": 2,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "DETALHES",
+        "INFORMAÇÕES",
+        "MAIS"
       ],
       "chave_primaria": "Identificação",
       "texto": "",
@@ -196,8 +178,8 @@
     {
       "id": 3,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "INSTITUTO",
+        "INFORMÁTICA"
       ],
       "chave_primaria": "Contexto",
       "texto": "O Bacharelado em Engenharia de Software (BES) existe e se mantém em um contexto no qual se destaca a aptidão do Instituto de Informática, a carência de mão de obra apta a desenvolver softwares de qualidade e a importância local do curso, detalhados nas seções seguintes.",
@@ -237,8 +219,9 @@
     {
       "id": 4,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "MOTIVOS",
+        "HISTÓRIA",
+        "CRIAÇÃO"
       ],
       "chave_primaria": "Exposição de motivos",
       "texto": "A dependência da sociedade em relação a softwares continua se expandindo, inclusive em tarefas que antes eram exclusivas dos seres humanos, por exemplo, estacionar um veículo. Isso tem ampliado a demanda por softwares e consequentemente por profissionais que visam atender essa demanda. O conhecimento necessario para produzir software é denominado de Engenharia de Software. Tradicionalmente esse conhecimento e as habilidades necessárias são adquiridas por egressos de outros cursos de graduação ou até por meio de cursos rápidos. Nesses casos, a apropriação de habilidades ocorre de forma parcial, pois não há espaço em tais cursos para cobrir adequadamente essa extensa área. A Vocação de docentes do INF e o Programa de Reestruturação e Expansão das Universidades Federais (REUNI) resultaram na criação do primeiro curso de graduação (bacharelado) em Engenharia de Software do Brasil, o presente curso, pelo INF/UFG em 27/06/2008, conforme a resolução CONSUNI 10/2008, com o foco na formação de egressos aptos a usar de forma efetiva o conhecimento da Engenharia de Software. Essa primeira versão foi amplamente divulgada [BESl] [BES2]. Dezenas de docentes acumularam lições aprendidas desde o início da primeira turma do curso em março de 2009. A partir de outubro de 2014, o Núcleo Docente Estruturante (N DE) do curso iniciou esforço para refletir essas lições em urna nova versão do PPC. Ao longo de quase meia centena de encontros, o NDE fez uma exaustiva revisão do curso. As lições aprendidas e outras demandas, por exemplo, as diretrizes curriculares e o alinhamento com uma formação básica de qualidade em computação, definida pelo próprio INF, foram acomodadas na presente versão. Convém esclarecer que na época da criação do BES, sem similar no país, não existiam diretrizes curriculares específicas. Essas diretrizes vieram apenas em 2012 [CNE 2012].",
@@ -258,8 +241,8 @@
     {
       "id": 5,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "NECESSIDADE",
+        "PROFISSIONAL"
       ],
       "chave_primaria": "Objetivos",
       "texto": "",
@@ -287,10 +270,43 @@
       ]
     },
     {
+      "id": 6,
+      "chave_especial": [
+        "PERFIL",
+        "HABILIDADES"
+      ],
+      "chave_primaria": "Expectativa da formação do profissional",
+      "texto": "",
+      "chave_secundaria": [
+        {
+          "id": 1,
+          "nome": "Perfil do egresso",
+          "texto": {
+            "primeira_parte": "O egresso do BES é um profissional com capacitação sólida em engenharia de software. Essa capacitação advém de formação básica consistente em computação e de abrangente e aprofundada em engenharia de software. O mercado de atuação do egresso é abrangente, e decorre da dependencia da sociedade por software. Adicionalmente, tal dependência tem se expandido com novos produtos, serviços e processos. A bacharela ou o bacharel em Engenharia de Software é capaz de efetivamente contribuir com equipes na produção de modelos abstratos de software e realiza-los por meio de código de qualidade. Essa contribuição é pautada por postura profissional e conduta ética. As habilidades do egresso incluem o que é necessário para lidar com requisitos de software, propor uma solução (software design), construí-la, testa-la e mantê-la, usando processos adequados."
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        },
+        {
+          "id": 2,
+          "nome": "Habilidades do egresso",
+          "texto": {
+            "primeira_parte": "Da perspectiva de relações pessoais, o egresso deve ser capaz de:",
+            "segunda_parte": "Da perspectiva técnica, o egresso deve ser capaz de:"
+          },
+          "imagem": {
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Expectativa_Formacao_Profissional/Imagem01.jpg",
+            "segunda": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Expectativa_Formacao_Profissional/Imagem02.jpg"
+          }
+        }
+      ]
+    },
+    {
       "id": 7,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "PRINCÍPIOS",
+        "BASE"
       ],
       "chave_primaria": "Princípios norteadores",
       "texto": "O BES baseia-se em princípios que fornecem a sustentação necessaria para atingir os objetivos do curso (p. 14) e o perfil do egresso (p. 15). Esses princípios são fornecidos abaixo.",
@@ -322,7 +338,7 @@
             "primeira_parte": "As disciplinas do BES foram definidas com substancial cruzamento de fronteiras de subáreas do conhecimento da Engenharia de Software. A estratégia na qual se define uma disciplina por subárea foi preterida. Convém ressaltar que o corpo de conhecimento da area [SWEBOK 2014] foi extensivamente empregado, mas não como exemplo de organização didática. Em vez da separação de tópicos induzida pela classificação do conhecimento, o conteúdo (ementa) atribuído a cada disciplina do BES inclui tópicos entre os quais há sinergia. Essa orientação é compatível com a prática da Engenharia de Software e não apenas reconhece, mas também respeita os vínculos entre as suas subáreas. Isso resultou em disciplinas coerentes com a pratica da Engenharia de Software. A Figura abaixo ilustra uma disciplina X qualquer do BES, composta por conteúdo das subáreas A, B e C. Ou seja, o conteúdo de X não está contido estritamente na subárea A, nem tampouco na B ou na C. Em vez disso, reúne e explora a interdependência de conceitos dessas três subáreas. As subáreas 'requisitos' e 'projeto de software', por exemplo, são contempladas em várias disciplinas do curso e não apenas nas disciplinas nas quais são o foco principal de interesse. A disciplina que enfatiza testes, por exemplo, inclui aspectos de design de software e também de requisitos, assim como aqueles de construção de software. De forma resumida, as disciplinas não são uma projeção cartesiana das 15 subãreas de conhecimento da Engenharia de Software [SWECOM 2014]. Em vez disso, são 18 disciplinas cobrindo reiteradamente várias dessas 15 áreas, sendo que uma delas cobre todas as áreas necessárias para a execução de um projeto real de produção de software."
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://raw.githubusercontent.com/pedlop/integracao2017/master/docs/Imagens_PPC/Principios_Norteadores/Figura1.PNG"
           }
         },
         {
@@ -370,8 +386,8 @@
     {
       "id": 8,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "ACOMPANHAMENTO",
+        "NDE"
       ],
       "chave_primaria": "Núcleo Docente Estruturante (NDE)",
       "texto": "Em vez de atribuir atividades ao N DE, o NDE adota os seguintes princípios:",
@@ -393,8 +409,9 @@
     {
       "id": 9,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "ESTÁGIO",
+        "EXPERIÊNCIA",
+        "ATIVIDADES"
       ],
       "chave_primaria": "Política e gestão de estágio não obrigatório",
       "texto": "O estágio do BES constitui-se em um mecanismo de complementação de conhecimento e aperfeiçoamento de habilidades, além de oportunidade de prática em Engenharia de Software. O convívio com profissionais, obrigações, hierarquias e processos onde o estágio se desenvolve, resulta em oportunidade valiosa para a formação profissional do egresso. O estágio do BES não é de caráter obrigatório, ficando a critério do estudante realizá-lo ou não, desde que o mesmo esteja regularmente matriculado no curso. Ou seja, caracteriza estágio curricular não obrigatório. Adicionalmente, esse estágio deve ser realizado a partir do terceiro período do curso, ou após a conclusão de pelo menos 640 horas da carga horária do curso. Convém observar que o estágio está restrito às empresas  devidamente conveniadas com a UFG ou que se utilizam de agentes de integração conveniados. Adicionalmente, dois outros papéis são obrigatórios no estágio: (a) supervisor (no local do estágio) e (b) orientador (professor do curso). Durante o estagio, que não pode ultrapassar 24 meses em mesmo local, o estudante deverá apresentar o Termo de Compromisso, o Plano de Estagio, além da frequência e dos relatórios semestrais. Os documentos citados acima, bem como outros detalhes do estágio, em conformidade com a Lei 11.788/2008, são definidos pelo Regulamento de Estágio de Curso do Bacharelado em Engenharia de Software.",
@@ -414,8 +431,8 @@
     {
       "id": 10,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "TCC",
+        "conclusão"
       ],
       "chave_primaria": "Trabalho de Conclusão de Curso (TCC)",
       "texto": "O Trabalho de Conclusão de Curso (TCC) no BES é um componente curricular obrigatório regulado pelas Normas e Procedimentos de Trabalho de Conclusão de Curso do Bacharelado em Engenharia de Software. O TCC é desenvolvido na última etapa da graduação, sob a orientação de um professor e compreende um relatório e uma apresentação. O relatório é individual e tem como objetivo a expressão do estudante na forma escrita, a capacidade de analisar, caracterizar, investigar, discutir, implantar, pesquisar, realizar, sintetizar e avaliar, entre outras. Neste sentido, orelatório descreve, de forma crítica, as atividades teórico-práticas e de formação profissional relacionadas ao desenvolvimento do estudante como profissional, em especial, durante a disciplina Prática em Engenharia de Software (p. 75). A apresentação do relatório, também individual, é realizada como última atividade do curso e tem corno objetivo a expressão do estudante, agora na forma oral, das atividades descritas no relatório, em seção pública e para uma banca formada por professores do INF. A banca de professores tem o direito a um período de arguição e e responsável pela avaliação tanto do relatório quanto da apresentação.",
@@ -435,8 +452,8 @@
     {
       "id": 11,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "COMPLEMENTAR",
+        "EXTENSÃO"
       ],
       "chave_primaria": "Integração ensino, pesquisa e extensão",
       "texto": "A integração do ensino com a pesquisa e a extensão se verifica por meio de atividades complementares, do estágio não obrigatório, de disciplinas do curso e da postura didática dos docentes, conforme comentado abaixo. As atividades complementares são identificadas em resolução própria, perfazem pelo menos 192 horas e explicitamente incluem ações de extensão e de pesquisa. Por exemplo, divulgação de trabalhos em eventos científicos, participação em projetos de extensão e participação em projetos de pesquisa, dentre outras. O estagio não obrigatório é um instrumento de integração. As atividades a serem realizadas pelo estudante podem incluir ações de pesquisa. A disciplina Metodologia e Experimentação em Engenharia de Software oferece a visão exigida para a realização de pesquisas na área. Isso significa não apenas orientar o estudante acerca da elaboração de uma revisão sistemática, mas também da necessidade da expansão do conhecimento da área e dos mecanismos atualmente empregados para tal.Um contundente exemplo é a disciplina de 320 horas, Prática em Engenharia de Software. Essa disciplina envolve em sua concepção 0 ensino, a extensão e a pesquisa ao se concentrar em projetos reais executados no ambiente de uma Fábrica de Software. Qualquer que seja o projeto, esse envolverá extensão e/ ou pesquisa, naturalmente, ainda em um cenário de aprendizado (ensino). A integração, contudo, não ocorre apenas por meio dos elementos acima, que seriam pontos de integração localizados e em períodos específicos. A integração deve ocorrer, onde oportuno, em cada ação do curso. Por exemplo, uma postura didática recomendável exige a contextualização de cada aula acerca do que será visto, da repercussão ou relação dela com a indústria de software (sociedade) e do estado da arte corrente. De fato, essa postura não apenas recomendável, mas exigida por meio das “condições mínimas” definidas para cada disciplina. Ou seja, a integração do ensino com a pesquisa e a extensão ocorre por toda a extensão do curso",
@@ -453,11 +470,55 @@
         }
       ]
     },
+        {
+      "id": 12,
+      "chave_especial": [
+        "AVALIAÇÃO",
+        "AVALIAÇÕES",
+        "METODOLOGIA"
+      ],
+      "chave_primaria": "Avaliação do processo de ensino e aprendizagem",
+      "texto": "O que é realizado em nome do curso para que o estudante adquira o perfil esperado pode ser avaliado considerando informações geradas externamente e outras internamente. A avaliação do curso pelo MEC e os resultados obtidos pelos estudantes do curso no ENADE são exemplos de insumos para a avaliação do processo de ensino. Internamente, a avaliação do docente pelo discente (instrumento formal e institucionalizado na UFG), o desempenho dos estudantes do curso nas disciplinas e os planos de ensino das disciplinas são fontes valiosas de informação. O NDE do curso e o principal consumidor dessas informações com o propósito de detectar possíveis melhorias e fomentar a introdução delas. Por exemplo, embora o docente tenha autonomia metodológica ao planejar e executar o plano de ensino de uma disciplina, cabe ao NDE analisar o plano e, quando considerar oportuno, recomendar ajustes. Essas e outras ações devem ser realizadas durante a semana de planejamento pedagógico e administrativo (semana formalmente instítucionalizada na UFG), que ocorre no início de cada período letivo. Convém destacar que o plano de ensino de cada disciplina deve ser aprovado formalmente pelo Conselho Diretor da unidade antes do início do período letivo. Adicionalmente, a ação de avaliação não deve estar restrita à semana de planejamento, mas contínua. O objetivo é viabilizar a introdução de uma eventual mudança o mais próximo possível do instante no qual a necessidade foi detectada. Outra ação relevante do NDE na semana de planejamento pedagógico e apresentar as lições aprendidas no período anterior. Oferecer visibilidade de processos de ensino exitosos, o que é um instrumento de valorização do docente e, ao mesmo tempo, forma de socializar o que produziu bons resultados, também é urna ação a ser executada nessa semana. Enfim, acerca da avaliação do processo de ensino, o NDE possui papel relevante na identificação de dificuldades e busca de alternativas, em comunhão com os  docentes do curso. A avaliação do processo de ensino, da aprendizagem e do curso, dentre outros, são assuntos pertinentes ao NDE (p. 23). De fato, são interconectados. Em vez de estabelecer ações específicas no presente PPC, são fornecidos princípios adotados pelo NDE do curso (p. 23). Ou seja, orientar os estudantes do curso a cada início do período letivo acerca das normas da UFC, de prazos, da meta de integralização curricular de cada um deles, são algumas ações relevantes, tendo em vista tais princípios. A avaliação da aprendizagem pode ser materializada de varias formas. São comuns avaliações (provas) escritas e individuais, a avaliação por meio de relatórios ou trabalhos escritos e apresentações orais, dentre outras. A avaliação contínua por meio de exercícios realizados ao longo de toda uma disciplina também e uma forma. De fato, vale ressaltar que um método adequado de avaliação em um cenário não o é em outro. A avaliação do processo de ensino e aprendizagem do BES deve atender, no seu planejamento e na forma contínua de sua execução, o estipulado pelo Regulamento Geral dos Cursos de Graduação (RGCG) da UFG [CEPEC 2012], notadamente em seu Capítulo IV, Seção l - 'Da verificação da Aprendizagem'.Cabe ressaltar que o Sistema de Avaliação do BES tem como objetivo primeiro de sua aplicação, por meio de sua Estrutura Curricular (p. 35), utilizando instrumentos pedagógicos norteados pelos Princípios Norteadores (p. 18), permitir que cada estudante adquira o perfil desejado (p. 15). A avaliação do estudante deve levar em consideração não apenas o atendimento de requisitos técnicos de produtos e processos das diversas disciplinas da Engenharia de Software, mas também demonstrar postura ética e profissional ao desenvolver ações do curso. Convém destacar que as disciplinas específicas de Engenharia de Software são acompanhadas, cada uma delas, de seção de 'Condições mínimas'(p. 56), que identificam elementos obrigatórios a serem satisfeitos pelo estudante para ser considerado aprovado na disciplina. Embora essa seja uma interpretação correta, a intenção é estabelecer um contrato claro do compromisso do estudante e do docente com a disciplina em questão. A avaliação de cada urna dessas disciplinas, portanto, necessariamente deve observar as condições mínimas estabelecidas. De fato, a condução de toda a disciplina deve serorientada por tais condições.Dada a especificidade da disciplina 'Prática em Engenharia de Software' (p.75), o sistema de avaliação também é específico. Nesse caso, as avaliações devem envolver o domínio de processos e a geração de produtos de Engenharia de Software. Em particular, atividades avaliativas podem ser realizadas mesclando teoria e prática em um ambiente real de desenvolvimento de software, no qual a qualidade estabelecida para os entregáveis do projeto em questão é verificada.",
+      "chave_secundaria": [
+       {
+          "id": 0,
+          "nome": "",
+          "texto": {
+            "primeira_parte": ""
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        }
+      ]
+    },
+        {
+      "id": 13,
+      "chave_especial": [
+        "REVISÃO",
+        "EVOLUÇÃO"
+      ],
+      "chave_primaria": "Avaliação do projeto de curso",
+      "texto": "O presente PPC deverá ser revisado formalmente de cinco em cinco anos, em ação proativa, ou em intervalo de tempo menor, na ocorrência de evento que justifique tal decisão. O NDE é responsável pelas revisões do PPC e, em particular, por contínua vigilância da adequação do PPC ao cenário corrente. Esse esforço se realizada de duas formas. Uma no sentido de fazer com que as orientações do PPC sejam observadas no cotidiano do curso e outra, onde considerado oportuno, na análise de possíveis melhorias para reagir adequadamente às mudanças do ambiente. Ao acompanhar o curso, o NDE continuamente coleta, detecta e propõe alterações. As demandas podem se originar dos estudantes, dos docentes e de outras fontes como os resultados dos estudantes do curso no Exame Nacional de Desempenho de Estudantes (ENADE).",
+      "chave_secundaria": [
+       {
+          "id": 0,
+          "nome": "",
+          "texto": {
+            "primeira_parte": ""
+          },
+          "imagem": {
+            "primeira": ""
+          }
+        }
+      ]
+    },
     {
       "id": 14,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "DOCENTES",
+        "QUALIFICAÇÃO",
+        "PROFESSORES"
       ],
       "chave_primaria": "Política de qualificação",
       "texto": "Desde a criação o Instituto de Informática implementa uma política vigorosa de capacitação do seu corpo docente, a qual inclui a meta de que todos os docentes tenham a titulação minima de doutor. De fato, a liberação de docentes para prosseguirem os seus estudos de pós-graduação é uma prática comum, em consequencia, nenhum pedido para afastamento com o propósito de realizar o doutorado foi negado até o momento. Essa política é acrescentada de regras institucionalizadas para a concessão de afastamento para o pós-doutorado e de licença para capacitação. A qualificação de docentes do INF também pode ser obtida pela sua participação em congressos, simpósios, dentre outros eventos, quer seja nos papéis de autor de artigo, organizador de evento, membro de comitê de programa ou avaliador de artigo. O Instituto de Informatica ainda financia ou co-financia viagens e inscrições de seus docentes em congressos e simpósios importantes, principalmente quando há publicação de artigo. Em harmonia com a política de capacitação docente, o INF é favorável ao aprimoramento e à capacitação de seu corpo Técnico-Administrativo em Educação (TAE). Normalmente, um TAE faz solicitação ao diretor, encarregado de registrar as intenções de afastamento no plano anual de capacitação e conduzir a apreciação das intenções pelo Conselho Diretor do INF, haja vista que é do interesse da unidade fomentar a especialização e capacitação dos seus profissionais. E frequente a liberação das atividades de TAE para que possam participar de treinamentos, tanto em cursos esporádicos quanto em programas de pós-graduação. Em tempo, as ações de extensão do INF reservam vagas exclusivas para participação de TAEs, sem necessidade de pagamento (quando é o caso). Do ponto de vista legal, o INF se apoia na Resolução CEPEC 1286/2014 de 2014 [CEPEC 2014], que regulamenta o afastamento de docentes para cursar Mestrado, Doutorado e estágios Pós-Doutorais, e na Resolução CONSUNI 02/2014 [CONSUNI 2014], que regulamenta o Programa de Capacitação e o Plano Anual de Capacitação dos TAEs. Em consonância corn a Resolução CEPEC 1286/2014, o INF instrui o afastamento de docentes com a Resolução CD/INF n. O1 de 2014, que dá suporte ao planejamento administrativo e incentiva a participação de seus docentes, em cursos de doutorado, pós-doutorado e capacitação, no país e no exterior, de acordo com a sua política de pessoal para o ensino, a pesquisa, a extensão e a administração. Por fim, cabe ao NDE monitorar o PPC e, consequentemente, promover ações que promovam a qualidade dos serviços oferecidos tanto por docentes quanto por TAEs.",
@@ -477,8 +538,13 @@
     {
       "id": 15,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "NORMATIVOS",
+        "LEGAIS",
+        "SOCIAL",
+        "OBRIGAÇÕES",
+        "INCLUSÃO",
+        "ETNICO-RACIAIS",
+        "ESPECIAIS"
       ],
       "chave_primaria": "Requisitos legais e normativos",
       "texto": "O curso de Bacharelado em Engenharia de Software contempla requisitos legais específicos, a saber, Libras, Política de Educação Ambiental, e Educação das Relações Etnico-raciais e para o Ensino da História e Cultura Afro-brasileira e Indígena, conforme detalhado nas seções seguintes. A atenção a tais requisitos se verifica por meio de disciplinas e de um Programa de Extensão, devidamente institucionalizado na unidade executora do curso. Está além do escopo do presente documento detalhar o Programa de Extensão. Abaixo, apenas aspectos relevantes para o PPC são destacados.",
@@ -578,8 +644,9 @@
     {
       "id": 16,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "MATRIZ",
+        "CURRICULAR",
+        "DISCIPLINAS"
       ],
       "chave_primaria": "Estrutura Curricular",
       "texto":"",
@@ -655,8 +722,12 @@
     {
       "id": 17,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "OBRIGATORIAS",
+        "DISCIPLINAS",
+        "DISCIPLINA",
+        "PROGRAMAÇÃO",
+        "MATEMÁTICA",
+        "BÁSICA"
       ],
       "chave_primaria": "Disciplinas de formação básica (obrigatórias)",
       "texto":"",
@@ -836,8 +907,10 @@
     {
       "id": 18,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "OPTATIVAS",
+        "SISTEMAS",
+        "REDES",
+        "LINGUAGENS"
       ],
       "chave_primaria": "Disciplinas optativas",
       "texto":"Além das disciplinas definidas nessa seção, duas outras são optativas e específicas de Engenharia de Software: Mercado e Economia de Software (p.74) e Metodologia e Experimentação em Engenharia de Software (p. 74).",
@@ -917,222 +990,204 @@
     {
       "id": 19,
       "chave_especial": [
-        "chave1",
-        "chave2"
+        "ENGENHARIA DE SOFTWARE",
+        "SOFTWARE",
+        "CONSTRUÇÃO",
+        "PROCESSO",
+        "GERÊNCIA",
+        "PADRÕES",
+        "TESTE",
+        "MÓVEIS",
+        "MOBILE",
+        "UBÍQUO",
+        "MÓVEL",
+        "QUALIDADE",
+        "SMARTPHONE"
       ],
       "chave_primaria": "Disciplinas específicas de Engenharia de Software",
-      "texto":"texto da chave primaria",
+      "texto":"",
       "chave_secundaria": [
         {
           "id": 1,
-          "nome": "Condições mínimas",
+          "nome": "Engenharia de Sistemas",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina01.jpg"
           }
         },
         {
           "id": 2,
           "nome": "Construção de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina02.jpg"
           }
         },
         {
           "id": 3,
           "nome": "Modelagem de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina03.jpg"
           }
         },
         {
           "id": 4,
           "nome": "Processos de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina04.jpg"
           }
         },
         {
           "id": 5,
-          "nome": "Engenharia de Sistemas",
+          "nome": "Domínios de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina05.jpg"
           }
         },
         {
           "id": 6,
-          "nome": "Design de Software",
+          "nome": "Processos de Qualidade de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina06.jpg"
           }
         },
         {
           "id": 7,
-          "nome": "Domínios de Software",
+          "nome": "Gerência de Projeto de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina07.jpg"
           }
         },
         {
           "id": 8,
-          "nome": "Processos de Qualidade de Software",
+          "nome": "Designe de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina08.jpg"
           }
         },
         {
           "id": 9,
-          "nome": "Gerência de Projeto de Software",
+          "nome": "Governança e Gestão de Serviços de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina09.jpg"
           }
         },
         {
           "id": 10,
-          "nome": "Software Concorrente e Distribuído",
-          "texto": "texto2.4",
+          "nome": "Arquitetura de Software",
+          "texto": {
+            "primeira_parte": ""
+          },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina10.jpg"
           }
         },
         {
           "id": 11,
-          "nome": "Experiência do Usuário de Software",
+          "nome": "Requisitos de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina11.jpg"
           }
         },
         {
           "id": 12,
-          "nome": "Arquitetura de Software",
+          "nome": "Experiência do Usuário de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina12.jpg"
           }
         },
         {
           "id": 13,
-          "nome": "Requisitos de Software",
+          "nome": "Software Concorrente e Distribuído",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina13.jpg"
           }
         },
         {
           "id": 14,
-          "nome": "Governança e Gestão de Serviços de Software",
+          "nome": "Padrões de Arquitetura de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina14.jpg"
           }
         },
         {
           "id": 15,
-          "nome": "Software para Sistemas Ubíquos",
+          "nome": "Teste de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina15.jpg"
           }
         },
         {
           "id": 16,
-          "nome": "Software para Persistência de Dados",
+          "nome": "Software para Sistemas Ubíquos",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina16.jpg"
           }
         },
         {
           "id": 17,
-          "nome": "Padrões de Arquitetura de Software",
+          "nome": "Software para Persistência de Dados",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina17.jpg"
           }
-        },
+        },                
         {
           "id": 18,
-          "nome": "Teste de Software",
-          "texto": {
-            "primeira_parte": "bla bla bla"
-          },
-          "imagem": {
-            "primeira": ""
-          }
-        },
-        {
-          "id": 19,
-          "nome": "Metodologia e Experimentação em Engenharia de Software",
-          "texto": {
-            "primeira_parte": "bla bla bla"
-          },
-          "imagem": {
-            "primeira": ""
-          }
-        },
-        {
-          "id": 20,
-          "nome": "Mercado e Economia de Software",
-          "texto": {
-            "primeira_parte": "bla bla bla"
-          },
-          "imagem": {
-            "primeira": ""
-          }
-        },
-        {
-          "id": 21,
           "nome": "Prática em Engenharia de Software",
           "texto": {
-            "primeira_parte": "bla bla bla"
+            "primeira_parte": ""
           },
           "imagem": {
-            "primeira": ""
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/Disciplinas_Especificas/Disciplina18.jpg"
           }
         }
       ]
     }
   ]
 }
-  

@@ -41,8 +41,8 @@ Fornecer e elucidar uma visão coesa e integrada da Engenharia de Software de ta
   * Esta alocação é realizada pelo **Gerente de Projeto**.
 
 ### **Política de Commits:** ###
-* Todos os Commits serão realizados na Branch **_dev_**.
-* Uma vez na semana, no sábado, o **Gerente de Projeto** irá fazer o merge da **_dev_** na **_master_**. Para tal tarefa ser realizada, é preciso:
+* Todos os Commits serão realizados na Branch **_develop_**.
+* Uma vez na semana, no sábado, o **Gerente de Projeto** irá fazer o merge da **_develop_** na **_master_**. Para tal tarefa ser realizada, é preciso:
   * Validar o código:
     * Verificar se há algum erro de compilação (aot - ahead-of-time);
     * Verificar se o código está seguindo o padrão do Angular 4 de desenvolvimento (lint);

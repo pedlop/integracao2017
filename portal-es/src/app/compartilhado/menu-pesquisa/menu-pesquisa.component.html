@@ -58,7 +58,7 @@
                 <ul>
                     <li *ngFor="let result of results">
                         <a [routerLink]="['/es/detalhe/topico', result.id]" (click)="hideChildModal()">
-                            {{result.retorno}} id: {{result.id}} -  sub-id: {{result.subId}}
+                            {{result.retorno}}
                         </a>
                     </li>
                 </ul>

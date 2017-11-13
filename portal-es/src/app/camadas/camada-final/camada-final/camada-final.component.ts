@@ -19,15 +19,10 @@ export class CamadaFinalComponent implements OnInit {
   }
 
   ngOnInit() {
-    // this.getPPC();
   }
 
   getPPC() {
-    // this.finalService.getPPC().subscribe(
-    //   data => {
-    //     this.listaPPC = data.ppc;
-    //     console.log(data);
-    // });
+
   }
 
 }

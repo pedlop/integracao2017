@@ -19,36 +19,30 @@ export class LadoEsquerdoComponent implements OnInit {
   }
 
   ngOnInit() {
-    
     this.camadaFinalService.estadoDoPpc.subscribe(
       data => {
         this.menuPrimario = data.ppc;
-        // console.log(data);
         this.chavesPrimarias = this.menuPrimario.map(
           chaves => {
-            // console.log(chaves);
             menuChavesPrimarias.push({
               title: chaves.chave_primaria,
-              // link: `${location.origin}/es/detalhe/topico/${chaves.id}`
               id: chaves.id
             });
           }
         );
-        // menuChavesPrimarias.push(this.chavesPrimarias);
       }
     );
   }
 
   onMenuClose() {
-    // console.log('menu closed');
+
    }
 
    onMenuOpen() {
-    // console.log('menu Opened');
+
    }
 
    onItemSelect(item: any) {
-    // console.log(item);
     this.router.navigate(['/es/detalhe/topico', item.id]);
    }
 

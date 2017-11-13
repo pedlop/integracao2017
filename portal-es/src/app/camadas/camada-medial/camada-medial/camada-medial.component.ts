@@ -1,6 +1,6 @@
-import { atividades } from './../shared/atividades-desenvolvimento';
-import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+
 import { comparaHoras } from './../shared/pesquisa-compara-horas';
 import { comparaPublicacoes } from './../shared/pesquisa-compara-publicacoes';
 import { grupos } from './../shared/pesquisa-grupos';
@@ -8,6 +8,7 @@ import { projetos } from './../shared/pesquisa-projetos';
 import { single, multi } from './../shared/teste-paises';
 import { disciplinas } from './../shared/curso-disciplinas';
 import { itensMenuMedial } from '../shared/camada-medial-itens-menu';
+import { atividades } from './../shared/atividades-desenvolvimento';
 
 @Component({
   selector: 'ufg-es-camada-medial',
@@ -34,19 +35,19 @@ export class CamadaMedialComponent implements OnInit {
   // options
   showLegend = true;
 
-  //colors
+  // colors
   colorScheme = {
     domain: ['#5AA454', '#A10A28', '#C7B42C', '#01DFD7', '#0032FF', '#B40486']
   };
 
   // legend
-  legendTitle =  "Áreas de Conhecimento";
+  legendTitle =  'Áreas de Conhecimento';
 
   // properties
   showLabels = true;
   explodeSlices = false;
   doughnut = false;
-  carregamento: boolean
+  carregamento: boolean;
 
   constructor(private router: Router) {
     window.scrollTo(0, 0);
@@ -63,7 +64,7 @@ export class CamadaMedialComponent implements OnInit {
   }
 
   onSelect(event) {
-    console.log(event);
+
   }
 
   onClickSaibaMais() {

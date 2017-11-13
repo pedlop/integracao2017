@@ -12,7 +12,6 @@ import { CamadaFinalModule } from './camadas/camada-final/camada-final.module';
 import { CamadaMedialModule } from './camadas/camada-medial/camada-medial.module';
 import { CamadaInicialModule } from './camadas/camada-inicial/camada-inicial.module';
 import { RodapeModule } from './compartilhado/rodape/rodape.module';
-import { SearchModule } from './compartilhado/search/search.module';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -26,7 +25,6 @@ import { AppRoutingModule } from './app-routing.module';
     HttpModule,
     ToastModule.forRoot(),
     JsonpModule,
-    SearchModule,
     CamadaInicialModule,
     CamadaMedialModule,
     CamadaFinalModule,

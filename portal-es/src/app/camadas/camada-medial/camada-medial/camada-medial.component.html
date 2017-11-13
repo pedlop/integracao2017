@@ -1,4 +1,4 @@
-<ufg-es-menu-pesquisa [itensMenu]="medialItens" [url]="'/es/disciplinas/'"></ufg-es-menu-pesquisa>
+<ufg-es-menu-pesquisa [itensMenu]="medialItens" [url]="'/es/disciplinas'"></ufg-es-menu-pesquisa>
 
 <header class="masthead" id="page-top">
   <div class="container">
@@ -37,10 +37,34 @@
     <div class="row">
       <ngx-charts-pie-chart
         [scheme]="colorScheme"
-        [results]="horas"
+        [view]="view"
+        [results]="disciplinas"
         [legend]="showLegend"
+        [legendTitle]="legendTitle"
         [explodeSlices]="explodeSlices"
         [labels]="showLabels"
+        [labelFormatting]="labelFormatting"
+        [doughnut]="doughnut"
+        (select)="onSelect($event)">
+      </ngx-charts-pie-chart>
+    </div>
+  </div>
+</div>
+
+<div id="atividades-de-desenvolvimento">
+  <div class="container secao">
+    <h2 class="text-center">Atividades de Desenvolvimento (Dias)</h2>
+    <hr class="star-primary">
+    <div class="row">
+      <ngx-charts-pie-chart
+        [scheme]="colorScheme"
+        [view]="view"
+        [results]="atividades"
+        [legend]="showLegend"
+        [legendTitle]="legendTitle"
+        [explodeSlices]="explodeSlices"
+        [labels]="showLabels"
+        [labelFormatting]="labelFormatting"
         [doughnut]="doughnut"
         (select)="onSelect($event)">
       </ngx-charts-pie-chart>
@@ -58,7 +82,7 @@
         <p>Modalidade: Bacharelado</p>
       </div>
       <div class="col-lg-4 mr-auto">
-        <p>Duração: 8 semestres</p>
+        <p>Duração: 9 semestres</p>
         <p>Reconhecimento: Portaria MEC 819, de 29/10/2015</p>
         <p>Cidade: Goiânia</p>
       </div>
@@ -127,13 +151,13 @@
         <p><b>Linguagens de Programação:</b></p>
       </div>
       <div class="col-sm-4 portfolio-item">
-        <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/dev/portal-es/src/assets/img/aprendizados/java.png?raw=true" alt="">
+        <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/develop/portal-es/src/assets/img/aprendizados/java.png?raw=true" alt="">
       </div>
       <div class="col-sm-4 portfolio-item">
-          <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/dev/portal-es/src/assets/img/aprendizados/android.png?raw=true" alt="">
+          <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/develop/portal-es/src/assets/img/aprendizados/android.png?raw=true" alt="">
       </div>
       <div class="col-sm-4 portfolio-item">
-          <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/dev/portal-es/src/assets/img/aprendizados/apple.png?raw=true" alt="">
+          <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/develop/portal-es/src/assets/img/aprendizados/apple.png?raw=true" alt="">
       </div>
     </div>
     <hr class="star-primary">
@@ -142,10 +166,13 @@
         <p><b>Ferramentas para construir os softwares:</b></p>
       </div>
       <div class="col-sm-4 portfolio-item">
-        <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/dev/portal-es/src/assets/img/aprendizados/eclipse.png?raw=true" alt="">
+        <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/develop/portal-es/src/assets/img/aprendizados/eclipse.png?raw=true" alt="">
       </div>
       <div class="col-sm-4 portfolio-item">
-          <img style="margin-top: 50px" class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/dev/portal-es/src/assets/img/aprendizados/IntelliJIDEA_icon.png?raw=true" alt="">
+          <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/develop/portal-es/src/assets/img/aprendizados/IntelliJIDEA_icon.png?raw=true" alt="">
+      </div>
+      <div class="col-sm-4 portfolio-item">
+          <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/develop/portal-es/src/assets/img/aprendizados/VisualStudio.png?raw=true" alt="">
       </div>
     </div>
   </div>

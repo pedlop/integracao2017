@@ -1,4 +1,4 @@
-<p>
+<!-- <p>
   Esta é a camada final, nela estará disponível o detalhamento dos elementos do curso!
 </p>
 <p><a routerLink="/es/disciplinas" routerLinkActive="active">Voltar para a segunda camada.</a></p>
@@ -10,10 +10,13 @@
         <p>Entre com o ID:</p>
           <input #idTopico>
       </div>
-      <div class="conteudo">
-        <ufg-es-lado-esquerdo></ufg-es-lado-esquerdo>
-        <router-outlet></router-outlet>
-        <ufg-es-lado-direito></ufg-es-lado-direito>
-      </div>
-</div>
+      <div class="conteudo"> -->
+      <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+          <a class="navbar-brand">
+            <ufg-es-lado-esquerdo></ufg-es-lado-esquerdo>
+          </a>
+      </nav>
+      <router-outlet></router-outlet>
+      <!-- </div>
+</div> -->
 

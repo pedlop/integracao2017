@@ -1,120 +1,199 @@
- <div class="container">
-  <div>
-      <p>
-        Essa é a camada media, nela teremos um tour macro pelas áreas do curso!
-      </p>
-      <p><a routerLink="/es/detalhe/topico/1" routerLinkActive="active">Ir para a terceira camada.</a></p>
-      <p><a routerLink="/" routerLinkActive="active">Voltar para a primeira camada.</a></p>
-  </div>
-    
-  <div class="row">
-    <div class="">
-      <ngx-charts-pie-chart
-        
-        [scheme]="colorScheme"
-        [results]="single"
-        [legend]="showLegend"
-        [explodeSlices]="explodeSlices"
-        [labels]="showLabels"
-        [doughnut]="doughnut"
-        (select)="onSelect($event)">
-      </ngx-charts-pie-chart>
-    </div>
-  
-    <div class="">
-      <ngx-charts-pie-chart
-        
-        [scheme]="colorScheme"
-        [results]="horas"
-        [legend]="showLegend"
-        [explodeSlices]="explodeSlices"
-        [labels]="showLabels"
-        [doughnut]="doughnut"
-        (select)="onSelect($event)">
-      </ngx-charts-pie-chart>
-    </div>
-  
-    <div class="">
-      <ngx-charts-bar-horizontal
-        
-        [scheme]="colorScheme"
-        [results]="horas"
-        [xAxis]="showXAxis"
-        [yAxis]="showYAxis"
-        [legend]="showLegend"
-        [showXAxisLabel]="showXAxisLabel"
-        [showYAxisLabel]="showYAxisLabel"
-        [xAxisLabel]="xAxisLabel"
-        [yAxisLabel]="yAxisLabel"
-        (select)="onSelect($event)">
-    </ngx-charts-bar-horizontal>
-    </div>
+<ufg-es-menu-pesquisa [itensMenu]="medialItens" [url]="'/es/disciplinas'"></ufg-es-menu-pesquisa>
 
-    <div class="">
+<header class="masthead" id="page-top">
+  <div class="container">
+    <div class="row">
+      <img class="img-fluid img-centered" (load)="pararCarregamento()"
+      (error)="erroCarregamento()" src="https://github.com/pedlop/integracao2017/blob/master/portal-es/src/assets/img/index/EngenhariaDeSoftware.png?raw=true" alt="">
+    </div>
+    <div class="intro-text">
+      <span class="skills">Engenharia de Software do Instituto de Informática da Universidade Federal de Goiás</span>
+    </div>
+  </div>
+</header>
+
+<div class="success" id="engenharia-software">
+  <div class="container secao">
+    <h2 class="text-center">Vamos conhecer mais sobre o curso de Engenharia de Software do INF-UFG</h2>
+    <hr class="star-primary">
+    <div class="row">
+      <div class="col-lg-4 ml-auto">
+        <p>Em resposta ao contexto local, formado pela indústria de software goiana e lições aprendidas ao longo de décadas de ensino, o Instituto de Informática da Universidade Federal de Goiás cria o Curso de Engenharia de Software (talvez o primeiro do país).</p>
+      </div>
+      <div class="col-lg-4 mr-auto">
+        <p>O egresso do curso é capaz de produzir modelos abstratos correspondentes a software e realizá-los por meio de código funcionando. Dito de outra forma: é capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Com este perfil, o profissional poderá atuar como responsável por empreendimentos de software e participar ativamente destes, qualquer que seja o software, qualquer que seja o domínio.</p>
+      </div>
+      <div class="col-lg-4 mr-auto">
+        <p>Este curso forma o profissional que usa computadores, por meio da construção de software, para satisfazer necessidades de empresas e pessoas. Se o software exigido for grande e complexo, então este é um problema para o egresso deste curso.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="disciplinas-estudadas">
+  <div class="container secao">
+    <h2 class="text-center">O que estuda um Engenheiro de Software</h2>
+    <hr class="star-primary">
+    <div class="row">
       <ngx-charts-pie-chart
+        [scheme]="colorScheme"
         [view]="view"
-        [scheme]="colorScheme"
-        [results]="projetos"
+        [results]="disciplinas"
         [legend]="showLegend"
+        [legendTitle]="legendTitle"
         [explodeSlices]="explodeSlices"
         [labels]="showLabels"
+        [labelFormatting]="labelFormatting"
         [doughnut]="doughnut"
         (select)="onSelect($event)">
       </ngx-charts-pie-chart>
     </div>
+  </div>
+</div>
 
-
-    <div class="">
-      <ngx-charts-bar-vertical-2d
-        [view]="view"
+<div id="atividades-de-desenvolvimento">
+  <div class="container secao">
+    <h2 class="text-center">Atividades de Desenvolvimento (Dias)</h2>
+    <hr class="star-primary">
+    <div class="row">
+      <ngx-charts-pie-chart
         [scheme]="colorScheme"
-        [results]="grupos"
-        [xAxis]="showXAxis"
-        [yAxis]="showYAxis"
+        [view]="view"
+        [results]="atividades"
         [legend]="showLegend"
-        [showXAxisLabel]="showXAxisLabel"
-        [showYAxisLabel]="showYAxisLabel"
-        [xAxisLabel]="XAxisLabel"
-        [yAxisLabel]="YAxisLabel"
+        [legendTitle]="legendTitle"
+        [explodeSlices]="explodeSlices"
+        [labels]="showLabels"
+        [labelFormatting]="labelFormatting"
+        [doughnut]="doughnut"
         (select)="onSelect($event)">
-      </ngx-charts-bar-vertical-2d>
+      </ngx-charts-pie-chart>
     </div>
+  </div>
+</div>
 
-  <div class="">
-    <ngx-charts-line-chart
-      [view]="view"
-      [scheme]="colorScheme"
-      [results]="comparaPublicacoes"
-      [xAxis]="showXAxis"
-      [yAxis]="showYAxis"
-      [legend]="showLegend"
-      [showXAxisLabel]="showXAxisLabel"
-      [showYAxisLabel]="showYAxisLabel"
-      [xAxisLabel]="xAxisLabel"
-      [yAxisLabel]="yAxisLabel"
-      (select)="onSelect($event)">
-    </ngx-charts-line-chart>
+<div id="detalhes">
+  <div class="container secao">
+    <h2 class="text-center">Detalhes</h2>
+    <hr class="star-primary">
+    <div class="row">
+      <div class="col-lg-4 mr-auto">
+        <p>Local: Instituto de Informática - Universidade Federal de Goiás - Campus Samambaia</p>
+        <p>Modalidade: Bacharelado</p>
+      </div>
+      <div class="col-lg-4 mr-auto">
+        <p>Duração: 9 semestres</p>
+        <p>Reconhecimento: Portaria MEC 819, de 29/10/2015</p>
+        <p>Cidade: Goiânia</p>
+      </div>
+      <div class="col-lg-4 mr-auto">
+        <p>Período: Noturno</p>
+        <p>Contato: coord-es@inf.ufg.br</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="pessoas">
+  <div class="container secao">
+    <h2 class="text-center">Pessoas</h2>
+    <hr class="star-primary">
+    <div class="row">
+      <div class="col-lg-12 mr-auto">
+        <p>Presidente do Núcleo Docente Estruturante: Fábio Nogueira de Lucena</p>
+        <p>Coordenador de curso: Cássio Rodrigues</p>
+        <p>Vice-coordenador de curso: Fábio Nogueira de Lucena</p>
+        <p>Coordenador da Fábrica de Software:  Juliano Lopes de Oliveira</p>
+        <p>Coordenador de estágio: Adailton Ferreira de Araújo</p>
+        <p>Secretário acadêmico: Raphael Rezende Teixeira</p>
+    </div>
+  </div>
+</div>
+
+<div id="principais-disciplinas">
+  <div class="container secao">
+    <h2 class="text-center">Principais Disciplinas</h2>
+    <hr class="star-primary">
+    <div class="row">
+      <div class="col-lg-4 mr-auto">
+        <p>Computação e Sociedade</p>
+        <p>Introdução à Programação</p>
+        <p>Cálculo 1A</p>
+        <p>Fundamentos de Matemática para Computação</p>
+        <p>Arquitetura de Computadores</p>
+        <p>Algoritmos e Estruturas de Dados 1</p>
+      </div>
+      <div class="col-lg-4 mr-auto">
+        <p>Probabilidade e Estatística A</p>
+        <p>Álgebra Linear</p>
+        <p>Lógica Matemática</p>
+        <p>Programação Orientada a Objetos</p>
+        <p>Algoritmos e Estruturas de Dados 2</p>
+        <p>Linguagens e Paradigmas de Programação</p>
+      </div>
+      <div class="col-lg-4 mr-auto">
+        <p>Engenharia de Software</p>
+        <p>Análise e Projeto de Algoritmos</p>
+        <p>Interação Humano-Computador</p>
+        <p>Banco de Dados</p>
+        <p>Projeto de Software</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="success" id="atuacao">
+  <div class="container secao">
+    <h2 class="text-center">Algumas coisas que irá aprender</h2>
+    <hr class="star-primary">
+    <div class="row">
+      <div class="col-sm-12 portfolio-item">
+        <p><b>Linguagens de Programação:</b></p>
+      </div>
+      <div class="col-sm-4 portfolio-item">
+        <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/develop/portal-es/src/assets/img/aprendizados/java.png?raw=true" alt="">
+      </div>
+      <div class="col-sm-4 portfolio-item">
+          <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/develop/portal-es/src/assets/img/aprendizados/android.png?raw=true" alt="">
+      </div>
+      <div class="col-sm-4 portfolio-item">
+          <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/develop/portal-es/src/assets/img/aprendizados/apple.png?raw=true" alt="">
+      </div>
+    </div>
+    <hr class="star-primary">
+    <div class="row">
+      <div class="col-sm-12 portfolio-item">
+        <p><b>Ferramentas para construir os softwares:</b></p>
+      </div>
+      <div class="col-sm-4 portfolio-item">
+        <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/develop/portal-es/src/assets/img/aprendizados/eclipse.png?raw=true" alt="">
+      </div>
+      <div class="col-sm-4 portfolio-item">
+          <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/develop/portal-es/src/assets/img/aprendizados/IntelliJIDEA_icon.png?raw=true" alt="">
+      </div>
+      <div class="col-sm-4 portfolio-item">
+          <img class="img-fluid" src="https://github.com/pedlop/integracao2017/blob/develop/portal-es/src/assets/img/aprendizados/VisualStudio.png?raw=true" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Saiba Mais -->
+<div id="saiba-mais">
+    <div class="container secao">
+      <h2 class="text-center">Saiba Mais</h2>
+      <hr class="star-primary">
+      <div class="col-lg-8 mx-auto text-center">
+        <button type="button" class="btn btn-lg btn-primary" (click)="onClickSaibaMais()">Saiba Mais</button>
+      </div>
+    </div>
   </div>
 
-  <div class="">
-    <ngx-charts-area-chart
-      [view]="view"
-      [scheme]="colorScheme"
-      [results]="comparaHoras"
-      [xAxis]="showXAxis"
-      [yAxis]="showYAxis"
-      [legend]="showLegend"
-      [showXAxisLabel]="showXAxisLabel"
-      [showYAxisLabel]="showYAxisLabel"
-      [xAxisLabel]="xAxisLabel"
-      [yAxisLabel]="yAxisLabel"
-      (select)="onSelect($event)">
-    </ngx-charts-area-chart>
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-top d-lg-none">
+    <a class="btn btn-primary js-scroll-trigger" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
   </div>
 
-    
-  </div>
-  
-  
-</div>  
-   
+<ufg-es-carregando *ngIf="carregamento"></ufg-es-carregando>

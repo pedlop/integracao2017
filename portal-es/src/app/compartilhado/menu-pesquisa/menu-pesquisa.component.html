@@ -1,41 +1,50 @@
 <!-- Menu -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
+
         <a class="nav-link js-scroll-trigger" href="#page-top">
-            <img class="img-inf" src="https://github.com/pedlop/integracao2017/blob/master/portal-es/src/assets/img/inf.png?raw=true" alt="Início">     
+            <img class="img-inf" src="https://github.com/pedlop/integracao2017/blob/master/portal-es/src/assets/img/inf.png?raw=true" alt="Início">
         </a>
+
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <!-- <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#page-top">Início</a>
-                </li> -->
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#sobre">Sobre</a>
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[0].key}}">{{itensMenu[0].text}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#curso">Curso</a>
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[1].key}}">{{itensMenu[1].text}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#remuneracao">Remuneracao</a>
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[2].key}}">{{itensMenu[2].text}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#atuacao">Atuação</a>
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[3].key}}">{{itensMenu[3].text}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#saiba-mais">Saiba Mais</a>
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[4].key}}">{{itensMenu[4].text}}</a>
+                </li>
+                <li class="nav-item" *ngIf="itensMenu[6]">
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[6].key}}">{{itensMenu[6].text}}</a>
+                </li>
+                <li class="nav-item" *ngIf="itensMenu[7]">
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[7].key}}">{{itensMenu[7].text}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[5].key}}">{{itensMenu[5].text}}</a>
                 </li>
             </ul>
-            
         </div>
+
         <div class="input-pesquisa">
             <div class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Pesquisa" [(ngModel)]="termo" (keydown)="keyDownFunction($event)">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit" (click)="onSearchTerm()">Pesquisa</button>
             </div>
         </div>
+
     </div>
 </nav>
-    
+
 <div bsModal #childModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-md">
         <div class="modal-content">
@@ -49,7 +58,7 @@
                 <ul>
                     <li *ngFor="let result of results">
                         <a [routerLink]="['/es/detalhe/topico', result.id]" (click)="hideChildModal()">
-                            {{result.retorno}} id: {{result.id}} -  sub-id: {{result.subId}}
+                            {{result.retorno}}
                         </a>
                     </li>
                 </ul>

@@ -1,5 +1,5 @@
 import { ToastService } from 'portal-shared';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 
@@ -10,7 +10,7 @@ import { CamadaFinalService } from './../shared/camada-final.service';
   templateUrl: './topico.component.html',
   styleUrls: ['./topico.component.scss']
 })
-export class TopicoComponent implements OnInit {
+export class TopicoComponent implements OnInit, OnDestroy {
   carregamento: boolean;
   titulo: any;
   chavesSecundarias: any;
@@ -22,18 +22,13 @@ export class TopicoComponent implements OnInit {
   meuTexto: any;
 
   constructor(private route: ActivatedRoute, private finalService: CamadaFinalService,
-              private toast: ToastService, private router: Router) {
-    // this.id = this.route.snapshot.params['id'];
-    // console.log(this.route);
-    // this.id = '0';
-  }
+              private toast: ToastService, private router: Router) { }
 
   ngOnInit() {
     this.carregamento = true;
     this.inscricao = this.route.params.subscribe(
       (params: any) => {
         this.id = params['id'];
-        // console.log(this.id);
         this.getTextoPrimario();
         setTimeout(
           time => {
@@ -57,11 +52,8 @@ export class TopicoComponent implements OnInit {
           }
         );
 
-        // console.log(myArray);
-
         this.titulo = myArray[0].chave_primaria;
         this.meuTexto = myArray[0].texto;
-        // console.log(this.meuTexto);
 
         this.getTextoSecundario(myArray);
       },
@@ -73,11 +65,10 @@ export class TopicoComponent implements OnInit {
 
   getTextoSecundario(myArray) {
     this.chavesSecundarias = myArray[0].chave_secundaria;
-    // console.log(this.chavesSecundarias);
   }
 
   getPrimeiroSubtexto() {
-    // console.log(this.chavesSecundarias);
+
   }
 
   pararCarregamento() {

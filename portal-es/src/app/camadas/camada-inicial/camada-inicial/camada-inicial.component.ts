@@ -1,6 +1,8 @@
 import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
+import { itensMenuInicial } from './../shared/camada-inicial-itens-menu';
+
 @Component({
   selector: 'ufg-es-camada-inicial',
   templateUrl: './camada-inicial.component.html',
@@ -8,10 +10,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CamadaInicialComponent implements OnInit {
 
+  inicialItens: Array<any>;
   carregamento: boolean;
 
   constructor(private router: Router) {
-    this.carregamento = true;           
+    this.carregamento = true;
+    this.inicialItens = itensMenuInicial;
   }
 
   ngOnInit() {
@@ -29,7 +33,7 @@ export class CamadaInicialComponent implements OnInit {
       }, 1000);
   }
 
-  erroCarregamento(event) {
+  erroCarregamento() {
     this.carregamento = false;
     this.router.navigate(['/sem-conexao']);
   }

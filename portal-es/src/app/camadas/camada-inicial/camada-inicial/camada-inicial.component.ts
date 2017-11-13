@@ -14,7 +14,7 @@ export class CamadaInicialComponent implements OnInit {
   carregamento: boolean;
 
   constructor(private router: Router) {
-    this.carregamento = true;     
+    this.carregamento = true;
     this.inicialItens = itensMenuInicial;
   }
 

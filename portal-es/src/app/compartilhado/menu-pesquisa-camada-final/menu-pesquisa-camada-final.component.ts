@@ -11,9 +11,6 @@ import { CamadaFinalService } from './../../camadas/camada-final/shared/camada-f
   styleUrls: ['./menu-pesquisa-camada-final.component.scss']
 })
 export class MenuPesquisaCamadaFinalComponent implements OnInit {
-  @Input() itensMenu: Array<any>;
-  @Input() url: string;
-
   @ViewChild('childModal') public childModal: ModalDirective;
 
   dadosPPC: any;

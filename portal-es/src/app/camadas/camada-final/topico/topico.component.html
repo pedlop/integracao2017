@@ -1,53 +1,38 @@
-<!-- <div class="row"> -->
-  <!-- <div class="col-8"> -->
-        
-        <!-- <p>
-          topico works!
-        </p> -->
-      
-        <!-- <p>{{id}}</p>
-        <br> -->
-        <!-- <h2>Texto</h2> -->
-        <div class="container">
-          <div>
-            <h1>{{titulo}}</h1>
-            <p> {{meuTexto}} </p>          
-          </div>
-          
-          
-          <ufg-es-lado-direito></ufg-es-lado-direito>
-          <!-- <h2>Subtexto</h2> -->
-          <div *ngFor="let subtexto of chavesSecundarias">
-            <div id="{{subtexto.id}}">
-              <div id="{{subtexto.id}}" class="conteudo-sub" *ngIf="chavesSecundarias && chavesSecundarias.length > 1" >
-                  <h4>{{subtexto.nome}}</h4>
-                  <div>
-                    <p>{{subtexto.texto.primeira_parte}}</p>
-                  </div>
-                  <div >
-                    <img src="{{subtexto.imagem.primeira}}"
-                      (load)="pararCarregamento()"
-                      (erro)="erroCarregamento()">            
-                  </div>
-                  <div>
-                    <p>{{subtexto.texto?.segunda_parte}}</p>
-                  </div>
-                  <div >
-                    <img src="{{subtexto.imagem.segunda}}">
-                  </div>
-                  <div >
-                    <p>{{subtexto.texto?.terceira_parte}}</p>              
-                  </div>
-                  <div >
-                    <img src="{{subtexto.imagem.terceira}}">  
-                  </div>   
-              </div>
-               
-            </div> 
-          </div>
-        </div>
-        
-  <!-- </div> -->
+
+<div class="container">
+  <div>
+    <h1>{{titulo}}</h1>
+    <p> {{meuTexto}} </p>          
+  </div>
   
-<!-- </div> -->
+  <ufg-es-lado-direito></ufg-es-lado-direito>
+  <div *ngFor="let subtexto of chavesSecundarias">
+    <div id="{{subtexto.id}}">
+      <div id="{{subtexto.id}}" class="conteudo-sub" *ngIf="chavesSecundarias && chavesSecundarias.length > 1" >
+          <h4>{{subtexto.nome}}</h4>
+          <div> 
+            <p>{{subtexto.texto.primeira_parte}}</p> 
+          </div> 
+          <div *ngIf="subtexto.imagem.primeira && subtexto.imagem.primeira.length > 1" class="sub-image"> 
+            <img src="{{subtexto.imagem.primeira}}" 
+              (load)="pararCarregamento()" 
+              (erro)="erroCarregamento()">             
+          </div> 
+          <div *ngIf="subtexto.texto.segunda_parte && subtexto.texto.segunda_parte.length > 1"> 
+            <p>{{subtexto.texto?.segunda_parte}}</p> 
+          </div> 
+          <div *ngIf="subtexto.imagem.segunda && subtexto.imagem.segunda.length > 1" class="sub-image"> 
+            <img src="{{subtexto.imagem.segunda}}"> 
+          </div> 
+          <div *ngIf="subtexto.texto.terceira_parte && subtexto.texto.terceira_parte.length > 1"> 
+            <p>{{subtexto.texto?.terceira_parte}}</p>               
+          </div> 
+          <div *ngIf="subtexto.imagem.terceira && subtexto.imagem.terceira.length > 1" class="sub-image"> 
+            <img src="{{subtexto.imagem.terceira}}">   
+          </div>    
+      </div> 
+        
+    </div> 
+  </div>
+</div>
 <ufg-es-carregando *ngIf="carregamento"></ufg-es-carregando>

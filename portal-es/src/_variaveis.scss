@@ -9,6 +9,11 @@ cuppa-slidemenu {
     }
     .menu-container.cuppa-menu.show-menu {
         width: 400px;
+        top: 70px;
+    }
+    button.hamburger.hamburger-arrow-left {
+        margin-top: 0;
+        margin-left: 0;
     }
 }
 

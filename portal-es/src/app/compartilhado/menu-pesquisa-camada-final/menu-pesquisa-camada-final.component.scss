@@ -19,6 +19,10 @@ bs-modal-backdrop {
     margin-left: 1em;
 }
 
+nav#mainNav {
+    padding: 15px; 
+}
+
 @media (max-width: 455px) {
     .form-inline.my-2.my-lg-0[_ngcontent-c1] {
         display: -webkit-inline-box;
@@ -61,6 +65,8 @@ bs-modal-backdrop {
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
     color: white; 
+    margin-right: 0.5em;
+    margin-left: 0.5em;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
     color: #18BC9C;

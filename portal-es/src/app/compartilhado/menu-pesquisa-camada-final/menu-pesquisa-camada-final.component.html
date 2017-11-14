@@ -6,14 +6,14 @@
             <ufg-es-lado-esquerdo></ufg-es-lado-esquerdo>
         </a>
 
-        <div class="collapse navbar-collapse" id="navbarResponsive" style="position: absolute;margin-top: 15px">
+        <div class="collapse navbar-collapse" id="navbarResponsive" style="position: absolute;">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[0].key}}">{{itensMenu[0].text}}</a>
+                    <a class="nav-link js-scroll-trigger" routerLink="/" routerLinkActivate="activate">Início</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[1].key}}">{{itensMenu[1].text}}</a>
-                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" routerLink="/es/disciplinas" routerLinkActivate="activate">Disciplinas</a>
+                </li>
             </ul>
         </div>
 

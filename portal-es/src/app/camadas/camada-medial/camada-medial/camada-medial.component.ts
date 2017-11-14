@@ -9,6 +9,7 @@ import { single, multi } from './../shared/teste-paises';
 import { disciplinas } from './../shared/curso-disciplinas';
 import { itensMenuMedial } from '../shared/camada-medial-itens-menu';
 import { atividades } from './../shared/atividades-desenvolvimento';
+import { environment } from './../../../../environments/environment';
 
 @Component({
   selector: 'ufg-es-camada-medial',
@@ -16,6 +17,8 @@ import { atividades } from './../shared/atividades-desenvolvimento';
   styleUrls: ['./camada-medial.component.scss']
 })
 export class CamadaMedialComponent implements OnInit {
+
+  urlMedial: string;
 
   medialItens: Array<any>;
 
@@ -56,6 +59,8 @@ export class CamadaMedialComponent implements OnInit {
     this.disciplinas = disciplinas;
     this.carregamento = true;
     this.medialItens = itensMenuMedial;
+
+    this.urlMedial = environment.camadaMedialUrl;
   }
 
   ngOnInit() {

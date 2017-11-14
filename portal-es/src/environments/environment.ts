@@ -7,5 +7,6 @@ export const environment = {
   production: false,
   api: {
     url: 'https://rawgit.com/pedlop/integracao2017/master/portal-es/src/assets/led/ppc-es.json'
-  }
+  },
+  camadaMedialUrl : '/es/disciplinas'
 };

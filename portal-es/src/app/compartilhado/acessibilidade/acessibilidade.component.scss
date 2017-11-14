@@ -1,0 +1,23 @@
+.acess {
+    margin-top: 127px;
+    text-align: right;
+
+    background: #18BC9C;
+
+    padding: 10px;
+}
+
+button.btn.btn-sm.align-middle.btn-outline-secondary {
+    color: black;
+    background-color: white;
+
+    &:hover, &:focus {
+        background-color: silver;
+    } 
+}
+
+@media(max-width: 991px) {
+    .acess {
+        margin-top: 93px;
+    }
+}

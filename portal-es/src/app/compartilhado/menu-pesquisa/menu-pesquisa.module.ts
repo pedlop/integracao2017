@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { ModalModule } from 'ngx-bootstrap/modal';
 
 import { MenuPesquisaComponent } from './menu-pesquisa.component';
+import { AcessibilidadeModule } from '../acessibilidade/acessibilidade.module';
 
 @NgModule({
   declarations: [MenuPesquisaComponent],
@@ -13,6 +14,7 @@ import { MenuPesquisaComponent } from './menu-pesquisa.component';
     CommonModule,
     FormsModule,
     RouterModule,
+    AcessibilidadeModule,
     ModalModule.forRoot()
   ],
   exports: [MenuPesquisaComponent]

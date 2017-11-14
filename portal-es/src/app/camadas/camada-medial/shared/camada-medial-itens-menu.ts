@@ -12,7 +12,7 @@ export const itensMenuMedial = [
         key: 'disciplinas-estudadas'
     },
     {
-        text: 'Atividades de Desenvolvimento',
+        text: 'Desenvolvimento',
         key: 'atividades-de-desenvolvimento'
     },
     {
@@ -24,15 +24,15 @@ export const itensMenuMedial = [
         key: 'pessoas'
     },
     {
-        text: 'Saiba Mais',
-        key: 'saiba-mais'
-    },
-    {
         text: 'Disciplinas',
         key: 'principais-disciplinas'
     },
     {
         text: 'Ferramentas',
         key: 'atuacao',
+    },
+    {
+        text: 'Saiba Mais',
+        key: 'saiba-mais'
     }
 ];

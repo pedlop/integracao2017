@@ -13,6 +13,7 @@ export class CamadaFinalComponent implements OnInit {
 
   collection: Array<any>;
   text: string;
+  inicialItens: Array<any>;
 
   constructor(private finalService: CamadaFinalService, private router: Router) {
     window.scrollTo(0, 0);

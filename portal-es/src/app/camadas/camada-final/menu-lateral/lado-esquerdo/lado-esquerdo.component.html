@@ -1,13 +1,1 @@
-<!-- <p>
-    lado-esquerdo works!
-</p>
-<div>
-  <ul>
-    <li *ngFor="let item of menuPrimario">
-      <a [routerLink]="['topico', item.id]" routerLinkActive="active">
-        {{item.chave_primaria}}
-      </a>
-    </li>
-  </ul>
-</div> -->
 <cuppa-slidemenu [menulist]="menuItemsArray" (open)="onMenuOpen()" (close)="onMenuClose()" (onItemSelect)="onItemSelect($event)"></cuppa-slidemenu>

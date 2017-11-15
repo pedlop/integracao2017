@@ -44,6 +44,7 @@ export class LadoEsquerdoComponent implements OnInit {
    }
 
    onItemSelect(item: any) {
+    window.scrollTo(0, 0);
     this.router.navigate(['/es/detalhe/topico', item.id]);
    }
 

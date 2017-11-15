@@ -15,6 +15,12 @@ cuppa-slidemenu {
         margin-top: 0;
         margin-left: 0;
     }
+    .hamburger[_ngcontent-c6]:before, .hamburger[_ngcontent-c6]   .icon[_ngcontent-c6], .hamburger[_ngcontent-c6]:after {
+        background: white;
+    }
+    .hamburger.is-active[_ngcontent-c6]:before, .hamburger.is-active[_ngcontent-c6]   .icon[_ngcontent-c6], .hamburger.is-active[_ngcontent-c6]:after {
+        background: white;
+    }
 }
 
 @media (max-width: 630px) {

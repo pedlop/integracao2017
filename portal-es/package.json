@@ -21,7 +21,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href 'https://pedlop.github.io/integracao2017/'",
+    "build": "ng build --prod --base-href \"/integracao2017/\"",
     "deploy": "angular-cli-ghpages",
     "test": "ng test",
     "lint": "ng lint",
@@ -46,7 +46,6 @@
     "d3": "^4.10.2",
     "font-awesome": "^4.7.0",
     "ngx-bootstrap": "^1.9.3",
-    "portal-shared": "^0.1.8",
     "rxjs": "^5.4.1",
     "zone.js": "^0.8.14"
   },

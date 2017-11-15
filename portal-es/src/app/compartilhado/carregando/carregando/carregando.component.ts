@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import { base } from './../shared/logo-base64';
 
 @Component({

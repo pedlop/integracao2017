@@ -2,11 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+
 import { SlideMenuModule } from 'cuppa-ng2-slidemenu/cuppa-ng2-slidemenu';
 import { ModalModule } from 'ngx-bootstrap/modal';
 
 import { LadoEsquerdoComponent } from '../../camadas/camada-final/menu-lateral/lado-esquerdo/lado-esquerdo.component';
 import { MenuPesquisaCamadaFinalComponent } from './menu-pesquisa-camada-final.component';
+import { AcessibilidadeModule } from './../acessibilidade/acessibilidade.module';
 
 @NgModule({
   declarations: [MenuPesquisaCamadaFinalComponent, LadoEsquerdoComponent],
@@ -15,7 +17,8 @@ import { MenuPesquisaCamadaFinalComponent } from './menu-pesquisa-camada-final.c
     FormsModule,
     RouterModule,
     SlideMenuModule,
-    ModalModule.forRoot()
+    ModalModule.forRoot(),
+    AcessibilidadeModule
   ],
   exports: [MenuPesquisaCamadaFinalComponent]
 })

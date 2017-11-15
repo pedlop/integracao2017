@@ -1,6 +1,7 @@
 import { ActivatedRoute, Routes, Router } from '@angular/router';
-import { CamadaFinalService } from './../../shared/camada-final.service';
 import { Component, OnInit } from '@angular/core';
+
+import { CamadaFinalService } from './../../shared/camada-final.service';
 
 @Component({
   selector: 'ufg-es-lado-esquerdo',

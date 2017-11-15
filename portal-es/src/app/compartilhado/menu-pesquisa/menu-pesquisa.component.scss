@@ -12,15 +12,16 @@ bs-modal-backdrop {
 }
 
 .input-pesquisa {
-    margin-right: 25%;
+    display: -webkit-box;
+    margin: 0 auto;
 }
 
 .form-inline.my-2.my-lg-0 {
     margin-left: 1em;
 }
 
-ufg-es-acessibilidade {
-    margin-top: 2em;
+div#navbarResponsive {
+    margin-left: 2em;
 }
 
 @media (max-width: 455px) {
@@ -86,10 +87,12 @@ ufg-es-acessibilidade {
     background-color: #18BC9C; 
 }
 
+div#navbarResponsive {
+    flex-grow: unset;
+}
+
 @media (min-width: 992px) {
     #mainNav {
-        padding-top: 25px;
-        padding-bottom: 25px;
         -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
         -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
         transition: padding-top 0.3s, padding-bottom 0.3s; 

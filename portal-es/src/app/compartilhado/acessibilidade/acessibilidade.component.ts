@@ -32,13 +32,13 @@ export class AcessibilidadeComponent implements OnInit {
   accessibilityFont(operation) {
     if (operation === '+') {
       this.zoom = this.zoom + 10;
-      document.body.style.zoom = `${this.zoom}%`;
+      this.renderer.setElementStyle(document.body, 'zoom', `${this.zoom}%`);
     } else if (operation === '=') {
       this.zoom = 100;
-      document.body.style.zoom = `${this.zoom}%`;
+      this.renderer.setElementStyle(document.body, 'zoom', `${this.zoom}%`);
     } else {
       this.zoom = this.zoom - 10;
-      document.body.style.zoom = `${this.zoom}%`;
+      this.renderer.setElementStyle(document.body, 'zoom', `${this.zoom}%`);
     }
   }
 

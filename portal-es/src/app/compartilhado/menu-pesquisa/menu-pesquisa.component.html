@@ -1,6 +1,6 @@
 <!-- Menu -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
+    <div class="row">
 
         <a class="nav-link js-scroll-trigger" href="#page-top">
             <img class="img-inf" src="https://github.com/pedlop/integracao2017/blob/master/portal-es/src/assets/img/inf.png?raw=true" alt="Início">
@@ -23,14 +23,17 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[4].key}}">{{itensMenu[4].text}}</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[5].key}}">{{itensMenu[5].text}}</a>
+                </li>
                 <li class="nav-item" *ngIf="itensMenu[6]">
                     <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[6].key}}">{{itensMenu[6].text}}</a>
                 </li>
                 <li class="nav-item" *ngIf="itensMenu[7]">
                     <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[7].key}}">{{itensMenu[7].text}}</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[5].key}}">{{itensMenu[5].text}}</a>
+                <li class="nav-item" *ngIf="itensMenu[8]">
+                    <a class="nav-link js-scroll-trigger" href="{{url}}#{{itensMenu[8].key}}">{{itensMenu[8].text}}</a>
                 </li>
             </ul>
         </div>
@@ -44,7 +47,6 @@
 
     </div>
 </nav>
-
 <ufg-es-acessibilidade></ufg-es-acessibilidade>
 
 <div bsModal #childModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">

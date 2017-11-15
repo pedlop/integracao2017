@@ -38,9 +38,17 @@ nav#mainNav {
     }
 }
 
+li.nav-item:nth-child(1) {
+    margin-left: 3em;
+}
+
+ul.navbar-nav.ml-auto {
+    margin-right: 30em;
+}
+
 /** MENU */
 .container {
-    display: -webkit-box;
+    display: inline-flex;
 }
 
 #mainNav {

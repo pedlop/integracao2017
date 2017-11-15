@@ -30,3 +30,11 @@ cuppa-slidemenu {
         }
     }
 }
+
+@media (max-width: 991px) {
+    cuppa-slidemenu {
+        .menu-container.cuppa-menu.show-menu {
+            top: 84px;
+        }
+    }
+}

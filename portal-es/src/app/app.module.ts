@@ -13,6 +13,7 @@ import { CamadaMedialModule } from './camadas/camada-medial/camada-medial.module
 import { CamadaInicialModule } from './camadas/camada-inicial/camada-inicial.module';
 import { RodapeModule } from './compartilhado/rodape/rodape.module';
 import { AppRoutingModule } from './app-routing.module';
+import { AcessibilidadeModule } from './compartilhado/acessibilidade/acessibilidade.module';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { AppRoutingModule } from './app-routing.module';
     CamadaFinalModule,
     RodapeModule,
     MenuPesquisaModule,
+    AcessibilidadeModule,
     AppRoutingModule
   ],
   providers: [],

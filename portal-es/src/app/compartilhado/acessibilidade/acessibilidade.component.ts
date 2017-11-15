@@ -26,19 +26,17 @@ export class AcessibilidadeComponent implements OnInit {
     } else {
       this.renderer.setElementStyle(document.body, 'background-color', 'white');
       this.renderer.setElementStyle(document.body, 'color', 'black');
-    }    
+    }
   }
 
   accessibilityFont(operation) {
     if (operation === '+') {
       this.zoom = this.zoom + 10;
       document.body.style.zoom = `${this.zoom}%`;
-    }
-    else if (operation === '=') {
+    } else if (operation === '=') {
       this.zoom = 100;
       document.body.style.zoom = `${this.zoom}%`;
-    }
-    else {
+    } else {
       this.zoom = this.zoom - 10;
       document.body.style.zoom = `${this.zoom}%`;
     }

@@ -10,6 +10,7 @@ import { TopicoComponent } from './topico/topico.component';
 import { LadoDireitoComponent } from './menu-lateral/lado-direito/lado-direito.component';
 import { CarregandoModule } from './../../compartilhado/carregando/carregando.module';
 import { MenuPesquisaCamadaFinalModule } from './../../compartilhado/menu-pesquisa-camada-final/menu-pesquisa-camada-final.module';
+
 @NgModule({
   declarations: [
     CamadaFinalComponent,

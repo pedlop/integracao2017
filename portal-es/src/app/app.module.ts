@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-import { ToastModule } from 'portal-shared';
 
 import { AppComponent } from './app.component';
 import { PaginaNaoEncontradaComponent } from './compartilhado/pagina-nao-encontrada/pagina-nao-encontrada.component';
@@ -24,7 +23,6 @@ import { AcessibilidadeModule } from './compartilhado/acessibilidade/acessibilid
   imports: [
     BrowserModule,
     HttpClientModule,
-    ToastModule.forRoot(),
     CamadaInicialModule,
     CamadaMedialModule,
     CamadaFinalModule,

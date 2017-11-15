@@ -1,4 +1,3 @@
-import { ToastService } from 'portal-shared';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
@@ -22,7 +21,7 @@ export class TopicoComponent implements OnInit, OnDestroy {
   meuTexto: any;
 
   constructor(private route: ActivatedRoute, private finalService: CamadaFinalService,
-              private toast: ToastService, private router: Router) { }
+              private router: Router) { }
 
   ngOnInit() {
     this.carregamento = true;
@@ -58,7 +57,7 @@ export class TopicoComponent implements OnInit, OnDestroy {
         this.getTextoSecundario(myArray);
       },
       err => {
-        this.toast.erro('Erro', err);
+        console.log('Erro', err);
       }
     );
   }

@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
-import { SlideMenuModule } from 'cuppa-ng2-slidemenu/cuppa-ng2-slidemenu';
+import { SideMenuModule } from 'ng5-sidemenu/ng5-sidemenu';
 import { ModalModule } from 'ngx-bootstrap/modal';
 
 import { LadoEsquerdoComponent } from '../../camadas/camada-final/menu-lateral/lado-esquerdo/lado-esquerdo.component';
@@ -16,7 +16,7 @@ import { AcessibilidadeModule } from './../acessibilidade/acessibilidade.module'
     CommonModule,
     FormsModule,
     RouterModule,
-    SlideMenuModule,
+    SideMenuModule,
     ModalModule.forRoot(),
     AcessibilidadeModule
   ],

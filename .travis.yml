@@ -1,0 +1,28 @@
+#.travis.yml
+
+language: node_js
+node_js:
+  - "8.2.1"
+
+cache:
+  directories:
+    - ./portal-es/node_modules
+
+branches:
+  only:
+    - master
+
+before_script:
+  - cd portal-es
+  - npm install
+
+script:
+  - npm run build
+
+after_success:
+  - npm run deploy
+
+notifications:
+  email:
+    on_failure: pedrolopes09.pv@gmail.com
+    on_success: pedrolopes09.pv@gmail.com

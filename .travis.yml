@@ -20,7 +20,7 @@ script:
   - npm run build
 
 after_success:
-  - npm run deploy
+  - npm run auto:deploy
 
 notifications:
   email: false

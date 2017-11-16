@@ -23,6 +23,7 @@
     "start": "ng serve",
     "build": "ng build --prod --base-href \"/integracao2017/\"",
     "deploy": "angular-cli-ghpages",
+    "auto:deploy": "angular-cli-ghpages --repo=https://GH_TOKEN@github.com/pedlop/integracao2017.git --name=\"pedlop\" --email=pedro_victor28@hotmail.com",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

@@ -13,13 +13,14 @@ branches:
     - master
 
 before_script:
-  - cd portal-es && npm install
+  - cd portal-es
+  - npm install
 
 script:
-  - cd portal-es && npm run build
+  - npm run build
 
 after_success:
-  - cd portal-es && npm run deploy
+  - npm run deploy
 
 notifications:
   email:

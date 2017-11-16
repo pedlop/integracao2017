@@ -4,18 +4,22 @@ language: node_js
 node_js:
   - "8.2.1"
 
+cache:
+directories:
+    - ./portal-es/node_modules
+
 branches:
   only:
     - master
 
 before_script:
-  - npm install
+  - cd portal-es && npm install
 
 script:
-  - npm run build
+  - cd portal-es && npm run build
 
 after_success:
-  - npm run deploy
+  - cd portal-es && npm run deploy
 
 notifications:
   email:

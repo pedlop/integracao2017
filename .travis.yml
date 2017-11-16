@@ -12,7 +12,7 @@ env:
   global:
     - GITHUB_ORG="https://GH_TOKEN@github.com/pedlop"
     - GITHUB_NAME="Pedro Victor"
-    - GITHUB_EMAIL="pedro_victor@hotmail.com
+    - GITHUB_EMAIL="pedro_victor@hotmail.com"
     - NAME="integracao2017"
 
 branches:

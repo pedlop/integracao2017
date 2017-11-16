@@ -23,7 +23,7 @@
     "start": "ng serve",
     "build": "ng build --prod --base-href \"/integracao2017/\"",
     "deploy": "angular-cli-ghpages",
-    "auto:deploy": "ngh --repo=\"$GITHUB_ORG/$NAME.git\" --name=\"$GITHUB_NAME\" --email=\"$GITHUB_EMAIL",
+    "auto:deploy": "ngh --repo=\"$GITHUB_ORG/$NAME.git\" --name=\"$GITHUB_NAME\" --email=\"$GITHUB_EMAIL\"",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

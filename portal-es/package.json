@@ -22,7 +22,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod --base-href \"/integracao2017/\"",
-    "deploy": "angular-cli-ghpages --branch gh-pages",
+    "deploy": "angular-cli-ghpages",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

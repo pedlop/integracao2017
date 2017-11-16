@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f02788418849415aacf01fe392be3ccd)](https://www.codacy.com/app/pedlop/integracao2017?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pedlop/integracao2017&amp;utm_campaign=Badge_Grade)
 ## Integração 1 - INF/UFG - 2017/2
 
 Repositório vinculado a Projeto para a disciplina de Integração 1 - INF/UFG - 2017/2.

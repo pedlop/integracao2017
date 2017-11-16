@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { SlideMenuModule } from 'cuppa-ng2-slidemenu/cuppa-ng2-slidemenu';
+import { SideMenuModule } from 'ng5-sidemenu/ng5-sidemenu';
 
 import { CamadaFinalComponent } from './camada-final/camada-final.component';
 import { CamadaFinalRoutingModule } from './camada-final-routing.module';
@@ -21,7 +21,7 @@ import { MenuPesquisaCamadaFinalModule } from './../../compartilhado/menu-pesqui
     CommonModule,
     CamadaFinalRoutingModule,
     CarregandoModule,
-    SlideMenuModule,
+    SideMenuModule,
     MenuPesquisaCamadaFinalModule
   ],
   exports: [CamadaFinalComponent],

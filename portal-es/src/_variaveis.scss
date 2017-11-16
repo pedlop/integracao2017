@@ -1,4 +1,4 @@
-cuppa-slidemenu {
+side-menu {
     a {
         font-size: initial;
         padding: 15px;
@@ -15,16 +15,10 @@ cuppa-slidemenu {
         margin-top: 0;
         margin-left: 0;
     }
-    .hamburger[_ngcontent-c6]:before, .hamburger[_ngcontent-c6]   .icon[_ngcontent-c6], .hamburger[_ngcontent-c6]:after {
-        background: white;
-    }
-    .hamburger.is-active[_ngcontent-c6]:before, .hamburger.is-active[_ngcontent-c6]   .icon[_ngcontent-c6], .hamburger.is-active[_ngcontent-c6]:after {
-        background: white;
-    }
 }
 
 @media (max-width: 630px) {
-    cuppa-slidemenu {
+    side-menu {
         a {
             font-size: small;
         }
@@ -38,7 +32,7 @@ cuppa-slidemenu {
 }
 
 @media (max-width: 991px) {
-    cuppa-slidemenu {
+    slide-menu {
         .menu-container.cuppa-menu.show-menu {
             top: 84px;
         }

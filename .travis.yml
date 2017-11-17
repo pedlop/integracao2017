@@ -22,9 +22,10 @@ branches:
 before_script:
   - cd portal-es
   - npm install
+  - npm i -g angular-cli-ghpages
 
 script:
-  - npm run auto:build
+  - npm run build
 
 after_success:  
   - npm run auto:deploy

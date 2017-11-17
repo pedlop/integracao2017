@@ -389,18 +389,28 @@
         "NDE"
       ],
       "chave_primaria": "Núcleo Docente Estruturante (NDE)",
-      "texto": "",
+      "texto":"",
       "chave_secundaria": [
         {
           "id": 1,
-          "nome": "Em vez de atribuir atividades ao NDE, o NDE adota os seguintes princípios:",
+          "nome": "Princípios",
           "texto": {
-            "primeira_parte": "Abaixo: ",
-            "segunda_parte": "Esses princípios definem que todo o conteúdo do presente PPC e a aplicação dele está no raio de atuação do NDE. O que inclui:"
+            "primeira_parte": "Em vez de atribuir atividades ao NDE, o NDE adota os seguintes princípios:",
+            "segunda_parte": ""
           },
           "imagem": {
             "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/nde/Topicos_NDE_01.PNG?raw=true",
-            "segunda": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/nde/Topicos_NDE_02.PNG?raw=true"
+            "segunda": ""
+          }
+        },
+        {
+          "id": 2,
+          "nome": "Definições",
+          "texto": {
+            "primeira_parte": "Esses princípios definem que todo o conteúdo do presente PPC e a aplicação dele está no raio de atuação do NDE. O que inclui:"
+          },
+          "imagem": {
+            "primeira": "https://github.com/pedlop/integracao2017/blob/master/docs/Imagens_PPC/nde/Topicos_NDE_02.PNG?raw=true"
           }
         }
       ]

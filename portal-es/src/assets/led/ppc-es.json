@@ -393,7 +393,7 @@
       "chave_secundaria": [
         {
           "id": 1,
-          "nome": "Em vez de atribuir atividades ao NDE, o NDE adota os seguintes princípios:",
+          "nome": "teste:",
           "texto": {
             "primeira_parte": "Abaixo: ",
             "segunda_parte": "Esses princípios definem que todo o conteúdo do presente PPC e a aplicação dele está no raio de atuação do NDE. O que inclui:"

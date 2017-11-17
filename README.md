@@ -45,15 +45,19 @@ Fornecer e elucidar uma visão coesa e integrada da Engenharia de Software de ta
 
 ### **Política de Commits:** ###
 * Todos os Commits serão realizados na Branch **_develop_**.
-* Uma vez na semana, no sábado, o **Gerente de Projeto** irá fazer o merge da **_develop_** na **_master_**. Para tal tarefa ser realizada, é preciso:
-  * Validar o código:
-    * Verificar se há algum erro de compilação (aot - ahead-of-time);
-    * Verificar se o código está seguindo o padrão do Angular 4 de desenvolvimento (lint);
-    * Verificar se o código construído está seguindo o padrão da estrutura inicial definida;
-    * Verificar se o template não tem nenhuma falha ou bug visual (html - scss).
-  * Validar as atividades:
-    * Verificar se a atividade a ser desenvolvida foi totalmente finalizada;
-    * Verificar se com atividade finalizada, temos a funcionalidade cumprindo as expectativas.
+* Deverá ser criado um pull-request para a Branch **_master_**.
+* Este pull-request deverá passar na cobertura de código do codacy e no build (consequentemente deploy) configurado com o Travis.
+##### Passos para Criar o Pull-request
+* Escreva a qual issue este pull-request está relacionado;
+* Caso não tenha nenhuma issue relacionada, crie a issue;
+* Caso seja um pull-request para fechar um issue, escreva 'Close' antes do identificador da issue;
+* Escreva sobre o que o pull-request abrange;
+
+Exemplo de pull-request
+> #30 - Criação de componente de Loading.
+
+Exemplo de pull-request fechando issue
+> Close #30 - Componente de Loading criado e configurado nas camadas.
 
 ## **Como faço para rodar o projeto?** ##
 

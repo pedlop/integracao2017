@@ -4,10 +4,10 @@ side-menu {
         padding: 15px;
         cursor: pointer;
     }
-    .menu-container.cuppa-menu.hide-menu {
+    .menu-container.pl-menu.hide-menu {
         width: -400px;
     }
-    .menu-container.cuppa-menu.show-menu {
+    .menu-container.pl-menu.show-menu {
         width: 400px;
         top: 70px;
     }
@@ -22,10 +22,10 @@ side-menu {
         a {
             font-size: small;
         }
-        .menu-container.cuppa-menu.hide-menu {
+        .menu-container.pl-menu.hide-menu {
             width: -300px;
         }
-        .menu-container.cuppa-menu.show-menu {
+        .menu-container.pl-menu.show-menu {
             width: 300px;
         }
     }
@@ -33,7 +33,7 @@ side-menu {
 
 @media (max-width: 991px) {
     slide-menu {
-        .menu-container.cuppa-menu.show-menu {
+        .menu-container.pl-menu.show-menu {
             top: 84px;
         }
     }

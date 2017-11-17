@@ -8,6 +8,13 @@ cache:
   directories:
     - ./portal-es/node_modules
 
+env:
+  global:
+    - GITHUB_ORG="https://GH_TOKEN@github.com/pedlop"
+    - GITHUB_NAME="Pedro Victor"
+    - GITHUB_EMAIL="pedro_victor@hotmail.com"
+    - NAME="integracao2017"
+
 branches:
   only:
     - master
@@ -15,12 +22,13 @@ branches:
 before_script:
   - cd portal-es
   - npm install
+  - npm i -g angular-cli-ghpages
 
 script:
   - npm run build
-  - npm run deploy
-  
+
+after_success:  
+  - npm run auto:deploy
+
 notifications:
-  email:
-    on_failure: pedrolopes09.pv@gmail.com
-    on_success: pedrolopes09.pv@gmail.com
+  email: false

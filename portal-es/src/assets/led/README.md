@@ -24,4 +24,4 @@ Para verificar se o arquivo JSON está em conformidade ou converter arquivos htt
   * raw:
     * https://raw.githubusercontent.com/pedlop/integracao2017/master/portal-es/src/assets/led/ppc-es.json
   * dev:
-    * http://rawgit.com/pedlop/integracao2017/master/portal-es/src/assets/led/ppc-es.json
+    * https://cdn.jsdelivr.net/gh/pedlop/integracao2017/portal-es/src/assets/led/ppc-es.json
